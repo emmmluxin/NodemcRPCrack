@@ -1,0 +1,124 @@
+{
+  "textures": {
+    "0": "5rsd0lnob:tex/klboiysg",
+    "particle": "#0"
+  },
+  "elements": [
+    {
+      "from": [
+        8.0,
+        5.0,
+        -4.700001
+      ],
+      "to": [
+        26.0,
+        8.0,
+        8.0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            7.5625,
+            6.0625,
+            7.96875,
+            6.15625
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            7.5625,
+            3.5,
+            8.125,
+            3.59375
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            7.6875,
+            5.0625,
+            8.09375,
+            5.15625
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            6.0625,
+            4.0,
+            5.5,
+            3.59375
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      }
+    }
+  ],
+  "display": {
+    "head": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        0.0,
+        -0.0,
+        -0.0
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0.0,
+        -0.0,
+        -0.0
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "gui": {
+      "rotation": [
+        -150.0,
+        -45.0,
+        180.0
+      ]
+    }
+  }
+}

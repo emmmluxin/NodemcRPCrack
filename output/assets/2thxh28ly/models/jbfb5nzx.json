@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/bow_pulling_2",
+  "textures": {
+    "layer0": "800y9ucl5:tex/aed3g7x9"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "model": {
+    "model": "5exp3rjkn:.../l/y/4/k/9/h/9/n/.",
+    "tints": [
+      {
+        "index": 0,
+        "default": 16777215,
+        "type": "minecraft:custom_model_data"
+      }
+    ],
+    "type": "minecraft:model"
+  }
+}

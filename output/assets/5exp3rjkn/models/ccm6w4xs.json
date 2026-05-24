@@ -1,0 +1,146 @@
+{
+  "textures": {
+    "0": "5exp3rjkn:tex/6lbo7w2b",
+    "particle": "#0"
+  },
+  "elements": [
+    {
+      "from": [
+        6.75,
+        9.5,
+        7.21447
+      ],
+      "to": [
+        9.25,
+        14.75,
+        8.78553
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            8.1875,
+            6.4375,
+            8.125,
+            6.59375
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            3.53125,
+            7.90625,
+            3.4375,
+            8.0625
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            1.71875,
+            7.875,
+            1.625,
+            8.03125
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            6.28125,
+            8.0,
+            6.21875,
+            8.15625
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            7.625,
+            3.6875,
+            7.71875,
+            3.625
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            7.625,
+            6.40625,
+            7.71875,
+            6.46875
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      }
+    }
+  ],
+  "display": {
+    "head": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        0.0,
+        -0.0,
+        -0.0
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0.0,
+        -0.0,
+        -0.0
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "gui": {
+      "rotation": [
+        -150.0,
+        -45.0,
+        180.0
+      ]
+    }
+  }
+}

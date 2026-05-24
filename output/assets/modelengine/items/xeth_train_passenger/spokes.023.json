@@ -1,0 +1,13 @@
+{
+  "model": {
+    "model": "jsmakehbp:.../v/e/6/f/a/3/x/4/.",
+    "tints": [
+      {
+        "index": 0,
+        "default": 16777215,
+        "type": "minecraft:custom_model_data"
+      }
+    ],
+    "type": "minecraft:model"
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "model": {
+    "models": [
+      {
+        "model": "5exp3rjkn:.../f/c/b/f/n/o/l/q/.",
+        "tints": [
+          {
+            "index": 0,
+            "default": 16777215,
+            "type": "minecraft:custom_model_data"
+          }
+        ],
+        "type": "minecraft:model"
+      },
+      {
+        "model": "gwjritg0z:mdl/uxb058l4",
+        "tints": [
+          {
+            "index": 0,
+            "default": 16777215,
+            "type": "minecraft:custom_model_data"
+          }
+        ],
+        "type": "minecraft:model"
+      },
+      {
+        "model": "f6o7c9v5q:mdl/daqm5r4r",
+        "tints": [
+          {
+            "index": 0,
+            "default": 16777215,
+            "type": "minecraft:custom_model_data"
+          }
+        ],
+        "type": "minecraft:model"
+      },
+      {
+        "model": "xq9rmjx80:mdl/ldh4oub5",
+        "tints": [
+          {
+            "index": 0,
+            "default": 16777215,
+            "type": "minecraft:custom_model_data"
+          }
+        ],
+        "type": "minecraft:model"
+      },
+      {
+        "model": "i2zkxqdgv:mdl/p07bvn0f",
+        "tints": [
+          {
+            "index": 0,
+            "default": 16777215,
+            "type": "minecraft:custom_model_data"
+          }
+        ],
+        "type": "minecraft:model"
+      },
+      {
+        "model": "rrmqxw2ui:mdl/hcwkarhz",
+        "tints": [
+          {
+            "index": 0,
+            "default": 16777215,
+            "type": "minecraft:custom_model_data"
+          }
+        ],
+        "type": "minecraft:model"
+      },
+      {
+        "model": "lqutnhfw6:.../n/5/f/x/d/b/l/0/.",
+        "tints": [
+          {
+            "index": 0,
+            "default": 16777215,
+            "type": "minecraft:custom_model_data"
+          }
+        ],
+        "type": "minecraft:model"
+      },
+      {
+        "model": "rrmqxw2ui:.../j/v/v/z/v/0/u/g/.",
+        "tints": [
+          {
+            "index": 0,
+            "default": 16777215,
+            "type": "minecraft:custom_model_data"
+          }
+        ],
+        "type": "minecraft:model"
+      },
+      {
+        "model": "lqutnhfw6:mdl/8wvsw2jf",
+        "tints": [
+          {
+            "index": 0,
+            "default": 16777215,
+            "type": "minecraft:custom_model_data"
+          }
+        ],
+        "type": "minecraft:model"
+      },
+      {
+        "model": "7w5x0vpi5:mdl/gq5hau2e",
+        "tints": [
+          {
+            "index": 0,
+            "default": 16777215,
+            "type": "minecraft:custom_model_data"
+          }
+        ],
+        "type": "minecraft:model"
+      },
+      {
+        "model": "xq9rmjx80:.../a/t/e/d/6/z/n/j/.",
+        "tints": [
+          {
+            "index": 0,
+            "default": 16777215,
+            "type": "minecraft:custom_model_data"
+          }
+        ],
+        "type": "minecraft:model"
+      },
+      {
+        "model": "2thxh28ly:.../n/t/x/4/s/4/k/x/.",
+        "tints": [
+          {
+            "index": 0,
+            "default": 16777215,
+            "type": "minecraft:custom_model_data"
+          }
+        ],
+        "type": "minecraft:model"
+      },
+      {
+        "model": "i2zkxqdgv:mdl/xp2wv4hv",
+        "tints": [
+          {
+            "index": 0,
+            "default": 16777215,
+            "type": "minecraft:custom_model_data"
+          }
+        ],
+        "type": "minecraft:model"
+      },
+      {
+        "model": "2thxh28ly:.../n/c/8/b/c/g/i/a/.",
+        "tints": [
+          {
+            "index": 0,
+            "default": 16777215,
+            "type": "minecraft:custom_model_data"
+          }
+        ],
+        "type": "minecraft:model"
+      },
+      {
+        "model": "t2e3gc4s4:.../t/f/w/7/h/c/n/l/.",
+        "tints": [
+          {
+            "index": 0,
+            "default": 16777215,
+            "type": "minecraft:custom_model_data"
+          }
+        ],
+        "type": "minecraft:model"
+      }
+    ],
+    "type": "minecraft:composite"
+  }
+}

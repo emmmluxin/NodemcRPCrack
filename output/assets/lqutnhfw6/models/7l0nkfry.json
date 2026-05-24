@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/fishing_rod",
+  "textures": {
+    "layer0": "5rsd0lnob:tex/dz3wocay"
+  }
+}

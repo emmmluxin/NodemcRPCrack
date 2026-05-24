@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "5rsd0lnob:tex/da7un0kd"
+  }
+}

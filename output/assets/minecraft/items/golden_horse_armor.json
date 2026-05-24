@@ -1,0 +1,105 @@
+{
+  "oversized_in_gui": true,
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+      {
+        "threshold": 10.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "lqutnhfw6:mdl/g35kusfp"
+        }
+      },
+      {
+        "threshold": 11.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "jsmakehbp:mdl/an1k8yzd"
+        }
+      },
+      {
+        "threshold": 12.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "t2e3gc4s4:mdl/qkubo3sh"
+        }
+      },
+      {
+        "threshold": 13.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "rrmqxw2ui:mdl/j4mjry9x"
+        }
+      },
+      {
+        "threshold": 14.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "5rsd0lnob:mdl/vcpluwqs"
+        }
+      },
+      {
+        "threshold": 15.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "9qzmluhqk:mdl/kg4y8i6f"
+        }
+      },
+      {
+        "threshold": 16.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "lqutnhfw6:mdl/j8soit6c"
+        }
+      },
+      {
+        "threshold": 17.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "t2e3gc4s4:mdl/dajs8aa0"
+        }
+      },
+      {
+        "threshold": 18.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "5rsd0lnob:mdl/efffhiha"
+        }
+      },
+      {
+        "threshold": 80000.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "xq9rmjx80:mdl/2cxlygx6"
+        }
+      },
+      {
+        "threshold": 80001.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "rrmqxw2ui:mdl/vujqicdv"
+        }
+      },
+      {
+        "threshold": 80002.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "lqutnhfw6:mdl/5b9xca09"
+        }
+      },
+      {
+        "threshold": 80003.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "jsmakehbp:mdl/0st8jizk"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/golden_horse_armor"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/anvil",
+  "textures": {
+    "top": "rrmqxw2ui:tex/rrs6qkca",
+    "body": "e8x683vbb:tex/zazk8ufl",
+    "particle": "e8x683vbb:tex/zazk8ufl"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "model": {
+    "model": "rrmqxw2ui:.../2/x/i/s/e/9/b/9/.",
+    "tints": [
+      {
+        "index": 0,
+        "default": 16777215,
+        "type": "minecraft:custom_model_data"
+      }
+    ],
+    "type": "minecraft:model"
+  }
+}

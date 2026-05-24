@@ -1,0 +1,381 @@
+{
+  "credit": "momirealms",
+  "texture_size": [
+    32,
+    32
+  ],
+  "textures": {
+    "particle": "5exp3rjkn:tex/m8iavd5j"
+  },
+  "elements": [
+    {
+      "from": [
+        8,
+        0,
+        0
+      ],
+      "to": [
+        8,
+        32,
+        16
+      ],
+      "rotation": {
+        "angle": 45,
+        "axis": "y",
+        "origin": [
+          8,
+          16,
+          8
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            8,
+            16
+          ],
+          "texture": "#corn"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            8,
+            16
+          ],
+          "texture": "#corn"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            8,
+            16
+          ],
+          "texture": "#corn"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            8,
+            16
+          ],
+          "texture": "#corn"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        0,
+        8
+      ],
+      "to": [
+        16,
+        32,
+        8
+      ],
+      "rotation": {
+        "angle": 45,
+        "axis": "y",
+        "origin": [
+          8,
+          16,
+          8
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            8,
+            16
+          ],
+          "texture": "#corn"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            8,
+            16
+          ],
+          "texture": "#corn"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            8,
+            16
+          ],
+          "texture": "#corn"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            16
+          ],
+          "texture": "#corn"
+        }
+      }
+    },
+    {
+      "from": [
+        8,
+        7,
+        17
+      ],
+      "to": [
+        11,
+        15,
+        20
+      ],
+      "rotation": {
+        "angle": -45,
+        "axis": "x",
+        "origin": [
+          0,
+          0,
+          0
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            14.5,
+            12,
+            16,
+            16
+          ],
+          "texture": "#corn"
+        },
+        "east": {
+          "uv": [
+            14.5,
+            12,
+            16,
+            16
+          ],
+          "texture": "#corn"
+        },
+        "south": {
+          "uv": [
+            14.5,
+            12,
+            16,
+            16
+          ],
+          "texture": "#corn"
+        },
+        "west": {
+          "uv": [
+            14.5,
+            12,
+            16,
+            16
+          ],
+          "texture": "#corn"
+        },
+        "up": {
+          "uv": [
+            13,
+            13,
+            14.5,
+            14.5
+          ],
+          "texture": "#corn"
+        },
+        "down": {
+          "uv": [
+            13,
+            14.5,
+            14.5,
+            16
+          ],
+          "texture": "#corn"
+        }
+      }
+    },
+    {
+      "from": [
+        5,
+        17,
+        0
+      ],
+      "to": [
+        8,
+        25,
+        3
+      ],
+      "rotation": {
+        "angle": 22.5,
+        "axis": "x",
+        "origin": [
+          0,
+          0,
+          0
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            14.5,
+            12,
+            16,
+            16
+          ],
+          "texture": "#corn"
+        },
+        "east": {
+          "uv": [
+            14.5,
+            12,
+            16,
+            16
+          ],
+          "texture": "#corn"
+        },
+        "south": {
+          "uv": [
+            14.5,
+            12,
+            16,
+            16
+          ],
+          "texture": "#corn"
+        },
+        "west": {
+          "uv": [
+            14.5,
+            12,
+            16,
+            16
+          ],
+          "texture": "#corn"
+        },
+        "up": {
+          "uv": [
+            13,
+            13,
+            14.5,
+            14.5
+          ],
+          "texture": "#corn"
+        },
+        "down": {
+          "uv": [
+            13,
+            14.5,
+            14.5,
+            16
+          ],
+          "texture": "#corn"
+        }
+      }
+    },
+    {
+      "from": [
+        3,
+        10,
+        5
+      ],
+      "to": [
+        6,
+        18,
+        8
+      ],
+      "rotation": {
+        "angle": -22.5,
+        "axis": "z",
+        "origin": [
+          0,
+          0,
+          0
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            14.5,
+            12,
+            16,
+            16
+          ],
+          "texture": "#corn"
+        },
+        "east": {
+          "uv": [
+            14.5,
+            12,
+            16,
+            16
+          ],
+          "texture": "#corn"
+        },
+        "south": {
+          "uv": [
+            14.5,
+            12,
+            16,
+            16
+          ],
+          "texture": "#corn"
+        },
+        "west": {
+          "uv": [
+            14.5,
+            12,
+            16,
+            16
+          ],
+          "texture": "#corn"
+        },
+        "up": {
+          "uv": [
+            13,
+            13,
+            14.5,
+            14.5
+          ],
+          "texture": "#corn"
+        },
+        "down": {
+          "uv": [
+            13,
+            14.5,
+            14.5,
+            16
+          ],
+          "texture": "#corn"
+        }
+      }
+    }
+  ],
+  "gui_light": "front",
+  "display": {
+    "fixed": {
+      "rotation": [
+        -90,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        -16
+      ],
+      "scale": [
+        2,
+        2,
+        2
+      ]
+    }
+  }
+}

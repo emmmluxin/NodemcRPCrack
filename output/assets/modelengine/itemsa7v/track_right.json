@@ -1,0 +1,40 @@
+{
+  "model": {
+    "models": [
+      {
+        "model": "i666ow1af:.../s/3/z/5/n/h/r/2/.",
+        "tints": [
+          {
+            "index": 0,
+            "default": 16777215,
+            "type": "minecraft:custom_model_data"
+          }
+        ],
+        "type": "minecraft:model"
+      },
+      {
+        "model": "5rsd0lnob:mdl/clpb6hco",
+        "tints": [
+          {
+            "index": 0,
+            "default": 16777215,
+            "type": "minecraft:custom_model_data"
+          }
+        ],
+        "type": "minecraft:model"
+      },
+      {
+        "model": "5rsd0lnob:mdl/krloj52g",
+        "tints": [
+          {
+            "index": 0,
+            "default": 16777215,
+            "type": "minecraft:custom_model_data"
+          }
+        ],
+        "type": "minecraft:model"
+      }
+    ],
+    "type": "minecraft:composite"
+  }
+}

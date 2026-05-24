@@ -1,0 +1,142 @@
+{
+  "oversized_in_gui": true,
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+      {
+        "threshold": 1000.0,
+        "model": {
+          "type": "minecraft:condition",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "rrmqxw2ui:mdl/ee7b4fr8"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "rrmqxw2ui:mdl/0q5zfcie"
+          },
+          "property": "minecraft:fishing_rod/cast"
+        }
+      },
+      {
+        "threshold": 50001.0,
+        "model": {
+          "type": "minecraft:condition",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "2thxh28ly:.../3/e/n/m/n/i/8/v/."
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "lqutnhfw6:mdl/qkbr80r4"
+          },
+          "property": "minecraft:fishing_rod/cast"
+        }
+      },
+      {
+        "threshold": 50002.0,
+        "model": {
+          "type": "minecraft:condition",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "lqutnhfw6:mdl/7l0nkfry"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "800y9ucl5:mdl/09t9l8m6"
+          },
+          "property": "minecraft:fishing_rod/cast"
+        }
+      },
+      {
+        "threshold": 50003.0,
+        "model": {
+          "type": "minecraft:condition",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "i666ow1af:mdl/3gs4yngl"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "7w5x0vpi5:mdl/eyt2xy7r"
+          },
+          "property": "minecraft:fishing_rod/cast"
+        }
+      },
+      {
+        "threshold": 50004.0,
+        "model": {
+          "type": "minecraft:condition",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "5rsd0lnob:mdl/ua3ejpot"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "jsmakehbp:mdl/n82no1my"
+          },
+          "property": "minecraft:fishing_rod/cast"
+        }
+      },
+      {
+        "threshold": 50005.0,
+        "model": {
+          "type": "minecraft:condition",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "jsmakehbp:mdl/whamz5kb"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "t2e3gc4s4:mdl/01lcs81a"
+          },
+          "property": "minecraft:fishing_rod/cast"
+        }
+      },
+      {
+        "threshold": 50006.0,
+        "model": {
+          "type": "minecraft:condition",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "f6o7c9v5q:mdl/xnd65bjk"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "e8x683vbb:.../a/p/9/4/7/y/n/3/."
+          },
+          "property": "minecraft:fishing_rod/cast"
+        }
+      },
+      {
+        "threshold": 50007.0,
+        "model": {
+          "type": "minecraft:condition",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "f6o7c9v5q:mdl/hplsnw4y"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "xq9rmjx80:mdl/v73yqn8b"
+          },
+          "property": "minecraft:fishing_rod/cast"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:condition",
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/fishing_rod_cast"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/fishing_rod"
+      },
+      "property": "minecraft:fishing_rod/cast"
+    }
+  }
+}

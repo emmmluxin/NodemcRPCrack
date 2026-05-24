@@ -1,0 +1,29 @@
+{
+  "model": {
+    "models": [
+      {
+        "model": "i666ow1af:mdl/4y9t3thp",
+        "tints": [
+          {
+            "index": 0,
+            "default": 16777215,
+            "type": "minecraft:custom_model_data"
+          }
+        ],
+        "type": "minecraft:model"
+      },
+      {
+        "model": "e8x683vbb:.../g/f/r/c/6/s/k/8/.",
+        "tints": [
+          {
+            "index": 0,
+            "default": 16777215,
+            "type": "minecraft:custom_model_data"
+          }
+        ],
+        "type": "minecraft:model"
+      }
+    ],
+    "type": "minecraft:composite"
+  }
+}

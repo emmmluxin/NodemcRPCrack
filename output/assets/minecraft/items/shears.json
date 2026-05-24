@@ -1,0 +1,21 @@
+{
+  "oversized_in_gui": true,
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+      {
+        "threshold": 50000.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "i666ow1af:.../w/q/p/w/d/4/o/h/."
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/shears"
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "textures": {
+    "0": "i666ow1af:tex/fihmpucz",
+    "particle": "#0"
+  },
+  "elements": [
+    {
+      "from": [
+        -7.0,
+        8.0,
+        8.0
+      ],
+      "to": [
+        8.0,
+        9.0,
+        22.0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            10.5625,
+            2.84375,
+            10.59375,
+            3.28125
+          ],
+          "tintindex": 0,
+          "rotation": 270,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            10.125,
+            1.6875,
+            10.15625,
+            1.25
+          ],
+          "tintindex": 0,
+          "rotation": 270,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            10.125,
+            1.6875,
+            10.59375,
+            1.25
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            10.125,
+            0.03125,
+            10.59375,
+            0.46875
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      }
+    }
+  ],
+  "display": {
+    "head": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        0.0,
+        -0.0,
+        -0.0
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0.0,
+        -0.0,
+        -0.0
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "gui": {
+      "rotation": [
+        -150.0,
+        -45.0,
+        180.0
+      ]
+    }
+  }
+}

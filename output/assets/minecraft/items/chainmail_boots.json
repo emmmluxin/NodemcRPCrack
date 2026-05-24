@@ -1,0 +1,547 @@
+{
+  "oversized_in_gui": true,
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+      {
+        "threshold": 1000.0,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:trim_material",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "jsmakehbp:mdl/4tewjg01"
+              },
+              "when": "minecraft:redstone"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "e8x683vbb:.../b/0/h/a/6/8/d/3/."
+              },
+              "when": "minecraft:gold"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "i666ow1af:mdl/4nn7cdxj"
+              },
+              "when": "minecraft:resin"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "7w5x0vpi5:mdl/spflor9v"
+              },
+              "when": "minecraft:lapis"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "800y9ucl5:mdl/nfrynuhn"
+              },
+              "when": "minecraft:copper"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "f6o7c9v5q:mdl/uw7oi83t"
+              },
+              "when": "minecraft:iron"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "gwjritg0z:mdl/chrdpk2e"
+              },
+              "when": "minecraft:emerald"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "gwjritg0z:mdl/attl9dfd"
+              },
+              "when": "minecraft:diamond"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "i666ow1af:mdl/l6d6pcga"
+              },
+              "when": "minecraft:amethyst"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "5rsd0lnob:mdl/m8q2odj3"
+              },
+              "when": "minecraft:quartz"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "e8x683vbb:mdl/tj5n6daz"
+              },
+              "when": "minecraft:netherite"
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "rrmqxw2ui:mdl/g1lxp8bs"
+          }
+        }
+      },
+      {
+        "threshold": 1001.0,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:trim_material",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "e8x683vbb:mdl/7ucje35p"
+              },
+              "when": "minecraft:redstone"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "e8x683vbb:mdl/tjeuaqaf"
+              },
+              "when": "minecraft:gold"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "gwjritg0z:mdl/8u8dy3rw"
+              },
+              "when": "minecraft:resin"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "t2e3gc4s4:mdl/w0cqr82p"
+              },
+              "when": "minecraft:lapis"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "800y9ucl5:.../d/h/e/e/0/4/8/m/."
+              },
+              "when": "minecraft:copper"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "5rsd0lnob:.../s/5/3/w/h/w/v/x/."
+              },
+              "when": "minecraft:iron"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "e8x683vbb:mdl/vm37s9im"
+              },
+              "when": "minecraft:emerald"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "gwjritg0z:mdl/3ywpwz4q"
+              },
+              "when": "minecraft:diamond"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "9qzmluhqk:.../q/p/y/d/w/i/5/z/."
+              },
+              "when": "minecraft:amethyst"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "lqutnhfw6:mdl/awejz9w8"
+              },
+              "when": "minecraft:quartz"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "gwjritg0z:mdl/rwg1l4fq"
+              },
+              "when": "minecraft:netherite"
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "rrmqxw2ui:mdl/qx0feze0"
+          }
+        }
+      },
+      {
+        "threshold": 1002.0,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:trim_material",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "e8x683vbb:mdl/6c2nzrbc"
+              },
+              "when": "minecraft:redstone"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "jsmakehbp:mdl/eet8keen"
+              },
+              "when": "minecraft:gold"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "5exp3rjkn:mdl/2watvr0a"
+              },
+              "when": "minecraft:resin"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "xq9rmjx80:mdl/zxp9uhsm"
+              },
+              "when": "minecraft:lapis"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "5exp3rjkn:mdl/c4vk96za"
+              },
+              "when": "minecraft:copper"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "xq9rmjx80:.../b/5/g/o/1/i/n/f/."
+              },
+              "when": "minecraft:iron"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "t2e3gc4s4:mdl/wr73mb87"
+              },
+              "when": "minecraft:emerald"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "800y9ucl5:mdl/pjnk4sl6"
+              },
+              "when": "minecraft:diamond"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "800y9ucl5:mdl/kj46jm7l"
+              },
+              "when": "minecraft:amethyst"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "5rsd0lnob:mdl/fkra6ecn"
+              },
+              "when": "minecraft:quartz"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "f6o7c9v5q:.../0/n/b/s/w/g/r/9/."
+              },
+              "when": "minecraft:netherite"
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "5rsd0lnob:.../b/v/c/2/i/i/d/i/."
+          }
+        }
+      },
+      {
+        "threshold": 1003.0,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:trim_material",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "9qzmluhqk:mdl/6q03a9sn"
+              },
+              "when": "minecraft:redstone"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "jsmakehbp:mdl/etsgqwj8"
+              },
+              "when": "minecraft:gold"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "2thxh28ly:mdl/yexr6l3k"
+              },
+              "when": "minecraft:resin"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "t2e3gc4s4:mdl/lev5yr17"
+              },
+              "when": "minecraft:lapis"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "i666ow1af:mdl/ie48wisp"
+              },
+              "when": "minecraft:copper"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "t2e3gc4s4:.../v/p/p/j/n/8/3/t/."
+              },
+              "when": "minecraft:iron"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "rrmqxw2ui:mdl/hjfezg7b"
+              },
+              "when": "minecraft:emerald"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "rrmqxw2ui:mdl/yf9wk65k"
+              },
+              "when": "minecraft:diamond"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "rrmqxw2ui:mdl/gde4ku45"
+              },
+              "when": "minecraft:amethyst"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "800y9ucl5:mdl/kzu20uy3"
+              },
+              "when": "minecraft:quartz"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "7w5x0vpi5:mdl/pmitye1z"
+              },
+              "when": "minecraft:netherite"
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "t2e3gc4s4:mdl/hm4awz74"
+          }
+        }
+      },
+      {
+        "threshold": 1004.0,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:trim_material",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "xq9rmjx80:mdl/7r0h6kdl"
+              },
+              "when": "minecraft:redstone"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "f6o7c9v5q:mdl/4zgqnc4c"
+              },
+              "when": "minecraft:gold"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "800y9ucl5:mdl/lx7r9bnv"
+              },
+              "when": "minecraft:resin"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "2thxh28ly:mdl/2uppbd8z"
+              },
+              "when": "minecraft:lapis"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "9qzmluhqk:mdl/q8snur2r"
+              },
+              "when": "minecraft:copper"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "5exp3rjkn:mdl/4cjuxdfy"
+              },
+              "when": "minecraft:iron"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "lqutnhfw6:mdl/nx4bl2oq"
+              },
+              "when": "minecraft:emerald"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "rrmqxw2ui:mdl/qzmcvlov"
+              },
+              "when": "minecraft:diamond"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "rrmqxw2ui:mdl/9y6w5beh"
+              },
+              "when": "minecraft:amethyst"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "gwjritg0z:mdl/40r8ae1z"
+              },
+              "when": "minecraft:quartz"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "i666ow1af:mdl/hzjh7edz"
+              },
+              "when": "minecraft:netherite"
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "gwjritg0z:mdl/x1et1bh4"
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:select",
+      "property": "minecraft:trim_material",
+      "cases": [
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/chainmail_boots_redstone_trim"
+          },
+          "when": "minecraft:redstone"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/chainmail_boots_gold_trim"
+          },
+          "when": "minecraft:gold"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/chainmail_boots_resin_trim"
+          },
+          "when": "minecraft:resin"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/chainmail_boots_lapis_trim"
+          },
+          "when": "minecraft:lapis"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/chainmail_boots_copper_trim"
+          },
+          "when": "minecraft:copper"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/chainmail_boots_iron_trim"
+          },
+          "when": "minecraft:iron"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/chainmail_boots_emerald_trim"
+          },
+          "when": "minecraft:emerald"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/chainmail_boots_diamond_trim"
+          },
+          "when": "minecraft:diamond"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/chainmail_boots_amethyst_trim"
+          },
+          "when": "minecraft:amethyst"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/chainmail_boots_quartz_trim"
+          },
+          "when": "minecraft:quartz"
+        },
+        {
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/chainmail_boots_netherite_trim"
+          },
+          "when": "minecraft:netherite"
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/chainmail_boots"
+      }
+    }
+  }
+}

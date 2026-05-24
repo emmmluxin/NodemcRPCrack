@@ -1,0 +1,368 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/melon_slice"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 10000
+      },
+      "model": "f6o7c9v5q:mdl/3ko4nicq"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10001
+      },
+      "model": "e8x683vbb:mdl/g1d76crs"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10002
+      },
+      "model": "t2e3gc4s4:mdl/94gnh60k"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10003
+      },
+      "model": "7w5x0vpi5:mdl/dqfo9ss8"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10004
+      },
+      "model": "2thxh28ly:mdl/ekzx71uf"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10005
+      },
+      "model": "e8x683vbb:mdl/r4dj4lgb"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10006
+      },
+      "model": "f6o7c9v5q:mdl/xu79sjm8"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10007
+      },
+      "model": "5rsd0lnob:mdl/pr6yrhv8"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10008
+      },
+      "model": "9qzmluhqk:.../9/f/t/7/z/1/4/g/."
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10009
+      },
+      "model": "9qzmluhqk:mdl/skzh42qy"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10010
+      },
+      "model": "lqutnhfw6:.../b/9/9/r/a/r/v/o/."
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10011
+      },
+      "model": "rrmqxw2ui:mdl/1wa8zhbo"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10012
+      },
+      "model": "gwjritg0z:mdl/52p5f760"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10013
+      },
+      "model": "800y9ucl5:.../f/n/o/y/e/4/6/q/."
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10014
+      },
+      "model": "5rsd0lnob:mdl/mmg3zxvc"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10015
+      },
+      "model": "7w5x0vpi5:mdl/fwqhq2jd"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10016
+      },
+      "model": "5rsd0lnob:mdl/p8huwgj8"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10017
+      },
+      "model": "5exp3rjkn:mdl/mqczy44k"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10018
+      },
+      "model": "9qzmluhqk:mdl/qw9b85a6"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10019
+      },
+      "model": "f6o7c9v5q:mdl/lm1f5fow"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10020
+      },
+      "model": "800y9ucl5:mdl/a2xim58n"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10021
+      },
+      "model": "xq9rmjx80:mdl/oehpxibu"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10022
+      },
+      "model": "i2zkxqdgv:mdl/s46k1tru"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10023
+      },
+      "model": "2thxh28ly:mdl/33tjz7mr"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10024
+      },
+      "model": "gwjritg0z:mdl/x63ks2b7"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10025
+      },
+      "model": "7w5x0vpi5:mdl/9st2d98f"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10026
+      },
+      "model": "t2e3gc4s4:mdl/ph98ha0x"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10027
+      },
+      "model": "i666ow1af:mdl/c030jbtz"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10028
+      },
+      "model": "e8x683vbb:.../x/x/4/b/x/8/q/k/."
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10029
+      },
+      "model": "2thxh28ly:mdl/55158eju"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10030
+      },
+      "model": "xq9rmjx80:mdl/2p3c35gt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10031
+      },
+      "model": "lqutnhfw6:mdl/a7jo41cc"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10032
+      },
+      "model": "800y9ucl5:mdl/9ubkcald"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10033
+      },
+      "model": "800y9ucl5:mdl/ubijxxp5"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10034
+      },
+      "model": "7w5x0vpi5:mdl/o9hr6rtb"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10035
+      },
+      "model": "xq9rmjx80:mdl/ar3ijs5x"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10036
+      },
+      "model": "e8x683vbb:mdl/gstwsjun"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10037
+      },
+      "model": "7w5x0vpi5:mdl/6oqykc7u"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10038
+      },
+      "model": "5exp3rjkn:.../0/w/o/d/l/r/h/a/."
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10039
+      },
+      "model": "i666ow1af:mdl/r0anuptc"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10040
+      },
+      "model": "xq9rmjx80:mdl/60l46waq"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10041
+      },
+      "model": "rrmqxw2ui:mdl/236g6gvs"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10042
+      },
+      "model": "rrmqxw2ui:mdl/k4qvwb0j"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10043
+      },
+      "model": "7w5x0vpi5:mdl/g4vsbdaz"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10044
+      },
+      "model": "t2e3gc4s4:mdl/1ejitcom"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10045
+      },
+      "model": "i2zkxqdgv:mdl/3kw4v6pm"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10046
+      },
+      "model": "2thxh28ly:mdl/py328e8m"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10047
+      },
+      "model": "f6o7c9v5q:.../2/g/x/7/u/y/q/1/."
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10048
+      },
+      "model": "i2zkxqdgv:mdl/368uun6w"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10049
+      },
+      "model": "2thxh28ly:mdl/f2acq4ho"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10050
+      },
+      "model": "5rsd0lnob:.../8/8/4/r/9/y/9/m/."
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10051
+      },
+      "model": "800y9ucl5:mdl/dlnus92y"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10052
+      },
+      "model": "f6o7c9v5q:mdl/mj7fthii"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10053
+      },
+      "model": "rrmqxw2ui:mdl/o694soph"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10054
+      },
+      "model": "xq9rmjx80:mdl/2va5dbcn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10055
+      },
+      "model": "rrmqxw2ui:mdl/l2u675sd"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10056
+      },
+      "model": "rrmqxw2ui:mdl/d6a8txza"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10057
+      },
+      "model": "800y9ucl5:mdl/1oythrjx"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10058
+      },
+      "model": "2thxh28ly:mdl/1kppcpiv"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10059
+      },
+      "model": "rrmqxw2ui:mdl/zk81jczq"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "oversized_in_gui": true,
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+      {
+        "threshold": 1000.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "i2zkxqdgv:mdl/ngh57tia"
+        }
+      },
+      {
+        "threshold": 1001.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "e8x683vbb:mdl/qukhcqjp"
+        }
+      },
+      {
+        "threshold": 1002.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "jsmakehbp:mdl/dr8ge8ai"
+        }
+      },
+      {
+        "threshold": 1003.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "jsmakehbp:mdl/7kj86s27"
+        }
+      },
+      {
+        "threshold": 1004.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "gwjritg0z:mdl/hapvwlia"
+        }
+      },
+      {
+        "threshold": 1008.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "i666ow1af:mdl/m864lcex"
+        }
+      },
+      {
+        "threshold": 1009.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "gwjritg0z:.../s/6/s/e/6/r/4/j/."
+        }
+      },
+      {
+        "threshold": 1010.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "f6o7c9v5q:mdl/dxbzi330"
+        }
+      },
+      {
+        "threshold": 2001.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "rrmqxw2ui:mdl/m7epef2u",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 2002.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "gwjritg0z:mdl/5biypt9u",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 2003.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "7w5x0vpi5:mdl/hy8xofuj",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/diamond_horse_armor"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/sugar_cane",
+  "textures": {
+    "cross": "800y9ucl5:tex/foilfugu"
+  }
+}

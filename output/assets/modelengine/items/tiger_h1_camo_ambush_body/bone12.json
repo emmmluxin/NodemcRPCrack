@@ -1,0 +1,13 @@
+{
+  "model": {
+    "model": "jsmakehbp:mdl/k5i2855h",
+    "tints": [
+      {
+        "index": 0,
+        "default": 16777215,
+        "type": "minecraft:custom_model_data"
+      }
+    ],
+    "type": "minecraft:model"
+  }
+}

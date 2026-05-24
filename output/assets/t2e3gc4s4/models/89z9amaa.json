@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/bow",
+  "textures": {
+    "layer0": "5rsd0lnob:tex/wodr2tqz"
+  }
+}

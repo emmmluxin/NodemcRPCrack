@@ -1,0 +1,65 @@
+{
+  "parent": "minecraft:item/template_skull",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "2thxh28ly:mdl/7tmgmnn8"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "800y9ucl5:mdl/dv7qshx9"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "gwjritg0z:mdl/bon8p38f"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "2thxh28ly:.../o/f/n/q/t/z/i/1/."
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "5rsd0lnob:.../f/c/l/0/j/y/g/j/."
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "5rsd0lnob:.../b/9/2/1/a/b/y/4/."
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7
+      },
+      "model": "i666ow1af:mdl/aggr2s2q"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8
+      },
+      "model": "5rsd0lnob:mdl/fs3de2o7"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1000
+      },
+      "model": "rrmqxw2ui:mdl/y4ctex8r"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1001
+      },
+      "model": "i2zkxqdgv:.../c/9/x/e/e/g/m/1/."
+    }
+  ]
+}

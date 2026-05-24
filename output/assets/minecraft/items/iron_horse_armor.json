@@ -1,0 +1,175 @@
+{
+  "oversized_in_gui": true,
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+      {
+        "threshold": 10007.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "7w5x0vpi5:mdl/co4jjpaq"
+        }
+      },
+      {
+        "threshold": 100008.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "xq9rmjx80:mdl/4p1s8921"
+        }
+      },
+      {
+        "threshold": 100009.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "gwjritg0z:mdl/3lo01x3o"
+        }
+      },
+      {
+        "threshold": 101000.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "800y9ucl5:mdl/y9d896nv"
+        }
+      },
+      {
+        "threshold": 101001.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "jsmakehbp:.../v/w/w/9/i/g/a/3/."
+        }
+      },
+      {
+        "threshold": 101002.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "5rsd0lnob:mdl/inc202uy"
+        }
+      },
+      {
+        "threshold": 101003.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "i666ow1af:mdl/jfdsohte"
+        }
+      },
+      {
+        "threshold": 101004.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "5rsd0lnob:.../m/n/z/p/1/j/z/6/."
+        }
+      },
+      {
+        "threshold": 101005.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "rrmqxw2ui:mdl/ch2dtebx"
+        }
+      },
+      {
+        "threshold": 101006.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "e8x683vbb:mdl/sqkxg7up"
+        }
+      },
+      {
+        "threshold": 101007.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "rrmqxw2ui:.../f/2/h/u/4/j/h/3/."
+        }
+      },
+      {
+        "threshold": 101008.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "gwjritg0z:mdl/5y86myxf"
+        }
+      },
+      {
+        "threshold": 101009.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "800y9ucl5:mdl/nvxtgcor"
+        }
+      },
+      {
+        "threshold": 101010.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "t2e3gc4s4:mdl/3m034pwj"
+        }
+      },
+      {
+        "threshold": 102003.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "lqutnhfw6:mdl/t0ueswsf"
+        }
+      },
+      {
+        "threshold": 102006.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "jsmakehbp:mdl/b7mxh9uz"
+        }
+      },
+      {
+        "threshold": 102007.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "gwjritg0z:.../r/z/b/y/j/b/u/4/."
+        }
+      },
+      {
+        "threshold": 104000.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "2thxh28ly:mdl/j48he1r8"
+        }
+      },
+      {
+        "threshold": 104001.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "e8x683vbb:mdl/n96k0mrm"
+        }
+      },
+      {
+        "threshold": 116000.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "2thxh28ly:mdl/av3l8v1j"
+        }
+      },
+      {
+        "threshold": 150001.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "rrmqxw2ui:.../w/4/y/q/1/1/5/c/."
+        }
+      },
+      {
+        "threshold": 170002.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "xq9rmjx80:mdl/fald3irp"
+        }
+      },
+      {
+        "threshold": 170003.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "i666ow1af:mdl/m2l2rlpv"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/iron_horse_armor"
+    }
+  }
+}

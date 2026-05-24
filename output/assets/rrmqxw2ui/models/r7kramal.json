@@ -1,0 +1,124 @@
+{
+  "textures": {
+    "0": "gwjritg0z:tex/qlh8hx27",
+    "particle": "#0"
+  },
+  "elements": [
+    {
+      "from": [
+        6.833333,
+        17.85336,
+        20.459942
+      ],
+      "to": [
+        9.166667,
+        18.186691,
+        21.959942
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            11.625,
+            2.1875,
+            11.65625,
+            2.34375
+          ],
+          "tintindex": 0,
+          "rotation": 270,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            11.4375,
+            2.34375,
+            11.46875,
+            2.1875
+          ],
+          "tintindex": 0,
+          "rotation": 270,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            11.4375,
+            2.34375,
+            11.65625,
+            2.1875
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            11.4375,
+            2.28125,
+            11.65625,
+            2.4375
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      }
+    }
+  ],
+  "display": {
+    "head": {
+      "rotation": [
+        -131.25,
+        0.0,
+        0.0
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        -131.25,
+        0.0,
+        0.0
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        -131.25,
+        -0.0,
+        -0.0
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        -131.25,
+        -0.0,
+        -0.0
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        -131.25,
+        0.0,
+        0.0
+      ]
+    },
+    "ground": {
+      "rotation": [
+        -131.25,
+        0.0,
+        0.0
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        -131.25,
+        0.0,
+        0.0
+      ]
+    },
+    "gui": {
+      "rotation": [
+        -28.196287,
+        27.789719,
+        -143.0627
+      ]
+    }
+  }
+}

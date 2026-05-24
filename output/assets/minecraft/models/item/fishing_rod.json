@@ -1,0 +1,126 @@
+{
+  "parent": "item/handheld_rod",
+  "textures": {
+    "layer0": "item/fishing_rod"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "cast": 1
+      },
+      "model": "item/fishing_rod_cast"
+    },
+    {
+      "predicate": {
+        "cast": 0,
+        "custom_model_data": 1000
+      },
+      "model": "rrmqxw2ui:mdl/0q5zfcie"
+    },
+    {
+      "predicate": {
+        "cast": 1,
+        "custom_model_data": 1000
+      },
+      "model": "rrmqxw2ui:mdl/ee7b4fr8"
+    },
+    {
+      "predicate": {
+        "cast": 0,
+        "custom_model_data": 50001
+      },
+      "model": "lqutnhfw6:mdl/qkbr80r4"
+    },
+    {
+      "predicate": {
+        "cast": 1,
+        "custom_model_data": 50001
+      },
+      "model": "2thxh28ly:.../3/e/n/m/n/i/8/v/."
+    },
+    {
+      "predicate": {
+        "cast": 0,
+        "custom_model_data": 50002
+      },
+      "model": "800y9ucl5:mdl/09t9l8m6"
+    },
+    {
+      "predicate": {
+        "cast": 1,
+        "custom_model_data": 50002
+      },
+      "model": "lqutnhfw6:mdl/7l0nkfry"
+    },
+    {
+      "predicate": {
+        "cast": 0,
+        "custom_model_data": 50003
+      },
+      "model": "7w5x0vpi5:mdl/eyt2xy7r"
+    },
+    {
+      "predicate": {
+        "cast": 1,
+        "custom_model_data": 50003
+      },
+      "model": "i666ow1af:mdl/3gs4yngl"
+    },
+    {
+      "predicate": {
+        "cast": 0,
+        "custom_model_data": 50004
+      },
+      "model": "jsmakehbp:mdl/n82no1my"
+    },
+    {
+      "predicate": {
+        "cast": 1,
+        "custom_model_data": 50004
+      },
+      "model": "5rsd0lnob:mdl/ua3ejpot"
+    },
+    {
+      "predicate": {
+        "cast": 0,
+        "custom_model_data": 50005
+      },
+      "model": "t2e3gc4s4:mdl/01lcs81a"
+    },
+    {
+      "predicate": {
+        "cast": 1,
+        "custom_model_data": 50005
+      },
+      "model": "jsmakehbp:mdl/whamz5kb"
+    },
+    {
+      "predicate": {
+        "cast": 0,
+        "custom_model_data": 50006
+      },
+      "model": "e8x683vbb:.../a/p/9/4/7/y/n/3/."
+    },
+    {
+      "predicate": {
+        "cast": 1,
+        "custom_model_data": 50006
+      },
+      "model": "f6o7c9v5q:mdl/xnd65bjk"
+    },
+    {
+      "predicate": {
+        "cast": 0,
+        "custom_model_data": 50007
+      },
+      "model": "xq9rmjx80:mdl/v73yqn8b"
+    },
+    {
+      "predicate": {
+        "cast": 1,
+        "custom_model_data": 50007
+      },
+      "model": "f6o7c9v5q:mdl/hplsnw4y"
+    }
+  ]
+}

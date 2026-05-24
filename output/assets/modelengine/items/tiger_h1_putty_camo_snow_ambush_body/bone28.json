@@ -1,0 +1,13 @@
+{
+  "model": {
+    "model": "i666ow1af:.../6/6/4/s/g/l/u/1/.",
+    "tints": [
+      {
+        "index": 0,
+        "default": 16777215,
+        "type": "minecraft:custom_model_data"
+      }
+    ],
+    "type": "minecraft:model"
+  }
+}

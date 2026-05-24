@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "f6o7c9v5q:tex/hudkbbjb"
+  }
+}

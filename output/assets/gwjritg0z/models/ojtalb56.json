@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "gwjritg0z:tex/pr1cf4b7",
+    "side": "rrmqxw2ui:tex/64o55cop"
+  }
+}

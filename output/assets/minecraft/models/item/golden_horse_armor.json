@@ -1,0 +1,86 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/golden_horse_armor"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 10
+      },
+      "model": "lqutnhfw6:mdl/g35kusfp"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 11
+      },
+      "model": "jsmakehbp:mdl/an1k8yzd"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 12
+      },
+      "model": "t2e3gc4s4:mdl/qkubo3sh"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 13
+      },
+      "model": "rrmqxw2ui:mdl/j4mjry9x"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 14
+      },
+      "model": "5rsd0lnob:mdl/vcpluwqs"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 15
+      },
+      "model": "9qzmluhqk:mdl/kg4y8i6f"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 16
+      },
+      "model": "lqutnhfw6:mdl/j8soit6c"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 17
+      },
+      "model": "t2e3gc4s4:mdl/dajs8aa0"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 18
+      },
+      "model": "5rsd0lnob:mdl/efffhiha"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 80000
+      },
+      "model": "xq9rmjx80:mdl/2cxlygx6"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 80001
+      },
+      "model": "rrmqxw2ui:mdl/vujqicdv"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 80002
+      },
+      "model": "lqutnhfw6:mdl/5b9xca09"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 80003
+      },
+      "model": "jsmakehbp:mdl/0st8jizk"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "9qzmluhqk:tex/t5qvc5m3"
+  }
+}

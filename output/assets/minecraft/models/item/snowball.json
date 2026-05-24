@@ -1,0 +1,158 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/snowball"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "i666ow1af:mdl/fwb7v4tp"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "lqutnhfw6:.../7/p/b/u/j/a/u/1/."
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "9qzmluhqk:mdl/myezl5nu"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "f6o7c9v5q:mdl/onx7mrwu"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "2thxh28ly:mdl/oighz5bz"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "jsmakehbp:mdl/33tofksl"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "i666ow1af:mdl/rz0a5l1l"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "jsmakehbp:mdl/s82eitkd"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "e8x683vbb:.../g/y/8/8/1/l/v/b/."
+    },
+    {
+      "predicate": {
+        "custom_model_data": 9
+      },
+      "model": "rrmqxw2ui:mdl/as29xzvp"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 30
+      },
+      "model": "5rsd0lnob:mdl/nq6p0u86"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 30
+      },
+      "model": "5rsd0lnob:mdl/w2rnadbt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 32
+      },
+      "model": "f6o7c9v5q:mdl/z57xm3qy"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 50
+      },
+      "model": "9qzmluhqk:mdl/kg3qblhw"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 50
+      },
+      "model": "5exp3rjkn:mdl/8n9v1iu4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 100
+      },
+      "model": "i666ow1af:mdl/tf8z9lx6"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 100
+      },
+      "model": "9qzmluhqk:mdl/n606a3a7"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 101
+      },
+      "model": "f6o7c9v5q:mdl/lsgq5skr"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 110
+      },
+      "model": "5exp3rjkn:.../8/h/0/8/l/l/s/r/."
+    },
+    {
+      "predicate": {
+        "custom_model_data": 122
+      },
+      "model": "gwjritg0z:mdl/sepvi302"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 122
+      },
+      "model": "t2e3gc4s4:mdl/u3wpfi41"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 160
+      },
+      "model": "2thxh28ly:mdl/7mcffas9"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 200
+      },
+      "model": "5rsd0lnob:.../v/k/b/p/v/c/0/9/."
+    },
+    {
+      "predicate": {
+        "custom_model_data": 200
+      },
+      "model": "2thxh28ly:mdl/44hja3f7"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 201
+      },
+      "model": "800y9ucl5:.../d/p/m/a/6/4/5/d/."
+    }
+  ]
+}

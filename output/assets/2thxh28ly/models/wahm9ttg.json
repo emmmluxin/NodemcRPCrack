@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "f6o7c9v5q:tex/21j9es3s"
+  }
+}

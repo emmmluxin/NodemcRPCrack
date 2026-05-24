@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/crossbow_pulling_0",
+  "textures": {
+    "layer0": "jsmakehbp:tex/4y85csdw"
+  }
+}

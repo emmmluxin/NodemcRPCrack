@@ -1,0 +1,70 @@
+{
+  "oversized_in_gui": true,
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+      {
+        "threshold": 1000.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "7w5x0vpi5:mdl/unyknko4"
+        }
+      },
+      {
+        "threshold": 1001.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "t2e3gc4s4:mdl/kl2u807g"
+        }
+      },
+      {
+        "threshold": 1002.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "jsmakehbp:mdl/uexsz1g6"
+        }
+      },
+      {
+        "threshold": 1003.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "5rsd0lnob:mdl/scp3fuuf"
+        }
+      },
+      {
+        "threshold": 1004.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "i2zkxqdgv:mdl/q0c7jwps"
+        }
+      },
+      {
+        "threshold": 1005.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "rrmqxw2ui:mdl/te5lw61c"
+        }
+      },
+      {
+        "threshold": 1006.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "f6o7c9v5q:mdl/gufccbg3"
+        }
+      },
+      {
+        "threshold": 1007.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "f6o7c9v5q:mdl/vxan7p0m"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/arrow"
+    }
+  }
+}

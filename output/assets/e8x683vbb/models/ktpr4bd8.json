@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "i2zkxqdgv:tex/fdo3n4w8",
+    "layer1": "minecraft:trims/items/chestplate_trim_diamond"
+  }
+}

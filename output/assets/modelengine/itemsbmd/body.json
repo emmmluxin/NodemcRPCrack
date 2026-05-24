@@ -1,0 +1,194 @@
+{
+  "model": {
+    "models": [
+      {
+        "model": "5exp3rjkn:mdl/djopt5pz",
+        "tints": [
+          {
+            "index": 0,
+            "default": 16777215,
+            "type": "minecraft:custom_model_data"
+          }
+        ],
+        "type": "minecraft:model"
+      },
+      {
+        "model": "7w5x0vpi5:.../i/m/5/p/r/g/o/h/.",
+        "tints": [
+          {
+            "index": 0,
+            "default": 16777215,
+            "type": "minecraft:custom_model_data"
+          }
+        ],
+        "type": "minecraft:model"
+      },
+      {
+        "model": "e8x683vbb:mdl/7bfy4tv1",
+        "tints": [
+          {
+            "index": 0,
+            "default": 16777215,
+            "type": "minecraft:custom_model_data"
+          }
+        ],
+        "type": "minecraft:model"
+      },
+      {
+        "model": "rrmqxw2ui:mdl/ggrt8lsj",
+        "tints": [
+          {
+            "index": 0,
+            "default": 16777215,
+            "type": "minecraft:custom_model_data"
+          }
+        ],
+        "type": "minecraft:model"
+      },
+      {
+        "model": "i666ow1af:mdl/eztcokan",
+        "tints": [
+          {
+            "index": 0,
+            "default": 16777215,
+            "type": "minecraft:custom_model_data"
+          }
+        ],
+        "type": "minecraft:model"
+      },
+      {
+        "model": "jsmakehbp:.../4/7/x/h/s/m/a/h/.",
+        "tints": [
+          {
+            "index": 0,
+            "default": 16777215,
+            "type": "minecraft:custom_model_data"
+          }
+        ],
+        "type": "minecraft:model"
+      },
+      {
+        "model": "e8x683vbb:mdl/h8lrdifn",
+        "tints": [
+          {
+            "index": 0,
+            "default": 16777215,
+            "type": "minecraft:custom_model_data"
+          }
+        ],
+        "type": "minecraft:model"
+      },
+      {
+        "model": "5rsd0lnob:mdl/dozstlkw",
+        "tints": [
+          {
+            "index": 0,
+            "default": 16777215,
+            "type": "minecraft:custom_model_data"
+          }
+        ],
+        "type": "minecraft:model"
+      },
+      {
+        "model": "i666ow1af:mdl/r5eovbfj",
+        "tints": [
+          {
+            "index": 0,
+            "default": 16777215,
+            "type": "minecraft:custom_model_data"
+          }
+        ],
+        "type": "minecraft:model"
+      },
+      {
+        "model": "gwjritg0z:.../v/r/2/m/w/7/z/b/.",
+        "tints": [
+          {
+            "index": 0,
+            "default": 16777215,
+            "type": "minecraft:custom_model_data"
+          }
+        ],
+        "type": "minecraft:model"
+      },
+      {
+        "model": "2thxh28ly:mdl/rgorl2f1",
+        "tints": [
+          {
+            "index": 0,
+            "default": 16777215,
+            "type": "minecraft:custom_model_data"
+          }
+        ],
+        "type": "minecraft:model"
+      },
+      {
+        "model": "xq9rmjx80:mdl/4q47mx1k",
+        "tints": [
+          {
+            "index": 0,
+            "default": 16777215,
+            "type": "minecraft:custom_model_data"
+          }
+        ],
+        "type": "minecraft:model"
+      },
+      {
+        "model": "5rsd0lnob:.../e/9/n/t/a/x/5/6/.",
+        "tints": [
+          {
+            "index": 0,
+            "default": 16777215,
+            "type": "minecraft:custom_model_data"
+          }
+        ],
+        "type": "minecraft:model"
+      },
+      {
+        "model": "5exp3rjkn:.../8/1/7/u/q/z/a/h/.",
+        "tints": [
+          {
+            "index": 0,
+            "default": 16777215,
+            "type": "minecraft:custom_model_data"
+          }
+        ],
+        "type": "minecraft:model"
+      },
+      {
+        "model": "i2zkxqdgv:mdl/axgfgbsh",
+        "tints": [
+          {
+            "index": 0,
+            "default": 16777215,
+            "type": "minecraft:custom_model_data"
+          }
+        ],
+        "type": "minecraft:model"
+      },
+      {
+        "model": "i2zkxqdgv:.../o/p/7/j/q/y/r/x/.",
+        "tints": [
+          {
+            "index": 0,
+            "default": 16777215,
+            "type": "minecraft:custom_model_data"
+          }
+        ],
+        "type": "minecraft:model"
+      },
+      {
+        "model": "9qzmluhqk:mdl/nzbx1scr",
+        "tints": [
+          {
+            "index": 0,
+            "default": 16777215,
+            "type": "minecraft:custom_model_data"
+          }
+        ],
+        "type": "minecraft:model"
+      }
+    ],
+    "type": "minecraft:composite"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "f6o7c9v5q:tex/udtjbcxy",
+    "layer1": "minecraft:trims/items/boots_trim_redstone"
+  }
+}

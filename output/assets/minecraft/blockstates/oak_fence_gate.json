@@ -1,0 +1,80 @@
+{
+  "variants": {
+    "facing=south,in_wall=false,open=false,powered=true": {
+      "model": "800y9ucl5:mdl/78akf5c0",
+      "uvlock": true
+    },
+    "facing=west,in_wall=false,open=false,powered=true": {
+      "model": "800y9ucl5:mdl/78akf5c0",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=west,in_wall=true,open=false,powered=true": {
+      "model": "5rsd0lnob:mdl/ilcrxm0e",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=north,in_wall=true,open=true,powered=true": {
+      "model": "i2zkxqdgv:mdl/mk7vxgwo",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=south,in_wall=true,open=false,powered=true": {
+      "model": "5rsd0lnob:mdl/ilcrxm0e",
+      "uvlock": true
+    },
+    "facing=east,in_wall=true,open=true,powered=true": {
+      "model": "i2zkxqdgv:mdl/mk7vxgwo",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=north,in_wall=false,open=true,powered=true": {
+      "model": "e8x683vbb:mdl/wagzavcx",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=east,in_wall=true,open=false,powered=true": {
+      "model": "5rsd0lnob:mdl/ilcrxm0e",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=east,in_wall=false,open=true,powered=true": {
+      "model": "e8x683vbb:mdl/wagzavcx",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=west,in_wall=false,open=true,powered=true": {
+      "model": "e8x683vbb:mdl/wagzavcx",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=north,in_wall=false,open=false,powered=true": {
+      "model": "800y9ucl5:mdl/78akf5c0",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=east,in_wall=false,open=false,powered=true": {
+      "model": "800y9ucl5:mdl/78akf5c0",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=west,in_wall=true,open=true,powered=true": {
+      "model": "i2zkxqdgv:mdl/mk7vxgwo",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=north,in_wall=true,open=false,powered=true": {
+      "model": "5rsd0lnob:mdl/ilcrxm0e",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=south,in_wall=true,open=true,powered=true": {
+      "model": "i2zkxqdgv:mdl/mk7vxgwo",
+      "uvlock": true
+    },
+    "facing=south,in_wall=false,open=true,powered=true": {
+      "model": "e8x683vbb:mdl/wagzavcx",
+      "uvlock": true
+    }
+  }
+}

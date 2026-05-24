@@ -1,0 +1,124 @@
+{
+  "textures": {
+    "0": "gwjritg0z:tex/qlh8hx27",
+    "particle": "#0"
+  },
+  "elements": [
+    {
+      "from": [
+        6.833333,
+        -1.7630835,
+        22.287554
+      ],
+      "to": [
+        9.166667,
+        -1.4297504,
+        23.620888
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            11.625,
+            2.25,
+            11.65625,
+            2.375
+          ],
+          "tintindex": 0,
+          "rotation": 270,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            11.4375,
+            2.375,
+            11.46875,
+            2.25
+          ],
+          "tintindex": 0,
+          "rotation": 270,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            11.4375,
+            2.375,
+            11.65625,
+            2.25
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            11.4375,
+            2.25,
+            11.65625,
+            2.375
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      }
+    }
+  ],
+  "display": {
+    "head": {
+      "rotation": [
+        -46.0,
+        0.0,
+        0.0
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        -46.0,
+        0.0,
+        0.0
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        -46.0,
+        -0.0,
+        -0.0
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        -46.0,
+        -0.0,
+        -0.0
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        -46.0,
+        0.0,
+        0.0
+      ]
+    },
+    "ground": {
+      "rotation": [
+        -46.0,
+        0.0,
+        0.0
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        -46.0,
+        0.0,
+        0.0
+      ]
+    },
+    "gui": {
+      "rotation": [
+        -94.32703,
+        -29.41933,
+        -144.27103
+      ]
+    }
+  }
+}

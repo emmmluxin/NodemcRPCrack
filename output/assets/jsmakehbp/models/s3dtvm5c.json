@@ -1,0 +1,124 @@
+{
+  "textures": {
+    "0": "xq9rmjx80:tex/kjanzurh",
+    "particle": "#0"
+  },
+  "elements": [
+    {
+      "from": [
+        7.3375,
+        3.1678061,
+        16.868416
+      ],
+      "to": [
+        8.0,
+        3.8344727,
+        18.20175
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            7.875,
+            5.6875,
+            8.0,
+            5.8125
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            7.625,
+            6.0,
+            7.875,
+            6.125
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            4.1875,
+            7.625,
+            4.0625,
+            7.375
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            4.1875,
+            7.625,
+            4.0625,
+            7.875
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      }
+    }
+  ],
+  "display": {
+    "head": {
+      "rotation": [
+        30.0,
+        0.0,
+        -0.0
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        30.0,
+        0.0,
+        -0.0
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        30.0,
+        -0.0,
+        0.0
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        30.0,
+        -0.0,
+        0.0
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        30.0,
+        0.0,
+        -0.0
+      ]
+    },
+    "ground": {
+      "rotation": [
+        30.0,
+        0.0,
+        -0.0
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        30.0,
+        0.0,
+        -0.0
+      ]
+    },
+    "gui": {
+      "rotation": [
+        170.76848,
+        -37.761246,
+        153.43495
+      ]
+    }
+  }
+}

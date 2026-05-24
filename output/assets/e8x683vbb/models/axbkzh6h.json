@@ -1,0 +1,12 @@
+{
+  "credit": "MadewithBlockbench",
+  "parent": "9qzmluhqk:mdl/kdzzecsz",
+  "texture_size": [
+    32,
+    32
+  ],
+  "textures": {
+    "particle": "800y9ucl5:tex/db2vxqtn",
+    "corn": "800y9ucl5:tex/db2vxqtn"
+  }
+}

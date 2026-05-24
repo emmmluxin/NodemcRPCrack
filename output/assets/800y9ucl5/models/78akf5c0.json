@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_fence_gate",
+  "textures": {
+    "texture": "i666ow1af:tex/11d5hpmp"
+  }
+}

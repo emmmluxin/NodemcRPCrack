@@ -1,0 +1,13 @@
+{
+  "model": {
+    "model": "e8x683vbb:.../u/9/p/t/7/1/8/c/.",
+    "tints": [
+      {
+        "index": 0,
+        "default": 16777215,
+        "type": "minecraft:custom_model_data"
+      }
+    ],
+    "type": "minecraft:model"
+  }
+}

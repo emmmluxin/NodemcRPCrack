@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "i666ow1af:mdl/91uavjto",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "i666ow1af:mdl/91uavjto"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/pressure_plate_down",
+  "textures": {
+    "texture": "i666ow1af:tex/11d5hpmp"
+  }
+}

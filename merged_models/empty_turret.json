@@ -1,0 +1,111 @@
+{
+  "credit": "ModelEngine Merger - deobf tool",
+  "texture_size": [
+    16,
+    16
+  ],
+  "textures": {
+    "0": "i666ow1af:tex/oa5o30vm",
+    "particle": "#0"
+  },
+  "elements": [
+    {
+      "from": [
+        8.0,
+        -10.0,
+        4.0
+      ],
+      "to": [
+        9.0,
+        -9.0,
+        5.0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            6.75,
+            8.0,
+            7.0,
+            8.25
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            6.75,
+            8.0,
+            7.0,
+            8.25
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            6.75,
+            8.0,
+            7.0,
+            8.25
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            6.75,
+            8.0,
+            7.0,
+            8.25
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            6.75,
+            8.0,
+            7.0,
+            8.25
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            6.75,
+            8.0,
+            7.0,
+            8.25
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "_part": "octagon2",
+      "_source": "e8x683vbb:mdl/y7shl82e"
+    }
+  ],
+  "_model_name": "empty_turret",
+  "_parts": [
+    {
+      "part_name": "octagon2",
+      "elements_count": 1,
+      "model_refs": [
+        "e8x683vbb:mdl/y7shl82e"
+      ]
+    }
+  ],
+  "_stats": {
+    "total_parts": 1,
+    "total_elements": 1,
+    "total_textures": 2,
+    "unique_model_refs": 1
+  }
+}

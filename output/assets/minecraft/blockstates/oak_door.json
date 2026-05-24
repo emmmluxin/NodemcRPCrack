@@ -1,0 +1,124 @@
+{
+  "variants": {
+    "facing=west,half=lower,hinge=right,open=false,powered=true": {
+      "model": "e8x683vbb:mdl/2h7zrhn6",
+      "y": 180
+    },
+    "facing=north,half=upper,hinge=left,open=true,powered=true": {
+      "model": "jsmakehbp:mdl/a0xry6tv"
+    },
+    "facing=north,half=lower,hinge=right,open=true,powered=true": {
+      "model": "9qzmluhqk:mdl/victnmfb",
+      "y": 180
+    },
+    "facing=south,half=lower,hinge=left,open=true,powered=true": {
+      "model": "gwjritg0z:mdl/whhx7aog",
+      "y": 180
+    },
+    "facing=west,half=lower,hinge=left,open=false,powered=true": {
+      "model": "jsmakehbp:mdl/rz2euj2p",
+      "y": 180
+    },
+    "facing=south,half=lower,hinge=right,open=true,powered=true": {
+      "model": "9qzmluhqk:mdl/victnmfb"
+    },
+    "facing=south,half=lower,hinge=right,open=false,powered=true": {
+      "model": "e8x683vbb:mdl/2h7zrhn6",
+      "y": 90
+    },
+    "facing=west,half=upper,hinge=right,open=true,powered=true": {
+      "model": "5exp3rjkn:mdl/bupnh57p",
+      "y": 90
+    },
+    "facing=south,half=upper,hinge=left,open=true,powered=true": {
+      "model": "jsmakehbp:mdl/a0xry6tv",
+      "y": 180
+    },
+    "facing=south,half=upper,hinge=right,open=true,powered=true": {
+      "model": "5exp3rjkn:mdl/bupnh57p"
+    },
+    "facing=south,half=upper,hinge=right,open=false,powered=true": {
+      "model": "gwjritg0z:mdl/2jvtpqay",
+      "y": 90
+    },
+    "facing=east,half=upper,hinge=right,open=false,powered=true": {
+      "model": "gwjritg0z:mdl/2jvtpqay"
+    },
+    "facing=west,half=upper,hinge=left,open=true,powered=true": {
+      "model": "jsmakehbp:mdl/a0xry6tv",
+      "y": 270
+    },
+    "facing=south,half=lower,hinge=left,open=false,powered=true": {
+      "model": "jsmakehbp:mdl/rz2euj2p",
+      "y": 90
+    },
+    "facing=west,half=upper,hinge=left,open=false,powered=true": {
+      "model": "800y9ucl5:mdl/wp16qk6a",
+      "y": 180
+    },
+    "facing=west,half=upper,hinge=right,open=false,powered=true": {
+      "model": "gwjritg0z:mdl/2jvtpqay",
+      "y": 180
+    },
+    "facing=east,half=lower,hinge=left,open=true,powered=true": {
+      "model": "gwjritg0z:mdl/whhx7aog",
+      "y": 90
+    },
+    "facing=north,half=lower,hinge=right,open=false,powered=true": {
+      "model": "e8x683vbb:mdl/2h7zrhn6",
+      "y": 270
+    },
+    "facing=south,half=upper,hinge=left,open=false,powered=true": {
+      "model": "800y9ucl5:mdl/wp16qk6a",
+      "y": 90
+    },
+    "facing=east,half=upper,hinge=left,open=false,powered=true": {
+      "model": "800y9ucl5:mdl/wp16qk6a"
+    },
+    "facing=north,half=upper,hinge=left,open=false,powered=true": {
+      "model": "800y9ucl5:mdl/wp16qk6a",
+      "y": 270
+    },
+    "facing=east,half=lower,hinge=left,open=false,powered=true": {
+      "model": "jsmakehbp:mdl/rz2euj2p"
+    },
+    "facing=east,half=lower,hinge=right,open=false,powered=true": {
+      "model": "e8x683vbb:mdl/2h7zrhn6"
+    },
+    "facing=east,half=upper,hinge=right,open=true,powered=true": {
+      "model": "5exp3rjkn:mdl/bupnh57p",
+      "y": 270
+    },
+    "facing=west,half=lower,hinge=left,open=true,powered=true": {
+      "model": "gwjritg0z:mdl/whhx7aog",
+      "y": 270
+    },
+    "facing=north,half=lower,hinge=left,open=true,powered=true": {
+      "model": "gwjritg0z:mdl/whhx7aog"
+    },
+    "facing=north,half=upper,hinge=right,open=false,powered=true": {
+      "model": "gwjritg0z:mdl/2jvtpqay",
+      "y": 270
+    },
+    "facing=east,half=upper,hinge=left,open=true,powered=true": {
+      "model": "jsmakehbp:mdl/a0xry6tv",
+      "y": 90
+    },
+    "facing=west,half=lower,hinge=right,open=true,powered=true": {
+      "model": "9qzmluhqk:mdl/victnmfb",
+      "y": 90
+    },
+    "facing=east,half=lower,hinge=right,open=true,powered=true": {
+      "model": "9qzmluhqk:mdl/victnmfb",
+      "y": 270
+    },
+    "facing=north,half=lower,hinge=left,open=false,powered=true": {
+      "model": "jsmakehbp:mdl/rz2euj2p",
+      "y": 270
+    },
+    "facing=north,half=upper,hinge=right,open=true,powered=true": {
+      "model": "5exp3rjkn:mdl/bupnh57p",
+      "y": 180
+    }
+  }
+}

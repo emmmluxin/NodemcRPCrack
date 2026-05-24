@@ -1,0 +1,1238 @@
+{
+  "credit": "ModelEngine Merger - deobf tool",
+  "texture_size": [
+    16,
+    16
+  ],
+  "textures": {
+    "0": "9qzmluhqk:tex/rqze6edb",
+    "particle": "#0",
+    "bone10.0": "9qzmluhqk:tex/rqze6edb",
+    "bone10.particle": "#0",
+    "bone14.0": "9qzmluhqk:tex/rqze6edb",
+    "bone14.particle": "#0",
+    "bone15.0": "9qzmluhqk:tex/rqze6edb",
+    "bone15.particle": "#0",
+    "bone16.0": "9qzmluhqk:tex/rqze6edb",
+    "bone16.particle": "#0",
+    "bone17.0": "9qzmluhqk:tex/rqze6edb",
+    "bone17.particle": "#0",
+    "bone2.0": "9qzmluhqk:tex/rqze6edb",
+    "bone2.particle": "#0",
+    "bone3.0": "9qzmluhqk:tex/rqze6edb",
+    "bone3.particle": "#0",
+    "bone4.0": "9qzmluhqk:tex/rqze6edb",
+    "bone4.particle": "#0",
+    "bone5.0": "9qzmluhqk:tex/rqze6edb",
+    "bone5.particle": "#0",
+    "bone6.0": "9qzmluhqk:tex/rqze6edb",
+    "bone6.particle": "#0",
+    "bone8.0": "9qzmluhqk:tex/rqze6edb",
+    "bone8.particle": "#0",
+    "bone9.0": "9qzmluhqk:tex/rqze6edb",
+    "bone9.particle": "#0"
+  },
+  "elements": [
+    {
+      "from": [
+        -12.666668,
+        -5.333334,
+        -5.333334
+      ],
+      "to": [
+        14.0,
+        21.333334,
+        21.333334
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.0,
+            14.75,
+            1.25,
+            16.0
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.0,
+            14.75,
+            1.25,
+            16.0
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.0,
+            14.75,
+            1.25,
+            16.0
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.0,
+            14.75,
+            1.25,
+            16.0
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            1.25,
+            16.0,
+            0.0,
+            14.75
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            1.25,
+            14.75,
+            0.0,
+            16.0
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "_part": "bone",
+      "_source": "i666ow1af:mdl/r1x2xhj7"
+    },
+    {
+      "from": [
+        -3.25,
+        8.0,
+        8.0
+      ],
+      "to": [
+        19.25,
+        30.5,
+        8.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            13.1875,
+            5.109375,
+            16.0,
+            7.921875
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            13.1875,
+            5.109375,
+            16.0,
+            7.921875
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            8.484375,
+            0.015625,
+            8.5,
+            0.0
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "rotation": {
+        "origin": [
+          8.0,
+          19.25,
+          8.0
+        ],
+        "angle": 45.0,
+        "axis": "y"
+      },
+      "_part": "bone10",
+      "_source": "i2zkxqdgv:mdl/4tlhusy1"
+    },
+    {
+      "from": [
+        -3.25,
+        8.0,
+        8.0
+      ],
+      "to": [
+        19.25,
+        30.5,
+        8.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            13.1875,
+            5.109375,
+            16.0,
+            7.921875
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            13.1875,
+            5.109375,
+            16.0,
+            7.921875
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            8.484375,
+            0.015625,
+            8.5,
+            0.0
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "rotation": {
+        "origin": [
+          8.0,
+          19.25,
+          8.0
+        ],
+        "angle": -45.0,
+        "axis": "y"
+      },
+      "_part": "bone10",
+      "_source": "i2zkxqdgv:mdl/4tlhusy1"
+    },
+    {
+      "from": [
+        8.0,
+        8.083333,
+        6.083333
+      ],
+      "to": [
+        8.0,
+        29.916668,
+        9.916666
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            16.0,
+            9.734375,
+            15.640625,
+            11.78125
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            15.640625,
+            9.734375,
+            16.0,
+            11.78125
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "rotation": {
+        "origin": [
+          8.0,
+          19.0,
+          8.0
+        ],
+        "angle": 45.0,
+        "axis": "y"
+      },
+      "_part": "bone14",
+      "_source": "xq9rmjx80:mdl/x3wml5ro"
+    },
+    {
+      "from": [
+        8.0,
+        8.083333,
+        6.083333
+      ],
+      "to": [
+        8.0,
+        29.916668,
+        9.916666
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            16.0,
+            9.734375,
+            15.640625,
+            11.78125
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            15.640625,
+            9.734375,
+            16.0,
+            11.78125
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "rotation": {
+        "origin": [
+          8.0,
+          19.0,
+          8.0
+        ],
+        "angle": -45.0,
+        "axis": "y"
+      },
+      "_part": "bone14",
+      "_source": "xq9rmjx80:mdl/x3wml5ro"
+    },
+    {
+      "from": [
+        8.0,
+        7.9166665,
+        6.083333
+      ],
+      "to": [
+        8.0,
+        29.75,
+        9.916666
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.0,
+            6.1875,
+            0.359375,
+            8.234375
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.0,
+            6.1875,
+            0.359375,
+            8.234375
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "_part": "bone15",
+      "_source": "rrmqxw2ui:mdl/un2thgzv"
+    },
+    {
+      "from": [
+        8.0,
+        8.0,
+        5.75
+      ],
+      "to": [
+        8.0,
+        31.5,
+        10.375
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.578125,
+            9.234375,
+            0.0,
+            12.171875
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.0,
+            9.234375,
+            0.578125,
+            12.171875
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "rotation": {
+        "origin": [
+          8.0,
+          19.75,
+          8.0
+        ],
+        "angle": 45.0,
+        "axis": "y"
+      },
+      "_part": "bone16",
+      "_source": "5rsd0lnob:mdl/lmq3x4wm"
+    },
+    {
+      "from": [
+        8.0,
+        8.0,
+        5.75
+      ],
+      "to": [
+        8.0,
+        31.5,
+        10.375
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.578125,
+            9.234375,
+            0.0,
+            12.171875
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.0,
+            9.234375,
+            0.578125,
+            12.171875
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "rotation": {
+        "origin": [
+          8.0,
+          19.75,
+          8.0
+        ],
+        "angle": -45.0,
+        "axis": "y"
+      },
+      "_part": "bone16",
+      "_source": "5rsd0lnob:mdl/lmq3x4wm"
+    },
+    {
+      "from": [
+        8.0,
+        8.0,
+        4.6666665
+      ],
+      "to": [
+        8.0,
+        28.333334,
+        11.333334
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.0,
+            3.3125,
+            0.625,
+            5.21875
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.625,
+            3.3125,
+            0.0,
+            5.21875
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "rotation": {
+        "origin": [
+          8.0,
+          18.166668,
+          8.0
+        ],
+        "angle": -45.0,
+        "axis": "y"
+      },
+      "_part": "bone17",
+      "_source": "2thxh28ly:mdl/1y5asc5b"
+    },
+    {
+      "from": [
+        8.0,
+        8.0,
+        4.6666665
+      ],
+      "to": [
+        8.0,
+        28.333334,
+        11.333334
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.0,
+            3.3125,
+            0.625,
+            5.21875
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.625,
+            3.3125,
+            0.0,
+            5.21875
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "rotation": {
+        "origin": [
+          8.0,
+          18.166668,
+          8.0
+        ],
+        "angle": 45.0,
+        "axis": "y"
+      },
+      "_part": "bone17",
+      "_source": "2thxh28ly:mdl/1y5asc5b"
+    },
+    {
+      "from": [
+        5.4746184,
+        8.0,
+        6.760333
+      ],
+      "to": [
+        5.4746184,
+        30.285715,
+        11.331761
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.0,
+            0.0,
+            0.5,
+            2.4375
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.5,
+            0.0,
+            0.0,
+            2.4375
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "rotation": {
+        "origin": [
+          5.4746184,
+          19.142857,
+          9.046047
+        ],
+        "angle": 45.0,
+        "axis": "y"
+      },
+      "_part": "bone2",
+      "_source": "i2zkxqdgv:mdl/uxr1ac3s"
+    },
+    {
+      "from": [
+        5.4746184,
+        8.0,
+        6.760333
+      ],
+      "to": [
+        5.4746184,
+        30.285715,
+        11.331761
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.0,
+            0.0,
+            0.5,
+            2.4375
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.5,
+            0.0,
+            0.0,
+            2.4375
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "rotation": {
+        "origin": [
+          5.4746184,
+          19.142857,
+          9.046047
+        ],
+        "angle": -45.0,
+        "axis": "y"
+      },
+      "_part": "bone2",
+      "_source": "i2zkxqdgv:mdl/uxr1ac3s"
+    },
+    {
+      "from": [
+        8.0,
+        8.0,
+        4.6666665
+      ],
+      "to": [
+        8.0,
+        28.333334,
+        11.333334
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.0,
+            3.3125,
+            0.625,
+            5.21875
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.625,
+            3.3125,
+            0.0,
+            5.21875
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "rotation": {
+        "origin": [
+          8.0,
+          18.166668,
+          8.0
+        ],
+        "angle": -45.0,
+        "axis": "y"
+      },
+      "_part": "bone3",
+      "_source": "rrmqxw2ui:mdl/2ldrchkh"
+    },
+    {
+      "from": [
+        8.0,
+        8.0,
+        4.6666665
+      ],
+      "to": [
+        8.0,
+        28.333334,
+        11.333334
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.0,
+            3.3125,
+            0.625,
+            5.21875
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.625,
+            3.3125,
+            0.0,
+            5.21875
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "rotation": {
+        "origin": [
+          8.0,
+          18.166668,
+          8.0
+        ],
+        "angle": 45.0,
+        "axis": "y"
+      },
+      "_part": "bone3",
+      "_source": "rrmqxw2ui:mdl/2ldrchkh"
+    },
+    {
+      "from": [
+        8.0,
+        8.0,
+        5.75
+      ],
+      "to": [
+        8.0,
+        31.5,
+        10.375
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.578125,
+            9.234375,
+            0.0,
+            12.171875
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.0,
+            9.234375,
+            0.578125,
+            12.171875
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "rotation": {
+        "origin": [
+          8.0,
+          19.75,
+          8.0
+        ],
+        "angle": -45.0,
+        "axis": "y"
+      },
+      "_part": "bone4",
+      "_source": "i2zkxqdgv:mdl/rg76qwq3"
+    },
+    {
+      "from": [
+        8.0,
+        8.0,
+        5.75
+      ],
+      "to": [
+        8.0,
+        31.5,
+        10.375
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.578125,
+            9.234375,
+            0.0,
+            12.171875
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.0,
+            9.234375,
+            0.578125,
+            12.171875
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "rotation": {
+        "origin": [
+          8.0,
+          19.75,
+          8.0
+        ],
+        "angle": 45.0,
+        "axis": "y"
+      },
+      "_part": "bone4",
+      "_source": "i2zkxqdgv:mdl/rg76qwq3"
+    },
+    {
+      "from": [
+        -9.499998,
+        -9.5,
+        -9.5
+      ],
+      "to": [
+        25.5,
+        25.5,
+        25.5
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            14.90625,
+            0.0,
+            16.0,
+            1.09375
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            14.90625,
+            0.0,
+            16.0,
+            1.09375
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            14.90625,
+            0.0,
+            16.0,
+            1.09375
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            14.90625,
+            0.0,
+            16.0,
+            1.09375
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            16.0,
+            1.09375,
+            14.90625,
+            0.0
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            16.0,
+            0.0,
+            14.90625,
+            1.09375
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "_part": "bone5",
+      "_source": "800y9ucl5:mdl/1eu9253y"
+    },
+    {
+      "from": [
+        -7.0,
+        -9.333336,
+        -2.666666
+      ],
+      "to": [
+        23.0,
+        20.666668,
+        27.333334
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            14.59375,
+            14.59375,
+            16.0,
+            16.0
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            14.59375,
+            14.59375,
+            16.0,
+            16.0
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            14.59375,
+            14.59375,
+            16.0,
+            16.0
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            14.59375,
+            14.59375,
+            16.0,
+            16.0
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            16.0,
+            16.0,
+            14.59375,
+            14.59375
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            16.0,
+            14.59375,
+            14.59375,
+            16.0
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "_part": "bone6",
+      "_source": "i2zkxqdgv:mdl/rwq4mc5w"
+    },
+    {
+      "from": [
+        8.0,
+        8.083333,
+        6.083333
+      ],
+      "to": [
+        8.0,
+        29.916668,
+        9.916667
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            16.0,
+            9.734375,
+            15.640625,
+            11.78125
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            15.640625,
+            9.734375,
+            16.0,
+            11.78125
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "rotation": {
+        "origin": [
+          8.0,
+          19.0,
+          8.0
+        ],
+        "angle": 45.0,
+        "axis": "y"
+      },
+      "_part": "bone8",
+      "_source": "5exp3rjkn:mdl/lma42xj1"
+    },
+    {
+      "from": [
+        8.0,
+        8.083333,
+        6.083333
+      ],
+      "to": [
+        8.0,
+        29.916668,
+        9.916667
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            16.0,
+            9.734375,
+            15.640625,
+            11.78125
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            15.640625,
+            9.734375,
+            16.0,
+            11.78125
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "rotation": {
+        "origin": [
+          8.0,
+          19.0,
+          8.0
+        ],
+        "angle": -45.0,
+        "axis": "y"
+      },
+      "_part": "bone8",
+      "_source": "5exp3rjkn:mdl/lma42xj1"
+    },
+    {
+      "from": [
+        8.0,
+        7.9166665,
+        6.083333
+      ],
+      "to": [
+        8.0,
+        29.75,
+        9.916667
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.0,
+            6.1875,
+            0.359375,
+            8.234375
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.0,
+            6.1875,
+            0.359375,
+            8.234375
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "_part": "bone9",
+      "_source": "gwjritg0z:mdl/5th7qc9p"
+    }
+  ],
+  "_model_name": "throwable_500kg_bomb_explode",
+  "_parts": [
+    {
+      "part_name": "bone",
+      "elements_count": 1,
+      "model_refs": [
+        "i666ow1af:mdl/r1x2xhj7"
+      ]
+    },
+    {
+      "part_name": "bone10",
+      "elements_count": 2,
+      "model_refs": [
+        "i2zkxqdgv:mdl/4tlhusy1"
+      ]
+    },
+    {
+      "part_name": "bone13",
+      "elements_count": 0,
+      "model_refs": []
+    },
+    {
+      "part_name": "bone14",
+      "elements_count": 2,
+      "model_refs": [
+        "xq9rmjx80:mdl/x3wml5ro"
+      ]
+    },
+    {
+      "part_name": "bone15",
+      "elements_count": 1,
+      "model_refs": [
+        "rrmqxw2ui:mdl/un2thgzv"
+      ]
+    },
+    {
+      "part_name": "bone16",
+      "elements_count": 2,
+      "model_refs": [
+        "5rsd0lnob:mdl/lmq3x4wm"
+      ]
+    },
+    {
+      "part_name": "bone17",
+      "elements_count": 2,
+      "model_refs": [
+        "2thxh28ly:mdl/1y5asc5b"
+      ]
+    },
+    {
+      "part_name": "bone2",
+      "elements_count": 2,
+      "model_refs": [
+        "i2zkxqdgv:mdl/uxr1ac3s"
+      ]
+    },
+    {
+      "part_name": "bone3",
+      "elements_count": 2,
+      "model_refs": [
+        "rrmqxw2ui:mdl/2ldrchkh"
+      ]
+    },
+    {
+      "part_name": "bone4",
+      "elements_count": 2,
+      "model_refs": [
+        "i2zkxqdgv:mdl/rg76qwq3"
+      ]
+    },
+    {
+      "part_name": "bone5",
+      "elements_count": 1,
+      "model_refs": [
+        "800y9ucl5:mdl/1eu9253y"
+      ]
+    },
+    {
+      "part_name": "bone6",
+      "elements_count": 1,
+      "model_refs": [
+        "i2zkxqdgv:mdl/rwq4mc5w"
+      ]
+    },
+    {
+      "part_name": "bone8",
+      "elements_count": 2,
+      "model_refs": [
+        "5exp3rjkn:mdl/lma42xj1"
+      ]
+    },
+    {
+      "part_name": "bone9",
+      "elements_count": 1,
+      "model_refs": [
+        "gwjritg0z:mdl/5th7qc9p"
+      ]
+    }
+  ],
+  "_stats": {
+    "total_parts": 14,
+    "total_elements": 21,
+    "total_textures": 26,
+    "unique_model_refs": 14
+  }
+}

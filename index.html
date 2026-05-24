@@ -1,0 +1,1108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NodeMC ResourcePack 逆向全过程</title>
+
+    <style>
+        body{
+            background:#0d1117;
+            color:#e6edf3;
+            font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+            line-height:1.9;
+            max-width:1000px;
+            margin:auto;
+            padding:40px;
+        }
+
+        h1{
+            font-size:48px;
+            margin-bottom:10px;
+        }
+
+        h2{
+            margin-top:80px;
+            border-left:5px solid #58a6ff;
+            padding-left:14px;
+            font-size:32px;
+        }
+
+        h3{
+            margin-top:40px;
+            font-size:24px;
+            color:#79c0ff;
+        }
+
+        h4{
+            margin-top:25px;
+            font-size:18px;
+            color:#d2a8ff;
+        }
+
+        p{
+            color:#c9d1d9;
+        }
+
+        code{
+            background:#161b22;
+            padding:2px 6px;
+            border-radius:6px;
+            color:#79c0ff;
+        }
+
+        pre{
+            background:#161b22;
+            padding:20px;
+            border-radius:12px;
+            overflow:auto;
+            border:1px solid #30363d;
+        }
+
+        blockquote{
+            border-left:4px solid #58a6ff;
+            margin-left:0;
+            padding-left:18px;
+            color:#8b949e;
+        }
+
+        hr{
+            border:none;
+            border-top:1px solid #30363d;
+            margin:70px 0;
+        }
+
+        .tag{
+            display:inline-block;
+            background:#161b22;
+            border:1px solid #30363d;
+            color:#79c0ff;
+            border-radius:999px;
+            padding:5px 12px;
+            margin-right:8px;
+            margin-top:8px;
+            font-size:13px;
+        }
+
+        .small{
+            color:#8b949e;
+            font-size:14px;
+        }
+
+        .step{
+            background:#161b22;
+            border:1px solid #30363d;
+            border-left:4px solid #3fb950;
+            padding:20px 24px;
+            border-radius:8px;
+            margin:20px 0;
+        }
+
+        .step-title{
+            color:#3fb950;
+            font-weight:bold;
+            font-size:16px;
+            margin-bottom:8px;
+        }
+
+        .problem{
+            background:#1c0d0d;
+            border:1px solid #f85149;
+            border-left:4px solid #f85149;
+            padding:16px 20px;
+            border-radius:8px;
+            margin:16px 0;
+        }
+
+        .solution{
+            background:#0d1c0d;
+            border:1px solid #3fb950;
+            border-left:4px solid #3fb950;
+            padding:16px 20px;
+            border-radius:8px;
+            margin:16px 0;
+        }
+
+        .result{
+            background:#0d1c1c;
+            border:1px solid #58a6ff;
+            border-left:4px solid #58a6ff;
+            padding:16px 20px;
+            border-radius:8px;
+            margin:16px 0;
+        }
+
+        .comparison{
+            display:grid;
+            grid-template-columns:1fr 1fr;
+            gap:16px;
+            margin:16px 0;
+        }
+
+        .comparison pre{
+            margin:0;
+        }
+
+        .before{
+            border-color:#f85149;
+        }
+
+        .after{
+            border-color:#3fb950;
+        }
+
+        table{
+            width:100%;
+            border-collapse:collapse;
+            margin:16px 0;
+        }
+
+        th,td{
+            text-align:left;
+            padding:10px 14px;
+            border:1px solid #30363d;
+        }
+
+        th{
+            background:#161b22;
+            color:#79c0ff;
+        }
+
+        td{
+            color:#c9d1d9;
+        }
+
+        .screenshot{
+            display:block;
+            max-width:100%;
+            border-radius:12px;
+            border:1px solid #30363d;
+            margin:20px auto;
+            box-shadow:0 4px 24px rgba(0,0,0,.4);
+        }
+
+        .img-caption{
+            text-align:center;
+            color:#8b949e;
+            font-size:13px;
+            margin-top:-10px;
+            margin-bottom:24px;
+        }
+
+        .img-group{
+            margin:24px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>NodeMC ResourcePack 逆向工程全过程</h1>
+
+<p class="small">
+NodeMC ResourcePack Reverse Engineering &mdash; Full Process Documentation
+</p>
+
+<div>
+    <span class="tag">Minecraft</span>
+    <span class="tag">CraftEngine Pro</span>
+    <span class="tag">ModelEngine</span>
+    <span class="tag">Reverse Engineering</span>
+    <span class="tag">ResourcePack</span>
+    <span class="tag">Obfuscation</span>
+    <span class="tag">Python</span>
+    <span class="tag">ZIP Forensics</span>
+</div>
+
+<hr>
+
+<h2>1. 前言</h2>
+
+<p>
+本文记录了对 NodeMC 所使用的 CraftEngine Pro 资源包保护方案的完整逆向过程。
+目标文件为 <code>nodemcsource.zip</code>，一个经过 CraftEngine Pro 混淆处理的 Minecraft 资源包。
+</p>
+
+<p>
+压缩包源文件由神秘人提供，如Nodemc后续不向玩家提供资源包，Anyuanteam或许会考虑使用wireshark进行源站抓包。
+破解用时：19分26秒（19min26s），破解人数一人，由MouseLQ单人破解
+</p>
+
+<p>
+本文给出了一套针对 CraftEngine Pro 资源包保护方案的完整还原方案。在路径还原层，通过直接读取 ZIP Central Directory 绕过 Windows MAX_PATH 限制，设计路径压缩算法合并单字符与随机目录、移除混淆标记并修复双点扩展名。在编码还原层，通过递归 Unicode 转义解码与多重编码检测，恢复 JSON 文件的可读性。在引用还原层，识别纹理引用与模型引用两类混淆模式，分别设计压缩算法将运行时动态映射的混淆路径还原为可读短格式。在模型还原层，基于 ModelEngine 的 composite/model 引用拓扑，设计递归解析与 elements 合并算法，将碎片化的 Cube Split 模型重建为完整几何体。本文同时梳理了路径爆炸、命名空间随机化、Cube Split 等混淆手段的演进关系，补完了 CraftEngine Pro 保护体系的完整技术图景。
+
+相较于现有依赖手工解压与逐文件肉眼辨读的分析方式，本工作从路径结构、编码混淆、引用关系与模型几何四个维度建立了完整的技术图景，验证了"客户端必须能正常渲染"这一根本约束下，任何客户端侧的混淆方案最终都可被穿透。本文可为 Minecraft 资源包安全分析、商业 ResourcePack 逆向研究，以及基于混淆的 DRM 系统设计参考提供方法论支持。
+
+</p>
+
+<p>
+与传统意义上的"资源加密"不同，CraftEngine Pro 的保护体系更倾向于：
+</p>
+
+<ul>
+    <li>资源结构混淆（Path Obfuscation）</li>
+    <li>路径污染与爆炸（Path Explosion）</li>
+    <li>模型层级打散（Cube Split）</li>
+    <li>文件系统兼容性攻击（FS Compatibility Attack）</li>
+    <li>Unicode 编码混淆（Encoding Obfuscation）</li>
+    <li>引用关系遮蔽（Reference Obfuscation）</li>
+</ul>
+
+<p>
+其设计目标并不是：
+</p>
+
+<blockquote>
+"绝对防止资源被读取"
+</blockquote>
+
+<p>
+而是：
+</p>
+
+<blockquote>
+"显著提高 ResourcePack 的逆向与二次修改成本，使普通用户无法直接提取和修改资源"
+</blockquote>
+
+<p>
+本文将从零开始，逐步记录完整的破解过程，包括每一个遇到的问题、分析思路和解决方案。
+</p>
+
+<hr>
+
+<h2>2. 目标分析与初步探测</h2>
+
+<h3>2.1 目标文件</h3>
+
+<p>
+目标：<code>nodemcsource.zip</code>，一个 CraftEngine Pro 处理过的 Minecraft 资源包。
+</p>
+
+<p>
+首先尝试常规方式打开：
+</p>
+
+<div class="problem">
+<strong>[问题]</strong> Windows 资源管理器无法正常解压，7-Zip 解压时报错，大量文件路径超长无法写入磁盘。
+</div>
+
+<div class="img-group">
+<img class="screenshot" src="直接解压导致的后果 找不到指定路径.png" alt="直接解压导致的后果">
+<p class="img-caption">直接使用 7-Zip 解压时的报错：系统找不到指定路径</p>
+</div>
+
+<div class="step">
+<div class="step-title">Step 1: ZIP Central Directory 分析</div>
+<p>既然无法正常解压，那就绕过文件系统。Python 的 <code>zipfile</code> 模块可以直接读取 ZIP 的 Central Directory，获取所有条目信息而无需真正解压到磁盘。</p>
+<pre>
+import zipfile
+z = zipfile.ZipFile('nodemcsource.zip', 'r')
+names = z.namelist()
+print(f"Total entries: {len(names)}")
+</pre>
+<p>结果：<strong>6146+ 个条目</strong>，ZIP 本身可以正常读取，说明没有使用 ZIP 加密。</p>
+</div>
+
+<h3>2.2 初始探测结果</h3>
+
+<p>通过遍历 ZIP 条目名，发现以下关键特征：</p>
+
+<table>
+<tr><th>特征</th><th>观察</th></tr>
+<tr><td>混淆标记</td><td>大量路径包含 <code>...</code>（三个点）作为目录名</td></tr>
+<tr><td>超深路径</td><td>最大路径深度达 <strong>15 层</strong></td></tr>
+<tr><td>单字符目录</td><td>大量 <code>a/</code>、<code>b/</code>、<code>c/</code> 等单字符目录名</td></tr>
+<tr><td>混淆扩展名</td><td>文件扩展名为 <code>..json</code>、<code>..png</code>、<code>..ogg</code></td></tr>
+<tr><td>随机命名空间</td><td>如 <code>7w5x0vpi5</code>、<code>2thxh28ly</code>、<code>lqutnhfw6</code> 等</td></tr>
+<tr><td>路径长度</td><td>最大路径长度远超 Windows MAX_PATH (260)</td></tr>
+</table>
+
+<div class="img-group">
+<img class="screenshot" src="原文件树乱码展示.png" alt="原文件树乱码展示">
+<p class="img-caption">ZIP 内部文件树的原始面貌：大量随机目录名、超深层级、无语义路径</p>
+</div>
+
+<h3>2.3 典型混淆路径示例</h3>
+
+<div class="comparison">
+<div>
+<p style="color:#f85149;font-weight:bold;">混淆前（ZIP 内原始路径）：</p>
+<pre class="before">assets/7w5x0vpi5/textures/obf/r/2/9/t/t/.../h/0/8/..png
+assets/2thxh28ly/models/a/b/c/d/e/f/g/h/.../i/j/..json
+assets/gwjritg0z/models/r/1/m/.../i/8/2/l/1/..json</pre>
+</div>
+<div>
+<p style="color:#3fb950;font-weight:bold;">理想输出：</p>
+<pre class="after">assets/7w5x0vpi5/textures/obf/r29tth08.png
+assets/2thxh28ly/models/abcdefghij.json
+assets/gwjritg0z/models/r1mi82l1.json</pre>
+</div>
+</div>
+
+<hr>
+
+<h2>3. 第一阶段：ZIP 路径反混淆</h2>
+
+<h3>3.1 核心难点：Windows MAX_PATH</h3>
+
+<p>
+最根本的问题是：这些路径无法被写入 Windows 文件系统。Windows 的 <code>MAX_PATH</code> 限制为 260 个字符，而 ZIP 中的路径动辄 300+ 字符。
+</p>
+
+<div class="solution">
+<strong>[解决方案]</strong> 完全绕过文件系统解压。直接通过 <code>zipfile.ZipFile.read()</code> 在内存中读取文件内容，再以压缩后的短路径写入磁盘。
+</div>
+
+<div class="img-group">
+<img class="screenshot" src="少量未加密内容展示.png" alt="少量未加密内容展示">
+<p class="img-caption">ZIP 中少量未混淆的内容（如 pack.mcmeta），证明 ZIP 本身无加密</p>
+</div>
+
+<div class="img-group">
+<img class="screenshot" src="recafSHA展示，源文件合理展示MD5等.png" alt="recafSHA展示">
+<p class="img-caption">通过工具分析 ZIP 内部结构：Central Directory 可正常读取，文件哈希完整</p>
+</div>
+
+<pre>
+# 绝不使用 extractall()，全部在内存中处理
+z = zipfile.ZipFile('nodemcsource.zip', 'r')
+for entry in z.namelist():
+    raw = z.read(entry)  # 内存中读取
+    compact = compact_path(entry)  # 压缩路径
+    # 以短路径写入磁盘
+    write_file(compact, raw)
+</pre>
+
+<h3>3.2 路径压缩算法</h3>
+
+<p>
+路径压缩是整个反混淆的核心。需要识别哪些目录是有语义的（应保留），哪些是混淆填充（应合并）。
+</p>
+
+<h4>3.2.1 语义目录识别</h4>
+
+<p>
+Minecraft 资源包有固定的目录结构约定。以下目录名具有实际语义，必须保留：
+</p>
+
+<pre>
+SEMANTIC_DIRS = {
+    "assets", "models", "textures", "item", "block", "font",
+    "shaders", "sounds", "blockstates", "atlases", "lang",
+    "particles", "equipment", "misc", "obf", "core", "include",
+    "entity", "humanoid", "humanoid_leggings", "trims",
+    "armor", "custom",
+}
+</pre>
+
+<p>同时保留 Minecraft 标准命名空间：</p>
+
+<pre>
+MC_NAMESPACES = {"minecraft", "modelengine"}
+</pre>
+
+<h4>3.2.2 随机目录检测</h4>
+
+<p>对于不在语义目录列表中的目录名，使用启发式规则判断是否为混淆产物：</p>
+
+<ul>
+    <li>单字符目录名（<code>a</code>、<code>b</code>、<code>c</code> 等）→ 必定是混淆</li>
+    <li>全小写字母+数字，且辅音占比高（>80%）→ 可能是随机字符串</li>
+    <li>长度 ≤ 10 的字母数字串，不包含常见英文单词 → 判定为随机</li>
+</ul>
+
+<pre>
+def looks_random(name):
+    if len(name) <= 1: return True
+    if name in SEMANTIC_DIRS: return False
+    if re.match(r'^[a-z0-9]+$', name):
+        vowels = sum(1 for c in name if c in 'aeiou')
+        if len(name) > 3 and vowels / len(name) < 0.2:
+            return True
+        if len(name) <= 10: return True
+    return False
+</pre>
+
+<h4>3.2.3 压缩流程</h4>
+
+<p>完整的 <code>compact_path()</code> 流程：</p>
+
+<div class="step">
+<div class="step-title">Step 1: 修复混淆扩展名</div>
+<p>CraftEngine 将文件扩展名从 <code>.json</code> 改为 <code>..json</code>，<code>.png</code> 改为 <code>..png</code>，这是一种"双点扩展名"混淆。</p>
+<pre>
+# 修复映射表
+'..png.mcmeta' -> '.png.mcmeta'  # 必须在 ..png 之前匹配
+'..json'       -> '.json'
+'..png'         -> '.png'
+'..ogg'         -> '.ogg'
+'..mcmeta'      -> '.mcmeta'
+'..fsh'         -> '.fsh'
+'..vsh'         -> '.vsh'
+'..glsl'        -> '.glsl'
+</pre>
+</div>
+
+<div class="step">
+<div class="step-title">Step 2: 移除混淆标记 <code>...</code></div>
+<p>路径中的 <code>...</code>（三个点）是 CraftEngine 的混淆标记，表示"此处有更多随机目录"。直接移除。</p>
+<pre>
+# 移除前: assets/x/models/a/.../b/.../c/..json
+# 移除后: assets/x/models/a/b/c/..json
+cleaned = [p for p in parts if p != '...']
+</pre>
+</div>
+
+<div class="step">
+<div class="step-title">Step 3: 合并连续的随机/单字符目录</div>
+<p>将连续出现的随机目录名拼接合并，遇到语义目录则停止合并。</p>
+<pre>
+# 合并前: assets/7w5x0vpi5/textures/obf/r/2/9/t/t/h/0/8/..png
+# 合并后: assets/7w5x0vpi5/textures/obf/r29tth08.png
+</pre>
+<p>如果合并后的字符串超过 12 个字符，则以 8 字符为单位分组：</p>
+<pre>
+# r29tth08xyzabc -> r29tth08/xyzabc
+</pre>
+</div>
+
+<div class="step">
+<div class="step-title">Step 4: 处理空文件名</div>
+<p>混淆后的文件名可能仅仅是扩展名（如 <code>.json</code>），没有 basename。此时使用最后合并的随机目录段作为文件名。</p>
+<pre>
+# 原始: assets/x/models/a/b/c/..json
+# 扩展名修复后: assets/x/models/a/b/c/.json
+# 合并随机段后: assets/x/models/abc/.json
+# 空basename修复: assets/x/models/abc.json
+</pre>
+</div>
+
+<h3>3.3 遇到的坑与解决</h3>
+
+<h4>坑 1: ZIP 中的"伪文件"条目</h4>
+
+<div class="problem">
+<strong>[问题]</strong> ZIP 中存在大量 <code>file_size=0</code> 的条目如 <code>assets</code>、<code>1_21_2</code> 等，它们是目录标记，不是真正的文件。如果将其作为文件写入，会与后续需要创建的目录冲突。
+</div>
+
+<div class="solution">
+<strong>[解决]</strong> 跳过 <code>file_size==0</code> 且没有有效扩展名的条目。
+<pre>
+info = z.getinfo(entry)
+fname = entry.split('/')[-1]
+has_ext = '.' in fname and not fname.startswith('.')
+if info.file_size == 0 and not has_ext:
+    continue  # 跳过目录标记
+</pre>
+</div>
+
+<h4>坑 2: 文件/目录冲突</h4>
+
+<div class="problem">
+<strong>[问题]</strong> 某些 ZIP 条目（如 <code>assets</code>，file_size=0 但 compress_size=2）被当作文件写入后，<code>os.makedirs()</code> 创建 <code>assets/</code> 目录时失败，因为同名文件已存在。
+</div>
+
+<div class="solution">
+<strong>[解决]</strong> 在写入文件前，检查并移除阻碍目录创建的同名文件；在创建目录前，检查并移除阻碍文件写入的同名目录。
+<pre>
+# 如果文件阻挡目录创建
+if os.path.exists(parent) and not os.path.isdir(parent):
+    os.remove(parent)
+
+# 如果目录阻挡文件写入
+if os.path.isdir(out_path):
+    shutil.rmtree(out_path)
+</pre>
+</div>
+
+<h4>坑 3: ZIP 条目名带尾部斜杠</h4>
+
+<div class="problem">
+<strong>[问题]</strong> 发现 <code>assets/cook/sounds.json/</code> 这样的条目，尾部有 <code>/</code>，被当作目录，实际是文件。
+</div>
+
+<div class="solution">
+<strong>[解决]</strong> 在处理前剥离所有条目名的尾部斜杠。
+<pre>
+entry_name = entry.rstrip('/')
+</pre>
+</div>
+
+<h4>坑 4: Windows GBK 控制台编码</h4>
+
+<div class="problem">
+<strong>[问题]</strong> Python 脚本中使用 Unicode 符号（如 ⚠、✓）在 Windows GBK 编码的控制台上导致 <code>UnicodeEncodeError</code>。
+</div>
+
+<div class="solution">
+<strong>[解决]</strong> 将所有 Unicode 符号替换为 ASCII 兼容的表示：<code>[!]</code>、<code>[OK]</code>。
+</div>
+
+<h3>3.4 阶段成果</h3>
+
+<div class="result">
+<strong>[结果]</strong>
+<ul>
+    <li>总文件数：<strong>6146</strong></li>
+    <li>最大路径深度：<strong>15 → 7</strong></li>
+    <li>最大路径长度：<strong>300+ → 92</strong></li>
+    <li>错误数：<strong>0</strong></li>
+    <li>输出目录：<code>output/</code></li>
+</ul>
+</div>
+
+<hr>
+
+<h2>4. 第二阶段：JSON Unicode 解码</h2>
+
+<h3>4.1 混淆原理</h3>
+
+<p>
+CraftEngine 将 JSON 中的字符串值进行 Unicode 转义编码，使人工阅读极为困难。
+</p>
+
+<div class="comparison">
+<div>
+<p style="color:#f85149;font-weight:bold;">混淆后的 JSON：</p>
+<pre class="before">{
+  "\u0070\u0061\u0072\u0065\u006e\u0074":
+    "\u006d\u0069\u006e\u0065\u0063\u0072\u0061\u0066\u0074:
+     \u0069\u0074\u0065\u006d/
+     \u0067\u0065\u006e\u0065\u0072\u0061\u0074\u0065\u0064"
+}</pre>
+</div>
+<div>
+<p style="color:#3fb950;font-weight:bold;">解码后的 JSON：</p>
+<pre class="after">{
+  "parent": "minecraft:item/generated"
+}</pre>
+</div>
+</div>
+
+<div class="img-group">
+<img class="screenshot" src="unicode转义展示.png" alt="unicode转义展示">
+<p class="img-caption">实际 JSON 文件中的 Unicode 转义：所有关键字符串均被 \uXXXX 编码遮蔽</p>
+</div>
+
+<h3>4.2 解码算法</h3>
+
+<p>
+Python 的 <code>json.loads()</code> 会自动解码一层 <code>\uXXXX</code>，但 CraftEngine 使用了双重编码（<code>\\uXXXX</code>），因此解码后仍然包含字面的 <code>\uXXXX</code> 字符。
+</p>
+
+<div class="step">
+<div class="step-title">实现思路</div>
+<p>先 <code>json.loads()</code> 解析 JSON，然后递归遍历所有字符串，使用正则表达式 <code>\u([0-9a-fA-F]{4})</code> 匹配并替换残留的 Unicode 转义序列。为防止多重编码，循环最多执行 5 轮。</p>
+</div>
+
+<pre>
+def _try_decode_unicode_escapes(s):
+    pattern = re.compile(r'\\u([0-9a-fA-F]{4})')
+    def replacer(m):
+        return chr(int(m.group(1), 16))
+    if '\\u' not in s:
+        return s
+    result = pattern.sub(replacer, s)
+    # 处理多重编码
+    for _ in range(5):
+        if '\\u' not in result: break
+        new_result = pattern.sub(replacer, result)
+        if new_result == result: break
+        result = new_result
+    return result
+</pre>
+
+<h3>4.3 效果</h3>
+
+<p>所有 JSON 文件中的 Unicode 转义均被解码为可读文本。6146 个文件中的所有 JSON 均已被自动处理。</p>
+
+<hr>
+
+<h2>5. 第三阶段：引用关系反混淆</h2>
+
+<h3>5.1 问题分析</h3>
+
+<p>
+解压和路径压缩后，JSON 文件内部的引用仍然指向混淆路径。例如：
+</p>
+
+<pre>
+// 模型 JSON 中的纹理引用
+{
+  "textures": {
+    "0": "7w5x0vpi5:obf/r/2/9/t/t/.../h/0/8/.",
+    "1": "2thxh28ly:obf/a/3/c/.../b/7/."
+  }
+}
+
+// blockstate 中的模型引用
+{
+  "model": "gwjritg0z:r/1/m/.../i/8/2/l/1/."
+}
+</pre>
+
+<p>这些引用使用与 ZIP 路径相同的混淆模式，但格式不同：</p>
+
+<ul>
+    <li>纹理引用：<code>namespace:obf/单/字/符/.../路/径/.</code>（尾部有 <code>.</code>）</li>
+    <li>模型引用：<code>namespace:r/单/字/符/.../路/径/.</code>（无 <code>obf/</code> 前缀）</li>
+</ul>
+
+<h3>5.2 纹理引用压缩</h3>
+
+<p>
+纹理引用的压缩逻辑与路径压缩类似，但针对引用格式做了专门处理：
+</p>
+
+<div class="comparison">
+<div>
+<p style="color:#f85149;font-weight:bold;">原始引用：</p>
+<pre class="before">"7w5x0vpi5:obf/r/2/9/t/t/.../h/0/8/."</pre>
+</div>
+<div>
+<p style="color:#3fb950;font-weight:bold;">压缩后：</p>
+<pre class="after">"7w5x0vpi5:tex/r29tth08"</pre>
+</div>
+</div>
+
+<p>处理步骤：</p>
+<ol>
+    <li>分割命名空间：<code>7w5x0vpi5</code> 和 <code>obf/r/2/9/t/t/.../h/0/8/.</code></li>
+    <li>移除 <code>obf/</code> 前缀</li>
+    <li>移除尾部 <code>.</code></li>
+    <li>移除 <code>...</code> 标记</li>
+    <li>按 <code>/</code> 分割并合并所有单字符段：<code>r29tth08</code></li>
+    <li>添加 <code>tex/</code> 前缀标识</li>
+</ol>
+
+<h3>5.3 模型引用压缩</h3>
+
+<p>
+模型引用格式略有不同，没有 <code>obf/</code> 前缀，但压缩逻辑一致：
+</p>
+
+<div class="comparison">
+<div>
+<p style="color:#f85149;font-weight:bold;">原始引用：</p>
+<pre class="before">"gwjritg0z:r/1/m/.../i/8/2/l/1/."</pre>
+</div>
+<div>
+<p style="color:#3fb950;font-weight:bold;">压缩后：</p>
+<pre class="after">"gwjritg0z:mdl/r1mi82l1"</pre>
+</div>
+</div>
+
+<h3>5.4 引用重写实现</h3>
+
+<p>
+<code>_rewrite_tex_refs()</code> 递归遍历 JSON 对象，对以下内容进行重写：
+</p>
+
+<ul>
+    <li><code>"textures"</code> 字典中的纹理引用</li>
+    <li>字符串值中包含 <code>:/.../</code> 模式的引用（模型或纹理）</li>
+</ul>
+
+<pre>
+def _rewrite_tex_refs(obj, tex_ref_map):
+    if isinstance(obj, dict):
+        result = {}
+        for k, v in obj.items():
+            if k == 'textures' and isinstance(v, dict):
+                # 重写纹理字典
+                new_tex = {}
+                for tk, tv in v.items():
+                    if isinstance(tv, str) and 'obf/' in tv:
+                        new_tex[tk] = _compact_tex_ref(tv)
+                    else:
+                        new_tex[tk] = _rewrite_tex_refs(tv, tex_ref_map)
+                result[k] = new_tex
+            else:
+                result[k] = _rewrite_tex_refs(v, tex_ref_map)
+        return result
+    elif isinstance(obj, str):
+        # 检测模型/纹理引用模式
+        if ':' in obj and '/.../' in obj:
+            if 'obf/' in obj:
+                return _compact_tex_ref(obj)
+            else:
+                return _compact_model_ref(obj)
+        return obj
+    # ...
+</pre>
+
+<h3>5.5 关于纹理引用映射的发现</h3>
+
+<p>
+在分析过程中发现了一个重要事实：JSON 中的混淆纹理引用（830 个不同引用）与 ZIP 中的实际纹理文件（64 个 <code>textures/obf/</code> 条目）之间<strong>没有直接的映射关系</strong>。
+</p>
+
+<p>
+这意味着纹理引用是<strong>运行时动态解析</strong>的。CraftEngine 在客户端运行时维护了一个内部映射表，将 <code>ns:obf/r/2/9/...</code> 这样的引用映射到实际的纹理资源。
+</p>
+
+<div class="result">
+<strong>[结论]</strong> 纹理引用无法在静态分析中完全还原为原始资源路径，但可以压缩为更可读的短格式（<code>ns:tex/r29tth08</code>），便于后续分析。
+</div>
+
+<hr>
+
+<h2>6. 第四阶段：ModelEngine 模型合并</h2>
+
+<h3>6.1 问题：Cube Split 拆分</h3>
+
+<p>
+在 <code>output/assets/modelengine/items/</code> 目录下发现了 ModelEngine 的模型结构。每个实体模型被拆成多个 part 文件：
+</p>
+
+<pre>
+assets/modelengine/items/t34_green/
+    body.json        -> composite, 引用多个子模型
+    turret.json      -> 单个模型引用
+    barrel.json      -> 单个模型引用
+    ...（可能有更多 part）
+</pre>
+
+<p>每个 part 文件内部结构：</p>
+
+<pre>
+// body.json (composite 类型)
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      { "model": "jsmakehbp:mdl/0pj2plu7" },
+      { "model": "jsmakehbp:mdl/k9x1m2qp" },
+      { "model": "5rsd0lnob:mdl/prpuogrt" }
+    ]
+  }
+}
+
+// turret.json (model 类型)
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "5rsd0lnob:mdl/xyz123ab"
+  }
+}
+</pre>
+
+<p>而被引用的模型文件分散在不同的命名空间下：</p>
+
+<pre>
+assets/jsmakehbp/models/0pj2plu7.json    -> 包含实际 elements
+assets/jsmakehbp/models/k9x1m2qp.json    -> 包含实际 elements
+assets/5rsd0lnob/models/prpuogrt.json    -> 包含实际 elements (33159 行!)
+assets/5rsd0lnob/models/xyz123ab.json    -> 包含实际 elements
+</pre>
+
+<p>这种拆分导致：</p>
+
+<ul>
+    <li>一个完整模型被分散在<strong>十几个甚至几十个文件</strong>中</li>
+    <li>无法在 Blockbench 中直接查看完整模型</li>
+    <li>bone 层级关系被打散</li>
+    <li>无法整体理解模型结构</li>
+</ul>
+
+<div class="img-group">
+<img class="screenshot" src="modelengine分割块内容展示.png" alt="modelengine分割块内容展示">
+<p class="img-caption">ModelEngine 的 Cube Split 拆分：一个完整模型被分解为多个碎片 part 文件</p>
+</div>
+
+<h3>6.2 合并算法</h3>
+
+<p>核心思路：递归解析所有模型引用，收集所有 elements，合并到单个 JSON 文件。</p>
+
+<div class="step">
+<div class="step-title">Step 1: 遍历模型目录</div>
+<p>扫描 <code>assets/modelengine/items/</code> 下所有子目录，每个子目录代表一个完整模型。</p>
+</div>
+
+<div class="step">
+<div class="step-title">Step 2: 递归解析引用</div>
+<p>对每个 part 文件，根据类型递归展开：</p>
+<ul>
+    <li><code>minecraft:model</code> → 单个引用，读取对应 JSON 的 elements</li>
+    <li><code>minecraft:composite</code> → 多个引用，逐个展开</li>
+</ul>
+<p>使用 <code>visited</code> 集合防止循环引用，最大递归深度限制为 20。</p>
+</div>
+
+<div class="step">
+<div class="step-title">Step 3: 收集 elements</div>
+<p>从每个被引用的模型 JSON 中提取 <code>elements</code> 数组和 <code>textures</code> 映射。为每个 element 标注来源信息：</p>
+<pre>
+{
+  "from": [-8, 0, -8],
+  "to": [8, 16, 8],
+  ...
+  "_part": "turret",           // 来自哪个 part
+  "_source": "5rsd0lnob:mdl/xyz" // 来自哪个模型引用
+}
+</pre>
+</div>
+
+<div class="step">
+<div class="step-title">Step 4: 合并纹理映射</div>
+<p>不同 part 的纹理 key 可能冲突。使用 <code>partname.key</code> 格式避免冲突：</p>
+<pre>
+"textures": {
+  "0": "ns:tex/abc123",
+  "turret.0": "ns:tex/def456",  // turret part 的 texture#0
+  "barrel.0": "ns:tex/ghi789"   // barrel part 的 texture#0
+}
+</pre>
+</div>
+
+<div class="step">
+<div class="step-title">Step 5: 输出合并结果</div>
+<p>将合并后的模型写入 <code>merged_models/</code> 目录，同时生成 <code>_index.json</code> 索引文件。</p>
+</div>
+
+<h3>6.3 模型引用路径解析</h3>
+
+<p>
+关键问题：如何将引用如 <code>jsmakehbp:mdl/0pj2plu7</code> 转换为实际的文件路径？
+</p>
+
+<p>
+由于第一阶段已经完成了路径压缩，引用也被压缩过，因此解析逻辑为：
+</p>
+
+<pre>
+def resolve_model_ref(ref, output_dir):
+    # "jsmakehbp:mdl/0pj2plu7"
+    ns, path = ref.split(':', 1)     # ns="jsmakehbp", path="mdl/0pj2plu7"
+    model_name = path[4:]            # "0pj2plu7"
+    return os.path.join(output_dir, 'assets', ns, 'models', f'{model_name}.json')
+    # -> output/assets/jsmakehbp/models/0pj2plu7.json
+</pre>
+
+<h3>6.4 合并成果</h3>
+
+<div class="result">
+<strong>[结果]</strong>
+<ul>
+    <li>合并模型数：<strong>87</strong></li>
+    <li>总 elements 数：<strong>8430</strong></li>
+    <li>碎片文件数（被合并的源文件）：<strong>1378</strong></li>
+    <li>输出目录：<code>merged_models/</code></li>
+    <li>索引文件：<code>merged_models/_index.json</code></li>
+</ul>
+</div>
+
+<p>典型合并结果示例：</p>
+
+<table>
+<tr><th>模型</th><th>Parts</th><th>Elements</th><th>Textures</th></tr>
+<tr><td>m4a3_forest_body</td><td>多个</td><td>大量</td><td>~723 KB</td></tr>
+<tr><td>biplanerussian</td><td>1</td><td>大量</td><td>~712 KB</td></tr>
+<tr><td>battleship_body</td><td>1</td><td>大量</td><td>~611 KB</td></tr>
+</table>
+
+<div class="img-group">
+<img class="screenshot" src="分模块集合后的modelengine文件.png" alt="分模块集合后的modelengine文件">
+<p class="img-caption">合并后的 ModelEngine 模型文件：所有 elements 集中在单一 JSON 中，可读性大幅提升</p>
+</div>
+
+<hr>
+
+<h2>7. 命名空间分析</h2>
+
+<p>
+通过 ZIP 条目分析，发现以下命名空间：
+</p>
+
+<table>
+<tr><th>命名空间</th><th>类型</th><th>说明</th></tr>
+<tr><td><code>minecraft</code></td><td>标准</td><td>Minecraft 原版命名空间</td></tr>
+<tr><td><code>modelengine</code></td><td>标准</td><td>ModelEngine 插件命名空间</td></tr>
+<tr><td><code>cook</code></td><td>特殊</td><td>可能用于自定义音效/资源</td></tr>
+<tr><td><code>7w5x0vpi5</code></td><td>混淆</td><td>10 字符随机命名空间，主要存放纹理</td></tr>
+<tr><td><code>2thxh28ly</code></td><td>混淆</td><td>10 字符随机命名空间，主要存放模型</td></tr>
+<tr><td><code>lqutnhfw6</code></td><td>混淆</td><td>10 字符随机命名空间</td></tr>
+<tr><td><code>i2zkxqdgv</code></td><td>混淆</td><td>10 字符随机命名空间</td></tr>
+<tr><td><code>jsmakehbp</code></td><td>混淆</td><td>9 字符随机命名空间，主要存放模型</td></tr>
+<tr><td><code>gwjritg0z</code></td><td>混淆</td><td>10 字符随机命名空间，主要存放模型</td></tr>
+<tr><td><code>xq9rmjx80</code></td><td>混淆</td><td>10 字符随机命名空间</td></tr>
+<tr><td><code>5rsd0lnob</code></td><td>混淆</td><td>10 字符随机命名空间，存放大型模型</td></tr>
+</table>
+
+<hr>
+
+<h2>8. 工具链总览</h2>
+
+<p>
+最终形成两个 Python 脚本，构成完整的反混淆工具链：
+</p>
+
+<h3>8.1 deobf.py — 资源包反混淆工具</h3>
+
+<table>
+<tr><th>功能</th><th>说明</th></tr>
+<tr><td>ZIP 内存读取</td><td>绕过文件系统，直接读取 ZIP Central Directory</td></tr>
+<tr><td>路径压缩</td><td>合并随机目录、移除混淆标记、修复扩展名</td></tr>
+<tr><td>Unicode 解码</td><td>递归解码 JSON 中的 \uXXXX 转义序列</td></tr>
+<tr><td>引用重写</td><td>压缩纹理引用和模型引用为可读格式</td></tr>
+<tr><td>映射输出</td><td>生成路径映射表、引用关系图、分析报告</td></tr>
+</table>
+
+<p>使用方法：</p>
+<pre>
+python deobf.py                          # 默认: nodemcsource.zip -> output/
+python deobf.py -i mypack.zip -o result  # 自定义输入/输出
+python deobf.py -v                       # 详细输出模式
+</pre>
+
+<p>输出文件：</p>
+<ul>
+    <li><code>output/</code> — 反混淆后的完整资源树</li>
+    <li><code>output/_path_mapping.json</code> — 原始路径 → 压缩路径映射</li>
+    <li><code>output/_reverse_mapping.json</code> — 压缩路径 → 原始路径映射</li>
+    <li><code>output/_references.json</code> — 纹理/模型引用关系图</li>
+    <li><code>output/_report.txt</code> — 人类可读的分析报告</li>
+</ul>
+
+<h3>8.2 merge_models.py — 模型合并工具</h3>
+
+<table>
+<tr><th>功能</th><th>说明</th></tr>
+<tr><td>Part 遍历</td><td>扫描 modelengine/items/ 下所有模型目录</td></tr>
+<tr><td>递归引用解析</td><td>支持 minecraft:model 和 minecraft:composite</td></tr>
+<tr><td>Elements 合并</td><td>将所有碎片模型的 elements 合并到单文件</td></tr>
+<tr><td>来源标注</td><td>每个 element 标注 _part 和 _source</td></tr>
+<tr><td>纹理合并</td><td>合并纹理映射，处理 key 冲突</td></tr>
+</table>
+
+<p>使用方法：</p>
+<pre>
+python merge_models.py                           # 默认: output/ -> merged_models/
+python merge_models.py -i output -o merged       # 自定义输入/输出
+python merge_models.py -v                        # 详细输出模式
+</pre>
+
+<p>输出文件：</p>
+<ul>
+    <li><code>merged_models/*.json</code> — 每个模型的合并后 JSON</li>
+    <li><code>merged_models/_index.json</code> — 所有模型的索引</li>
+</ul>
+
+<h3>8.3 工具链执行流程</h3>
+
+<pre>
+nodemcsource.zip
+       |
+       v
+  [deobf.py] ─── ZIP内存读取 → 路径压缩 → Unicode解码 → 引用重写 → 文件写入
+       |
+       v
+  output/ ─── 完整资源树 (6146 files)
+       |         ├── assets/7w5x0vpi5/...  (纹理)
+       |         ├── assets/2thxh28ly/...  (模型)
+       |         ├── assets/modelengine/... (ModelEngine)
+       |         ├── assets/minecraft/...  (原版)
+       |         ├── _path_mapping.json
+       |         ├── _reverse_mapping.json
+       |         ├── _references.json
+       |         └── _report.txt
+       |
+       v
+  [merge_models.py] ─── 遍历modelengine/items → 递归解析引用 → 合并elements
+       |
+       v
+  merged_models/ ─── 合并后模型 (87 models, 8430 elements)
+         ├── t34_green_body.json
+         ├── battleship_body.json
+         ├── m4a3_forest_body.json
+         ├── ...
+         └── _index.json
+</pre>
+
+<hr>
+
+<h2>9. CraftEngine Pro 混淆技术清单</h2>
+
+<p>根据逆向分析，CraftEngine Pro 使用了以下混淆技术：</p>
+
+<table>
+<tr><th>#</th><th>技术</th><th>原理</th><th>本文解决方案</th></tr>
+<tr><td>1</td><td>路径爆炸</td><td>使用大量单字符目录制造超深路径</td><td>路径压缩算法，合并连续随机目录</td></tr>
+<tr><td>2</td><td>文件系统攻击</td><td>路径超 Windows MAX_PATH，无法解压</td><td>ZIP 内存读取，绕过文件系统</td></tr>
+<tr><td>3</td><td>双点扩展名</td><td><code>.json</code> → <code>..json</code>，隐藏真实文件类型</td><td>扩展名修复映射表</td></tr>
+<tr><td>4</td><td>混淆标记</td><td>路径中的 <code>...</code> 目录名</td><td>识别并移除混淆标记</td></tr>
+<tr><td>5</td><td>命名空间随机化</td><td>10字符随机串作为命名空间</td><td>保留原始命名空间，建立映射</td></tr>
+<tr><td>6</td><td>Unicode 编码</td><td>JSON 字符串值使用 \uXXXX 编码</td><td>递归 Unicode 解码（最多5轮）</td></tr>
+<tr><td>7</td><td>纹理引用混淆</td><td><code>ns:obf/r/2/9/.../h/0/8/.</code></td><td>引用压缩：<code>ns:tex/r29tth08</code></td></tr>
+<tr><td>8</td><td>模型引用混淆</td><td><code>ns:r/1/m/.../i/8/2/l/1/.</code></td><td>引用压缩：<code>ns:mdl/r1mi82l1</code></td></tr>
+<tr><td>9</td><td>Cube Split</td><td>将完整模型拆成数十个碎片文件</td><td>递归引用解析 + elements 合并</td></tr>
+<tr><td>10</td><td>空文件名</td><td>文件名仅为扩展名，无 basename</td><td>使用合并段作为 basename</td></tr>
+<tr><td>11</td><td>尾部斜杠</td><td>文件条目名以 <code>/</code> 结尾</td><td>处理前剥离尾部斜杠</td></tr>
+<tr><td>12</td><td>伪文件条目</td><td>目录标记被存为文件条目</td><td>跳过 file_size=0 的无扩展名条目</td></tr>
+</table>
+
+<hr>
+
+<h2>10. 关键发现与总结</h2>
+
+<h3>10.1 混淆的本质</h3>
+
+<p>
+CraftEngine Pro 的保护体系属于 <strong>Obfuscation（混淆）</strong>，而非 <strong>Encryption（加密）</strong>。
+</p>
+
+<p>因为：</p>
+<ul>
+    <li>ZIP 无加密，Central Directory 可直接读取</li>
+    <li>JSON 无加密，仅使用 Unicode 转义</li>
+    <li>纹理 PNG 无加密，正常存储</li>
+    <li>模型结构完整，仅拆分和打乱</li>
+    <li>引用关系完整，仅路径混淆</li>
+</ul>
+
+<p>最终，客户端必须能正常渲染这些资源，这意味着：</p>
+
+<blockquote>
+只要 Minecraft 客户端能够正常加载和渲染，逆向恢复就始终存在理论可能性。
+</blockquote>
+
+<h3>10.2 未完全解决的问题</h3>
+
+<p>尽管大部分混淆已被破解，仍有以下问题尚未完全解决：</p>
+
+<ul>
+    <li><strong>纹理引用的运行时映射</strong>：JSON 中的 830 个混淆纹理引用无法静态映射到 64 个实际纹理文件，因为 CraftEngine 在运行时维护了一个动态映射表，该映射表存储在服务端/插件 JAR 中</li>
+    <li><strong>命名空间的语义恢复</strong>：如 <code>7w5x0vpi5</code> 这样的命名空间的原始含义未知</li>
+    <li><strong>模型的 bone 层级重建</strong>：合并后的 elements 丢失了原始的 bone 层级关系，需要通过坐标分析重新推断</li>
+</ul>
+
+<div class="img-group">
+<img class="screenshot" src="反编译后仍然为乱码文件，无法继续破解，但也没必要继续破解，可读性足够.png" alt="反编译后仍然为乱码文件">
+<p class="img-caption">反编译后部分文件仍含混淆引用，但可读性已足够进行分析与修改</p>
+</div>
+
+<h3>10.3 逆向成本评估</h3>
+
+<p>CraftEngine Pro 的保护体系确实显著提高了逆向成本：</p>
+
+<ul>
+    <li><strong>普通用户</strong>：完全无法提取资源（解压失败）</li>
+    <li><strong>初级技术人员</strong>：可以解压但无法理解资源结构</li>
+    <li><strong>中级技术人员</strong>：可以理解结构但手动恢复极耗时间</li>
+</ul>
+
+<p>
+    本文开发的工具链将逆向成本从中级技术人员的"数天手动分析"降低到了"数分钟自动化处理"。
+    希望开发出的Py文件能够帮助到部分人
+</p>
+
+<hr>
+
+<p class="small">
+NodeMC ResourcePack Reverse Engineering &mdash; Full Process Documentation<br>
+CraftEngine Pro Deobfuscation Toolchain v1.0<br>
+Generated from deobf.py &amp; merge_models.py
+</p>
+
+</body>
+</html>

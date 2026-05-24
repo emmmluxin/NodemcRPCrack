@@ -1,0 +1,29 @@
+{
+  "model": {
+    "models": [
+      {
+        "model": "i2zkxqdgv:mdl/0q5fi1gp",
+        "tints": [
+          {
+            "index": 0,
+            "default": 16777215,
+            "type": "minecraft:custom_model_data"
+          }
+        ],
+        "type": "minecraft:model"
+      },
+      {
+        "model": "rrmqxw2ui:.../0/w/k/b/v/v/p/j/.",
+        "tints": [
+          {
+            "index": 0,
+            "default": 16777215,
+            "type": "minecraft:custom_model_data"
+          }
+        ],
+        "type": "minecraft:model"
+      }
+    ],
+    "type": "minecraft:composite"
+  }
+}

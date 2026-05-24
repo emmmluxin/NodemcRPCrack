@@ -1,0 +1,13 @@
+{
+  "model": {
+    "model": "xq9rmjx80:.../8/8/3/8/c/8/p/i/.",
+    "tints": [
+      {
+        "index": 0,
+        "default": 16777215,
+        "type": "minecraft:custom_model_data"
+      }
+    ],
+    "type": "minecraft:model"
+  }
+}

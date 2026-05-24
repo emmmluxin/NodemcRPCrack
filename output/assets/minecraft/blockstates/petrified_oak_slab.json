@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "type=bottom,waterlogged=true": {
+      "model": "xq9rmjx80:mdl/dyp8qv02"
+    },
+    "type=double,waterlogged=true": {
+      "model": "i666ow1af:mdl/5vcumy92"
+    },
+    "type=top,waterlogged=false": {
+      "model": "2thxh28ly:mdl/vy64pedu"
+    },
+    "type=double,waterlogged=false": {
+      "model": "i666ow1af:mdl/5vcumy92"
+    },
+    "type=bottom,waterlogged=false": {
+      "model": "xq9rmjx80:mdl/dyp8qv02"
+    },
+    "type=top,waterlogged=true": {
+      "model": "2thxh28ly:mdl/vy64pedu"
+    }
+  }
+}

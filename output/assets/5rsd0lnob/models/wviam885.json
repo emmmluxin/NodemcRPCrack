@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "e8x683vbb:tex/8r56vx3s"
+  }
+}

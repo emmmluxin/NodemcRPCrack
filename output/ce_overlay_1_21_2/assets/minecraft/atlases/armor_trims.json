@@ -1,0 +1,44 @@
+{
+  "sources": [
+    {
+      "type": "single",
+      "resource": "trims/entity/humanoid/topaz_custom"
+    },
+    {
+      "type": "single",
+      "resource": "trims/entity/humanoid_leggings/topaz_custom"
+    },
+    {
+      "type": "single",
+      "resource": "trims/entity/humanoid/zs_custom"
+    },
+    {
+      "type": "single",
+      "resource": "trims/entity/humanoid_leggings/zs_custom"
+    },
+    {
+      "type": "single",
+      "resource": "trims/entity/humanoid/jg_custom"
+    },
+    {
+      "type": "single",
+      "resource": "trims/entity/humanoid_leggings/jg_custom"
+    },
+    {
+      "type": "single",
+      "resource": "trims/entity/humanoid/farmer_custom"
+    },
+    {
+      "type": "single",
+      "resource": "trims/entity/humanoid_leggings/farmer_custom"
+    },
+    {
+      "type": "single",
+      "resource": "trims/entity/humanoid/chainmail_custom"
+    },
+    {
+      "type": "single",
+      "resource": "trims/entity/humanoid_leggings/chainmail_custom"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "textures": {
+    "0": "xq9rmjx80:tex/kjanzurh",
+    "particle": "#0"
+  },
+  "elements": [
+    {
+      "from": [
+        8.0,
+        2.784936,
+        16.678278
+      ],
+      "to": [
+        8.662499,
+        3.4516025,
+        18.011612
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            7.875,
+            6.0,
+            7.625,
+            6.125
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            8.0,
+            5.6875,
+            7.875,
+            5.8125
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            4.0625,
+            7.625,
+            4.1875,
+            7.375
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            4.0625,
+            7.625,
+            4.1875,
+            7.875
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      }
+    }
+  ],
+  "display": {
+    "head": {
+      "rotation": [
+        27.5,
+        0.0,
+        -0.0
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        27.5,
+        0.0,
+        -0.0
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        27.5,
+        -0.0,
+        0.0
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        27.5,
+        -0.0,
+        0.0
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        27.5,
+        0.0,
+        -0.0
+      ]
+    },
+    "ground": {
+      "rotation": [
+        27.5,
+        0.0,
+        -0.0
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        27.5,
+        0.0,
+        -0.0
+      ]
+    },
+    "gui": {
+      "rotation": [
+        173.63976,
+        -38.84468,
+        155.21494
+      ]
+    }
+  }
+}

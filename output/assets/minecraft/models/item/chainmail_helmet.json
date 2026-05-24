@@ -1,0 +1,145 @@
+{
+  "parent": "minecraft:item/generated",
+  "overrides": [
+    {
+      "predicate": {
+        "trim_type": 1.0
+      },
+      "model": "minecraft:item/chainmail_helmet_amethyst_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.9
+      },
+      "model": "minecraft:item/chainmail_helmet_lapis_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.8
+      },
+      "model": "minecraft:item/chainmail_helmet_diamond_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.7
+      },
+      "model": "minecraft:item/chainmail_helmet_emerald_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.6
+      },
+      "model": "minecraft:item/chainmail_helmet_gold_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.5
+      },
+      "model": "minecraft:item/chainmail_helmet_copper_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.4
+      },
+      "model": "minecraft:item/chainmail_helmet_redstone_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.3
+      },
+      "model": "minecraft:item/chainmail_helmet_netherite_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.2
+      },
+      "model": "minecraft:item/chainmail_helmet_iron_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.1
+      },
+      "model": "minecraft:item/chainmail_helmet_quartz_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.0,
+        "custom_model_data": 1000
+      },
+      "model": "rrmqxw2ui:mdl/srnnlgj8"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.1,
+        "custom_model_data": 1000
+      },
+      "model": "xq9rmjx80:mdl/ll73a974"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.2,
+        "custom_model_data": 1000
+      },
+      "model": "rrmqxw2ui:mdl/zshyxqdu"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.3,
+        "custom_model_data": 1000
+      },
+      "model": "e8x683vbb:mdl/goq2gctb"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.4,
+        "custom_model_data": 1000
+      },
+      "model": "800y9ucl5:mdl/3m53s4ic"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.5,
+        "custom_model_data": 1000
+      },
+      "model": "t2e3gc4s4:mdl/qm3qhci9"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.6,
+        "custom_model_data": 1000
+      },
+      "model": "rrmqxw2ui:mdl/4plidhlg"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.7,
+        "custom_model_data": 1000
+      },
+      "model": "i2zkxqdgv:mdl/qcn8c24h"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.8,
+        "custom_model_data": 1000
+      },
+      "model": "gwjritg0z:mdl/gppcays0"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.9,
+        "custom_model_data": 1000
+      },
+      "model": "2thxh28ly:.../b/n/d/u/5/f/6/s/."
+    },
+    {
+      "predicate": {
+        "trim_type": 1.0,
+        "custom_model_data": 1000
+      },
+      "model": "rrmqxw2ui:mdl/3z6rwt7b"
+    }
+  ],
+  "textures": {
+    "layer0": "minecraft:item/chainmail_helmet"
+  }
+}

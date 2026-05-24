@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:block/oak_leaves",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1000
+      },
+      "model": "5exp3rjkn:mdl/z0hy7w8l"
+    }
+  ]
+}

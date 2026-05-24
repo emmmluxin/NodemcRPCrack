@@ -1,0 +1,453 @@
+{
+  "parent": "minecraft:item/generated",
+  "overrides": [
+    {
+      "predicate": {
+        "trim_type": 1.0
+      },
+      "model": "minecraft:item/chainmail_leggings_amethyst_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.9
+      },
+      "model": "minecraft:item/chainmail_leggings_lapis_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.8
+      },
+      "model": "minecraft:item/chainmail_leggings_diamond_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.7
+      },
+      "model": "minecraft:item/chainmail_leggings_emerald_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.6
+      },
+      "model": "minecraft:item/chainmail_leggings_gold_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.5
+      },
+      "model": "minecraft:item/chainmail_leggings_copper_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.4
+      },
+      "model": "minecraft:item/chainmail_leggings_redstone_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.3
+      },
+      "model": "minecraft:item/chainmail_leggings_netherite_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.2
+      },
+      "model": "minecraft:item/chainmail_leggings_iron_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.1
+      },
+      "model": "minecraft:item/chainmail_leggings_quartz_trim"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.0,
+        "custom_model_data": 1000
+      },
+      "model": "lqutnhfw6:mdl/puz9sl0i"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.1,
+        "custom_model_data": 1000
+      },
+      "model": "f6o7c9v5q:mdl/e5yl1f2g"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.2,
+        "custom_model_data": 1000
+      },
+      "model": "e8x683vbb:mdl/3mfvpgn6"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.3,
+        "custom_model_data": 1000
+      },
+      "model": "5rsd0lnob:mdl/jozoom25"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.4,
+        "custom_model_data": 1000
+      },
+      "model": "9qzmluhqk:mdl/nc9hox3j"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.5,
+        "custom_model_data": 1000
+      },
+      "model": "2thxh28ly:mdl/bi8xy0na"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.6,
+        "custom_model_data": 1000
+      },
+      "model": "800y9ucl5:.../6/n/q/g/o/d/x/v/."
+    },
+    {
+      "predicate": {
+        "trim_type": 0.7,
+        "custom_model_data": 1000
+      },
+      "model": "t2e3gc4s4:mdl/i7uxt6lm"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.8,
+        "custom_model_data": 1000
+      },
+      "model": "e8x683vbb:mdl/arkq0x4w"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.9,
+        "custom_model_data": 1000
+      },
+      "model": "t2e3gc4s4:.../q/k/g/w/1/0/9/2/."
+    },
+    {
+      "predicate": {
+        "trim_type": 1.0,
+        "custom_model_data": 1000
+      },
+      "model": "800y9ucl5:mdl/w7om7mhm"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.0,
+        "custom_model_data": 1001
+      },
+      "model": "xq9rmjx80:mdl/qxokg1pj"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.1,
+        "custom_model_data": 1001
+      },
+      "model": "i2zkxqdgv:mdl/gjoh40zx"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.2,
+        "custom_model_data": 1001
+      },
+      "model": "i2zkxqdgv:mdl/2e9eeleo"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.3,
+        "custom_model_data": 1001
+      },
+      "model": "gwjritg0z:mdl/9vu366ek"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.4,
+        "custom_model_data": 1001
+      },
+      "model": "2thxh28ly:mdl/6bixoy42"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.5,
+        "custom_model_data": 1001
+      },
+      "model": "5rsd0lnob:.../t/z/7/e/l/j/u/9/."
+    },
+    {
+      "predicate": {
+        "trim_type": 0.6,
+        "custom_model_data": 1001
+      },
+      "model": "i666ow1af:mdl/kfjexnuq"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.7,
+        "custom_model_data": 1001
+      },
+      "model": "9qzmluhqk:mdl/hjwirz6i"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.8,
+        "custom_model_data": 1001
+      },
+      "model": "gwjritg0z:mdl/vwlzb4sp"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.9,
+        "custom_model_data": 1001
+      },
+      "model": "rrmqxw2ui:mdl/b5iv2coa"
+    },
+    {
+      "predicate": {
+        "trim_type": 1.0,
+        "custom_model_data": 1001
+      },
+      "model": "i2zkxqdgv:mdl/sjhl8x21"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.0,
+        "custom_model_data": 1002
+      },
+      "model": "rrmqxw2ui:.../p/9/f/0/0/a/x/i/."
+    },
+    {
+      "predicate": {
+        "trim_type": 0.1,
+        "custom_model_data": 1002
+      },
+      "model": "2thxh28ly:mdl/areclj8g"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.2,
+        "custom_model_data": 1002
+      },
+      "model": "5rsd0lnob:mdl/tj35exk1"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.3,
+        "custom_model_data": 1002
+      },
+      "model": "i666ow1af:mdl/dvy0d89u"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.4,
+        "custom_model_data": 1002
+      },
+      "model": "rrmqxw2ui:.../x/e/5/a/t/e/u/w/."
+    },
+    {
+      "predicate": {
+        "trim_type": 0.5,
+        "custom_model_data": 1002
+      },
+      "model": "5rsd0lnob:mdl/hkl10elv"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.6,
+        "custom_model_data": 1002
+      },
+      "model": "f6o7c9v5q:mdl/0ilw80oj"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.7,
+        "custom_model_data": 1002
+      },
+      "model": "xq9rmjx80:mdl/mn5txi2d"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.8,
+        "custom_model_data": 1002
+      },
+      "model": "9qzmluhqk:mdl/fx6pbv6v"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.9,
+        "custom_model_data": 1002
+      },
+      "model": "e8x683vbb:mdl/8okwkyxo"
+    },
+    {
+      "predicate": {
+        "trim_type": 1.0,
+        "custom_model_data": 1002
+      },
+      "model": "e8x683vbb:mdl/l67uku4q"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.0,
+        "custom_model_data": 1003
+      },
+      "model": "rrmqxw2ui:.../z/i/0/l/c/t/f/8/."
+    },
+    {
+      "predicate": {
+        "trim_type": 0.1,
+        "custom_model_data": 1003
+      },
+      "model": "xq9rmjx80:mdl/ke42ktab"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.2,
+        "custom_model_data": 1003
+      },
+      "model": "xq9rmjx80:mdl/gzue569o"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.3,
+        "custom_model_data": 1003
+      },
+      "model": "lqutnhfw6:mdl/qyi1cfr7"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.4,
+        "custom_model_data": 1003
+      },
+      "model": "lqutnhfw6:mdl/5dexz15s"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.5,
+        "custom_model_data": 1003
+      },
+      "model": "5rsd0lnob:mdl/kky5ia6b"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.6,
+        "custom_model_data": 1003
+      },
+      "model": "gwjritg0z:.../b/9/r/3/e/b/d/o/."
+    },
+    {
+      "predicate": {
+        "trim_type": 0.7,
+        "custom_model_data": 1003
+      },
+      "model": "2thxh28ly:.../4/l/r/p/f/p/9/z/."
+    },
+    {
+      "predicate": {
+        "trim_type": 0.8,
+        "custom_model_data": 1003
+      },
+      "model": "i666ow1af:mdl/6ezn0x1k"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.9,
+        "custom_model_data": 1003
+      },
+      "model": "gwjritg0z:mdl/hzwjdto6"
+    },
+    {
+      "predicate": {
+        "trim_type": 1.0,
+        "custom_model_data": 1003
+      },
+      "model": "e8x683vbb:mdl/1806gk68"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.0,
+        "custom_model_data": 1004
+      },
+      "model": "gwjritg0z:mdl/b87t6042"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.1,
+        "custom_model_data": 1004
+      },
+      "model": "lqutnhfw6:mdl/z82i8s3u"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.2,
+        "custom_model_data": 1004
+      },
+      "model": "9qzmluhqk:mdl/97akk0uu"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.3,
+        "custom_model_data": 1004
+      },
+      "model": "jsmakehbp:mdl/sgj6v6tf"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.4,
+        "custom_model_data": 1004
+      },
+      "model": "f6o7c9v5q:.../3/t/9/v/w/r/m/n/."
+    },
+    {
+      "predicate": {
+        "trim_type": 0.5,
+        "custom_model_data": 1004
+      },
+      "model": "f6o7c9v5q:.../2/g/9/e/u/4/l/i/."
+    },
+    {
+      "predicate": {
+        "trim_type": 0.6,
+        "custom_model_data": 1004
+      },
+      "model": "t2e3gc4s4:mdl/c3sxazxv"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.7,
+        "custom_model_data": 1004
+      },
+      "model": "e8x683vbb:mdl/4ky3tbln"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.8,
+        "custom_model_data": 1004
+      },
+      "model": "i2zkxqdgv:mdl/sku2bilz"
+    },
+    {
+      "predicate": {
+        "trim_type": 0.9,
+        "custom_model_data": 1004
+      },
+      "model": "7w5x0vpi5:mdl/tn02ri3v"
+    },
+    {
+      "predicate": {
+        "trim_type": 1.0,
+        "custom_model_data": 1004
+      },
+      "model": "jsmakehbp:.../b/z/x/3/7/e/s/e/."
+    }
+  ],
+  "textures": {
+    "layer0": "minecraft:item/chainmail_leggings"
+  }
+}

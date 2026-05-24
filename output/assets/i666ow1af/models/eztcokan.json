@@ -1,0 +1,91 @@
+{
+  "textures": {
+    "0": "gwjritg0z:tex/qlh8hx27",
+    "particle": "#0"
+  },
+  "elements": [
+    {
+      "from": [
+        3.6666665,
+        21.105492,
+        3.280344
+      ],
+      "to": [
+        12.333334,
+        21.105492,
+        5.613677
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            7.46875,
+            7.34375,
+            6.65625,
+            7.125
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      }
+    }
+  ],
+  "display": {
+    "head": {
+      "rotation": [
+        -40.45,
+        0.0,
+        0.0
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        -40.45,
+        0.0,
+        0.0
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        -40.45,
+        -0.0,
+        -0.0
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        -40.45,
+        -0.0,
+        -0.0
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        -40.45,
+        0.0,
+        0.0
+      ]
+    },
+    "ground": {
+      "rotation": [
+        -40.45,
+        0.0,
+        0.0
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        -40.45,
+        0.0,
+        0.0
+      ]
+    },
+    "gui": {
+      "rotation": [
+        -99.67164,
+        -32.553627,
+        -147.02513
+      ]
+    }
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "variants": {
+    "instrument=basedrum,note=12,powered=false": {
+      "model": "jsmakehbp:mdl/mp57adeo"
+    },
+    "instrument=basedrum,note=6,powered=false": {
+      "model": "2thxh28ly:mdl/wahm9ttg"
+    },
+    "instrument=basedrum,note=1,powered=false": {
+      "model": "xq9rmjx80:.../8/2/q/6/t/i/p/t/."
+    },
+    "instrument=basedrum,note=14,powered=false": {
+      "model": "jsmakehbp:mdl/mp57adeo",
+      "y": 270
+    },
+    "instrument=basedrum,note=8,powered=false": {
+      "model": "gwjritg0z:mdl/fc1o2wtx"
+    },
+    "instrument=basedrum,note=4,powered=false": {
+      "model": "5exp3rjkn:mdl/o67sp01x"
+    },
+    "instrument=cow_bell,note=0,powered=true": {
+      "model": "2thxh28ly:.../a/n/8/m/5/z/1/f/."
+    },
+    "instrument=basedrum,note=9,powered=false": {
+      "model": "i2zkxqdgv:mdl/od03do6a",
+      "y": 180
+    },
+    "instrument=basedrum,note=7,powered=true": {
+      "model": "e8x683vbb:mdl/mx0pg9a8"
+    },
+    "instrument=basedrum,note=6,powered=true": {
+      "model": "i666ow1af:mdl/5vcumy92"
+    },
+    "instrument=cow_bell,note=0,powered=false": {
+      "model": "5rsd0lnob:mdl/7k04xslo"
+    },
+    "instrument=basedrum,note=2,powered=false": {
+      "model": "gwjritg0z:mdl/l0q687rg",
+      "x": 90
+    },
+    "instrument=basedrum,note=8,powered=true": {
+      "model": "gwjritg0z:mdl/fzejjzg7"
+    },
+    "instrument=basedrum,note=10,powered=false": {
+      "model": "i2zkxqdgv:mdl/od03do6a",
+      "y": 90
+    },
+    "instrument=basedrum,note=9,powered=true": {
+      "model": "i2zkxqdgv:mdl/od03do6a",
+      "y": 270
+    },
+    "instrument=basedrum,note=7,powered=false": {
+      "model": "gwjritg0z:mdl/ojtalb56"
+    },
+    "instrument=basedrum,note=0,powered=true": {
+      "model": "800y9ucl5:mdl/aiuzcyws"
+    },
+    "instrument=basedrum,note=1,powered=true": {
+      "model": "rrmqxw2ui:mdl/d9dixcp7",
+      "x": 90
+    },
+    "instrument=basedrum,note=11,powered=false": {
+      "model": "jsmakehbp:mdl/mp57adeo",
+      "y": 90
+    },
+    "instrument=basedrum,note=2,powered=true": {
+      "model": "gwjritg0z:mdl/l0q687rg",
+      "x": 90,
+      "y": 90
+    },
+    "instrument=basedrum,note=13,powered=true": {
+      "model": "e8x683vbb:mdl/l1jpnb46",
+      "y": 180
+    },
+    "instrument=basedrum,note=5,powered=true": {
+      "model": "i2zkxqdgv:.../i/k/q/z/m/a/5/5/.",
+      "x": 90,
+      "y": 90
+    },
+    "instrument=basedrum,note=12,powered=true": {
+      "model": "e8x683vbb:mdl/l1jpnb46"
+    },
+    "instrument=basedrum,note=13,powered=false": {
+      "model": "jsmakehbp:mdl/mp57adeo",
+      "y": 180
+    },
+    "instrument=basedrum,note=0,powered=false": {
+      "model": "rrmqxw2ui:mdl/d9dixcp7",
+      "x": 90,
+      "y": 90
+    },
+    "instrument=basedrum,note=3,powered=true": {
+      "model": "i2zkxqdgv:mdl/m4bk8scj"
+    },
+    "instrument=basedrum,note=14,powered=true": {
+      "model": "e8x683vbb:mdl/l1jpnb46",
+      "y": 270
+    },
+    "instrument=basedrum,note=4,powered=true": {
+      "model": "f6o7c9v5q:mdl/7kvqr2xj",
+      "x": 90
+    },
+    "instrument=basedrum,note=5,powered=false": {
+      "model": "i2zkxqdgv:.../i/k/q/z/m/a/5/5/.",
+      "x": 90
+    },
+    "instrument=basedrum,note=11,powered=true": {
+      "model": "e8x683vbb:mdl/l1jpnb46",
+      "y": 90
+    },
+    "instrument=basedrum,note=10,powered=true": {
+      "model": "i2zkxqdgv:mdl/od03do6a"
+    },
+    "instrument=basedrum,note=3,powered=false": {
+      "model": "f6o7c9v5q:mdl/7kvqr2xj",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

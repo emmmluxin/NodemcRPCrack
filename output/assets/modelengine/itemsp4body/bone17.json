@@ -1,0 +1,13 @@
+{
+  "model": {
+    "model": "9qzmluhqk:.../3/o/4/p/t/w/g/5/.",
+    "tints": [
+      {
+        "index": 0,
+        "default": 16777215,
+        "type": "minecraft:custom_model_data"
+      }
+    ],
+    "type": "minecraft:model"
+  }
+}

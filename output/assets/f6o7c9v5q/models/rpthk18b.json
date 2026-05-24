@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.6",
+  "credit": "Made with Blockbench",
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "2thxh28ly:tex/5ovk737g"
+  }
+}

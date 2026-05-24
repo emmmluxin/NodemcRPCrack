@@ -1,0 +1,5602 @@
+{
+  "credit": "ModelEngine Merger - deobf tool",
+  "texture_size": [
+    16,
+    16
+  ],
+  "textures": {
+    "0": "9qzmluhqk:tex/ljsi9lrh",
+    "particle": "#0"
+  },
+  "elements": [
+    {
+      "from": [
+        6.6511297,
+        5.10561,
+        -16.0
+      ],
+      "to": [
+        7.17613,
+        5.94438,
+        4.775
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 270,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 270,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 90,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 270,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 270,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 270,
+          "texture": "#0"
+        }
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        6.31363,
+        4.96582,
+        2.5437498
+      ],
+      "to": [
+        9.01363,
+        6.08418,
+        14.24375
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        8.23978,
+        1.44524,
+        2.9302702
+      ],
+      "to": [
+        8.76148,
+        2.70476,
+        10.70723
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        6.56578,
+        1.44524,
+        2.9302702
+      ],
+      "to": [
+        7.08748,
+        2.70476,
+        10.70723
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        6.57944,
+        3.725,
+        4.11875
+      ],
+      "to": [
+        8.74781,
+        4.175,
+        6.36875
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        7.19764,
+        4.25,
+        14.16875
+      ],
+      "to": [
+        8.12962,
+        4.805,
+        17.91875
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "rotation": {
+        "origin": [
+          7.66363,
+          5.525,
+          6.44375
+        ],
+        "angle": 45.0,
+        "axis": "z"
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        6.12763,
+        6.245,
+        14.16875
+      ],
+      "to": [
+        9.15961,
+        7.025,
+        17.91875
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        7.20968,
+        6.07907,
+        13.52957
+      ],
+      "to": [
+        8.11757,
+        8.04593,
+        15.18293
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        6.5677,
+        7.17106,
+        9.17957
+      ],
+      "to": [
+        8.75956,
+        8.07894,
+        14.05793
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        7.16594,
+        4.21787,
+        17.7485
+      ],
+      "to": [
+        8.16131,
+        4.61837,
+        24.089
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        7.1044397,
+        4.175,
+        2.5437498
+      ],
+      "to": [
+        8.22281,
+        6.875,
+        14.24375
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "rotation": {
+        "origin": [
+          7.66363,
+          5.525,
+          8.39375
+        ],
+        "angle": 45.0,
+        "axis": "z"
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        7.29457,
+        6.734,
+        3.8277502
+      ],
+      "to": [
+        8.03269,
+        8.516,
+        14.00975
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        7.87087,
+        1.8141499,
+        2.9302702
+      ],
+      "to": [
+        9.13039,
+        2.3358498,
+        10.70723
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "rotation": {
+        "origin": [
+          8.50063,
+          2.0749998,
+          8.54297
+        ],
+        "angle": 45.0,
+        "axis": "z"
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        9.73016,
+        7.03987,
+        16.80921
+      ],
+      "to": [
+        10.01759,
+        8.08938,
+        16.92829
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            1.25,
+            13.25,
+            2.0,
+            15.3
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            1.25,
+            13.25,
+            2.0,
+            15.3
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            1.25,
+            13.25,
+            2.0,
+            15.3
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            1.25,
+            13.25,
+            2.0,
+            15.3
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            1.25,
+            13.25,
+            2.0,
+            15.3
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            1.25,
+            13.25,
+            2.0,
+            15.3
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        7.03363,
+        4.75901,
+        13.56875
+      ],
+      "to": [
+        8.78863,
+        6.29099,
+        15.44375
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            3.5,
+            0.25,
+            3.75,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            3.5,
+            0.25,
+            3.75,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            3.5,
+            0.25,
+            3.75,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            3.5,
+            0.25,
+            3.75,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            3.5,
+            0.25,
+            3.75,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            3.5,
+            0.25,
+            3.75,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        8.39024,
+        6.96345,
+        16.35419
+      ],
+      "to": [
+        8.81651,
+        7.35729,
+        17.38329
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "rotation": {
+        "origin": [
+          8.60338,
+          6.61175,
+          16.86875
+        ],
+        "angle": -45.0,
+        "axis": "y"
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        6.6511297,
+        5.10561,
+        -16.0
+      ],
+      "to": [
+        7.17613,
+        5.94438,
+        4.775
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 270,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 270,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 90,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 270,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 270,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 270,
+          "texture": "#0"
+        }
+      },
+      "rotation": {
+        "origin": [
+          7.66363,
+          5.525,
+          -8.856251
+        ],
+        "angle": 45.0,
+        "axis": "z"
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        9.08862,
+        4.53622,
+        9.74375
+      ],
+      "to": [
+        9.68863,
+        6.21379,
+        11.54375
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "rotation": {
+        "origin": [
+          7.66363,
+          5.375,
+          14.01875
+        ],
+        "angle": 45.0,
+        "axis": "z"
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        7.24424,
+        6.0125,
+        -16.0
+      ],
+      "to": [
+        8.08301,
+        6.5375,
+        4.775
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "rotation": {
+        "origin": [
+          7.66363,
+          5.525,
+          -8.856251
+        ],
+        "angle": 45.0,
+        "axis": "z"
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        8.08882,
+        6.96345,
+        16.65562
+      ],
+      "to": [
+        9.11792,
+        7.35729,
+        17.08189
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "rotation": {
+        "origin": [
+          8.60338,
+          6.61175,
+          16.86875
+        ],
+        "angle": -45.0,
+        "axis": "y"
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        8.38363,
+        5.05901,
+        14.16875
+      ],
+      "to": [
+        9.16363,
+        5.99099,
+        17.91875
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "rotation": {
+        "origin": [
+          7.66363,
+          5.525,
+          6.44375
+        ],
+        "angle": 45.0,
+        "axis": "z"
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        8.23978,
+        1.44524,
+        2.9302702
+      ],
+      "to": [
+        8.76148,
+        2.70476,
+        10.70723
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "rotation": {
+        "origin": [
+          8.50063,
+          2.0749998,
+          8.54297
+        ],
+        "angle": 45.0,
+        "axis": "z"
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        8.47264,
+        4.445,
+        14.16875
+      ],
+      "to": [
+        9.25462,
+        7.025,
+        17.91875
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        8.15113,
+        5.10561,
+        -16.0
+      ],
+      "to": [
+        8.67613,
+        5.94438,
+        4.775
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 90,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 90,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 270,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 90,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 90,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 90,
+          "texture": "#0"
+        }
+      },
+      "rotation": {
+        "origin": [
+          7.66363,
+          5.525,
+          -8.856251
+        ],
+        "angle": 45.0,
+        "axis": "z"
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        7.24424,
+        4.5125,
+        -16.0
+      ],
+      "to": [
+        8.08301,
+        5.0375,
+        4.775
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 180,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 180,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 180,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 180,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 180,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 180,
+          "texture": "#0"
+        }
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        9.81434,
+        7.03987,
+        16.72503
+      ],
+      "to": [
+        9.93341,
+        8.08938,
+        17.01246
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            1.25,
+            13.25,
+            2.0,
+            15.3
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            1.25,
+            13.25,
+            2.0,
+            15.3
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            1.25,
+            13.25,
+            2.0,
+            15.3
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            1.25,
+            13.25,
+            2.0,
+            15.3
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            1.25,
+            13.25,
+            2.0,
+            15.3
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            1.25,
+            13.25,
+            2.0,
+            15.3
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "rotation": {
+        "origin": [
+          9.87388,
+          7.68987,
+          16.86875
+        ],
+        "angle": -45.0,
+        "axis": "y"
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        7.24424,
+        4.5125,
+        -16.0
+      ],
+      "to": [
+        8.08301,
+        5.0375,
+        4.775
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 180,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 180,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 180,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 180,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 180,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 180,
+          "texture": "#0"
+        }
+      },
+      "rotation": {
+        "origin": [
+          7.66363,
+          5.525,
+          -8.856251
+        ],
+        "angle": 45.0,
+        "axis": "z"
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        9.81434,
+        7.03987,
+        16.72503
+      ],
+      "to": [
+        9.93341,
+        8.08938,
+        17.01246
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            1.25,
+            13.25,
+            2.0,
+            15.3
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            1.25,
+            13.25,
+            2.0,
+            15.3
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            1.25,
+            13.25,
+            2.0,
+            15.3
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            1.25,
+            13.25,
+            2.0,
+            15.3
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            1.25,
+            13.25,
+            2.0,
+            15.3
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            1.25,
+            13.25,
+            2.0,
+            15.3
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        6.19687,
+        1.8141499,
+        2.9302702
+      ],
+      "to": [
+        7.45639,
+        2.3358498,
+        10.70723
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "rotation": {
+        "origin": [
+          6.82663,
+          2.0749998,
+          8.54297
+        ],
+        "angle": 45.0,
+        "axis": "z"
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        8.39024,
+        6.96345,
+        16.35419
+      ],
+      "to": [
+        8.81651,
+        7.35729,
+        17.38329
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        6.82484,
+        6.8,
+        9.74375
+      ],
+      "to": [
+        8.50241,
+        7.4,
+        11.54375
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "rotation": {
+        "origin": [
+          7.66363,
+          5.375,
+          14.01875
+        ],
+        "angle": 45.0,
+        "axis": "z"
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        7.20968,
+        6.52907,
+        9.17957
+      ],
+      "to": [
+        8.11757,
+        8.72093,
+        14.05793
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        9.73016,
+        7.03987,
+        16.80921
+      ],
+      "to": [
+        10.01759,
+        8.08938,
+        16.92829
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            1.25,
+            13.25,
+            2.0,
+            15.3
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            1.25,
+            13.25,
+            2.0,
+            15.3
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            1.25,
+            13.25,
+            2.0,
+            15.3
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            1.25,
+            13.25,
+            2.0,
+            15.3
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            1.25,
+            13.25,
+            2.0,
+            15.3
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            1.25,
+            13.25,
+            2.0,
+            15.3
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "rotation": {
+        "origin": [
+          9.87388,
+          7.68987,
+          16.86875
+        ],
+        "angle": -45.0,
+        "axis": "y"
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        6.07264,
+        4.22,
+        14.16875
+      ],
+      "to": [
+        9.25462,
+        4.625,
+        17.91875
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        7.24424,
+        6.0125,
+        -16.0
+      ],
+      "to": [
+        8.08301,
+        6.5375,
+        4.775
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        6.31363,
+        4.96582,
+        2.5437498
+      ],
+      "to": [
+        9.01363,
+        6.08418,
+        14.24375
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "rotation": {
+        "origin": [
+          7.66363,
+          5.525,
+          8.39375
+        ],
+        "angle": 45.0,
+        "axis": "z"
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        6.5677,
+        7.17106,
+        9.17957
+      ],
+      "to": [
+        8.75956,
+        8.07894,
+        14.05793
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "rotation": {
+        "origin": [
+          7.66363,
+          7.625,
+          13.412
+        ],
+        "angle": 45.0,
+        "axis": "z"
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        6.7294397,
+        2.8783998,
+        22.43
+      ],
+      "to": [
+        8.59781,
+        4.0784,
+        22.88
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "rotation": {
+        "origin": [
+          7.66363,
+          3.3719597,
+          22.71719
+        ],
+        "angle": -45.0,
+        "axis": "x"
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        7.57264,
+        6.245,
+        14.16875
+      ],
+      "to": [
+        8.12962,
+        6.65,
+        17.91875
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "rotation": {
+        "origin": [
+          7.66363,
+          5.525,
+          6.44375
+        ],
+        "angle": 45.0,
+        "axis": "z"
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        6.19687,
+        1.8141499,
+        2.9302702
+      ],
+      "to": [
+        7.45639,
+        2.3358498,
+        10.70723
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        7.16594,
+        4.21787,
+        17.7485
+      ],
+      "to": [
+        7.86131,
+        4.61837,
+        24.089
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "rotation": {
+        "origin": [
+          7.66363,
+          5.41937,
+          26.225
+        ],
+        "angle": 45.0,
+        "axis": "z"
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        6.56578,
+        1.44524,
+        2.9302702
+      ],
+      "to": [
+        7.08748,
+        2.70476,
+        10.70723
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "rotation": {
+        "origin": [
+          6.82663,
+          2.0749998,
+          8.54297
+        ],
+        "angle": 45.0,
+        "axis": "z"
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        7.16594,
+        3.76787,
+        18.4985
+      ],
+      "to": [
+        8.16131,
+        4.61837,
+        18.914
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        7.87087,
+        1.8141499,
+        2.9302702
+      ],
+      "to": [
+        9.13039,
+        2.3358498,
+        10.70723
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        6.46213,
+        4.9217,
+        17.7485
+      ],
+      "to": [
+        6.86263,
+        5.61706,
+        24.089
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "rotation": {
+        "origin": [
+          7.66363,
+          5.41937,
+          26.225
+        ],
+        "angle": 45.0,
+        "axis": "z"
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        7.16594,
+        3.76787,
+        22.3985
+      ],
+      "to": [
+        8.16131,
+        4.61837,
+        22.814
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        6.7294397,
+        3.1400003,
+        21.9875
+      ],
+      "to": [
+        8.59781,
+        4.025,
+        23.1875
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        7.32944,
+        2.525,
+        1.4187498
+      ],
+      "to": [
+        7.99781,
+        2.975,
+        22.86875
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        6.07264,
+        4.595,
+        14.16875
+      ],
+      "to": [
+        7.09264,
+        5.075,
+        17.91875
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        8.38363,
+        5.05901,
+        14.16875
+      ],
+      "to": [
+        8.78863,
+        5.99099,
+        17.91875
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        7.1044397,
+        4.175,
+        2.5437498
+      ],
+      "to": [
+        8.22281,
+        6.875,
+        14.24375
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        7.29457,
+        6.734,
+        3.8277502
+      ],
+      "to": [
+        8.03269,
+        8.516,
+        14.00975
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "rotation": {
+        "origin": [
+          7.66363,
+          7.625,
+          13.11875
+        ],
+        "angle": 45.0,
+        "axis": "z"
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        8.98883,
+        7.11345,
+        16.80562
+      ],
+      "to": [
+        9.86792,
+        7.35705,
+        16.93188
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            2.25,
+            0.0,
+            2.5,
+            0.25
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            2.25,
+            0.0,
+            2.5,
+            0.25
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            2.25,
+            0.0,
+            2.5,
+            0.25
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            2.25,
+            0.0,
+            2.5,
+            0.25
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            2.25,
+            0.0,
+            2.5,
+            0.25
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            2.25,
+            0.0,
+            2.5,
+            0.25
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        8.15113,
+        5.10561,
+        -16.0
+      ],
+      "to": [
+        8.67613,
+        5.94438,
+        4.775
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 90,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 90,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 270,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 90,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 90,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 90,
+          "texture": "#0"
+        }
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        6.7726297,
+        7.25594,
+        3.8277502
+      ],
+      "to": [
+        8.55463,
+        7.99406,
+        14.00975
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "rotation": {
+        "origin": [
+          7.66363,
+          7.625,
+          13.11875
+        ],
+        "angle": 45.0,
+        "axis": "z"
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        8.08883,
+        6.96345,
+        16.65562
+      ],
+      "to": [
+        9.11792,
+        7.35729,
+        17.08189
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        8.71363,
+        0.7112198,
+        9.74375
+      ],
+      "to": [
+        9.68863,
+        6.21379,
+        11.54375
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        6.7294397,
+        2.8249998,
+        1.4187498
+      ],
+      "to": [
+        8.59781,
+        4.025,
+        22.86875
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        6.82484,
+        6.8,
+        9.74375
+      ],
+      "to": [
+        8.50241,
+        7.4,
+        11.54375
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        6.12613,
+        5.9675,
+        14.16875
+      ],
+      "to": [
+        7.10308,
+        6.4475,
+        17.91875
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        7.19764,
+        4.4,
+        14.16875
+      ],
+      "to": [
+        8.12962,
+        4.805,
+        17.91875
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        6.53863,
+        5.05901,
+        14.16875
+      ],
+      "to": [
+        6.94363,
+        5.61599,
+        17.91875
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "rotation": {
+        "origin": [
+          7.66363,
+          5.525,
+          6.44375
+        ],
+        "angle": 45.0,
+        "axis": "z"
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        6.7726297,
+        7.25594,
+        3.8277502
+      ],
+      "to": [
+        8.55463,
+        7.99406,
+        14.00975
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        5.63863,
+        0.7112198,
+        9.74375
+      ],
+      "to": [
+        6.6136303,
+        6.21379,
+        11.54375
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    },
+    {
+      "from": [
+        7.20968,
+        6.52907,
+        9.17957
+      ],
+      "to": [
+        8.11757,
+        8.72093,
+        14.05793
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.25,
+            0.25,
+            0.5,
+            0.55
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "rotation": {
+        "origin": [
+          7.66363,
+          7.625,
+          13.412
+        ],
+        "angle": 45.0,
+        "axis": "z"
+      },
+      "_part": "flakcannon",
+      "_source": "gwjritg0z:mdl/04yu9xgb"
+    }
+  ],
+  "_model_name": "yonxel_flakbarrel",
+  "_parts": [
+    {
+      "part_name": "flakcannon",
+      "elements_count": 65,
+      "model_refs": [
+        "gwjritg0z:mdl/04yu9xgb"
+      ]
+    }
+  ],
+  "_stats": {
+    "total_parts": 1,
+    "total_elements": 65,
+    "total_textures": 2,
+    "unique_model_refs": 1
+  }
+}

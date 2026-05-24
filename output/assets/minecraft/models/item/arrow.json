@@ -1,0 +1,56 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/arrow"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1000
+      },
+      "model": "7w5x0vpi5:mdl/unyknko4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1001
+      },
+      "model": "t2e3gc4s4:mdl/kl2u807g"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1002
+      },
+      "model": "jsmakehbp:mdl/uexsz1g6"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1003
+      },
+      "model": "5rsd0lnob:mdl/scp3fuuf"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1004
+      },
+      "model": "i2zkxqdgv:mdl/q0c7jwps"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1005
+      },
+      "model": "rrmqxw2ui:mdl/te5lw61c"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1006
+      },
+      "model": "f6o7c9v5q:mdl/gufccbg3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1007
+      },
+      "model": "f6o7c9v5q:mdl/vxan7p0m"
+    }
+  ]
+}

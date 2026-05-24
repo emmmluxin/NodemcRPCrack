@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "distance=2,persistent=true,waterlogged=false": {
+      "model": "5exp3rjkn:mdl/h3a6a0fn"
+    },
+    "distance=1,persistent=false,waterlogged=false": {
+      "model": "e8x683vbb:mdl/faxga34w"
+    },
+    "distance=2,persistent=false,waterlogged=false": {
+      "model": "jsmakehbp:mdl/mgj58gq5"
+    },
+    "distance=1,persistent=true,waterlogged=false": {
+      "model": "jsmakehbp:mdl/8iuzbbld"
+    }
+  }
+}

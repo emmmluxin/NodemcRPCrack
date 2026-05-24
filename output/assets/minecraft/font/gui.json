@@ -1,0 +1,112 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "height": 140,
+      "ascent": 18,
+      "file": "gwjritg0z:mdl/misch7mb/weqg..pn/g",
+      "chars": [
+        "뀀"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "height": 140,
+      "ascent": 18,
+      "file": "gwjritg0z:mdl/misc782g/jef5..pn/g",
+      "chars": [
+        "뀁"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "height": 142,
+      "ascent": 20,
+      "file": "i666ow1af:mdl/misce7r3/33cd..pn/g",
+      "chars": [
+        "뀂"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "height": 138,
+      "ascent": 16,
+      "file": "5rsd0lnob:mdl/miscjxqw/ttqb..pn/g",
+      "chars": [
+        "뀃"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "height": 23,
+      "ascent": 20,
+      "file": "lqutnhfw6:mdl/misc8sn4/s3y5..pn/g",
+      "chars": [
+        "뀄"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "height": 23,
+      "ascent": 20,
+      "file": "rrmqxw2ui:mdl/miscnv2v/9xd8..pn/g",
+      "chars": [
+        "뀅"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "height": 23,
+      "ascent": 20,
+      "file": "rrmqxw2ui:mdl/miscx7y4/mtrw..pn/g",
+      "chars": [
+        "뀆"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "height": 23,
+      "ascent": 20,
+      "file": "f6o7c9v5q:mdl/miscxq9u/5yk8..pn/g",
+      "chars": [
+        "뀇"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "height": 142,
+      "ascent": 20,
+      "file": "lqutnhfw6:mdl/miscmxl6/pj94..pn/g",
+      "chars": [
+        "뀈"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "height": 142,
+      "ascent": 20,
+      "file": "7w5x0vpi5:mdl/misc7gr7/sqas..pn/g",
+      "chars": [
+        "뀉"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "height": 142,
+      "ascent": 20,
+      "file": "t2e3gc4s4:mdl/misckf41/c0q7..pn/g",
+      "chars": [
+        "뀊"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "height": 140,
+      "ascent": 18,
+      "file": "800y9ucl5:mdl/misc1efl/tsdr..pn/g",
+      "chars": [
+        "뀋"
+      ]
+    }
+  ]
+}

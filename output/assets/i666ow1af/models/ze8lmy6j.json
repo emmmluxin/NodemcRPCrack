@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/sugar_cane",
+  "textures": {
+    "cross": "f6o7c9v5q:tex/1zxab7s5"
+  }
+}

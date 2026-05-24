@@ -1,0 +1,122 @@
+{
+  "parent": "minecraft:item/handheld_rod",
+  "textures": {
+    "layer0": "minecraft:item/carrot_on_a_stick"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 44
+      },
+      "model": "7w5x0vpi5:.../p/9/t/v/v/k/1/b/."
+    },
+    {
+      "predicate": {
+        "custom_model_data": 46
+      },
+      "model": "5rsd0lnob:mdl/y7d27std"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 50
+      },
+      "model": "f6o7c9v5q:mdl/5loikjod"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 54
+      },
+      "model": "5exp3rjkn:mdl/8npr8cc9"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 58
+      },
+      "model": "7w5x0vpi5:mdl/rr89l94m"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 62
+      },
+      "model": "t2e3gc4s4:mdl/0yupfxt8"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 66
+      },
+      "model": "t2e3gc4s4:mdl/c0auv2bx"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 70
+      },
+      "model": "rrmqxw2ui:mdl/8go38wn4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 74
+      },
+      "model": "lqutnhfw6:mdl/qyd59dwg"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 78
+      },
+      "model": "5exp3rjkn:mdl/44kyrp2r"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 82
+      },
+      "model": "jsmakehbp:mdl/ewlqxksc"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 86
+      },
+      "model": "i2zkxqdgv:mdl/qtx1m3vn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 90
+      },
+      "model": "2thxh28ly:mdl/tf7myb19"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 94
+      },
+      "model": "5rsd0lnob:mdl/53pfyr0r"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 98
+      },
+      "model": "e8x683vbb:.../m/d/w/0/7/0/9/n/."
+    },
+    {
+      "predicate": {
+        "custom_model_data": 103
+      },
+      "model": "e8x683vbb:mdl/82kn1e22"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 107
+      },
+      "model": "rrmqxw2ui:mdl/387k9iae"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 111
+      },
+      "model": "i2zkxqdgv:mdl/s9d289dr"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 1005
+      },
+      "model": "e8x683vbb:mdl/82kn1e22"
+    }
+  ]
+}

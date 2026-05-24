@@ -1,0 +1,13 @@
+{
+  "model": {
+    "model": "lqutnhfw6:.../d/y/n/n/e/j/e/3/.",
+    "tints": [
+      {
+        "index": 0,
+        "default": 16777215,
+        "type": "minecraft:custom_model_data"
+      }
+    ],
+    "type": "minecraft:model"
+  }
+}

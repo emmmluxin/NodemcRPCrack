@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "i666ow1af:tex/nyhm322q"
+  }
+}

@@ -1,0 +1,306 @@
+{
+  "credit": "ModelEngine Merger - deobf tool",
+  "texture_size": [
+    16,
+    16
+  ],
+  "textures": {
+    "0": "f6o7c9v5q:tex/3sycbp12",
+    "particle": "#0",
+    "bone14.0": "f6o7c9v5q:tex/3sycbp12",
+    "bone14.particle": "#0",
+    "bone15.0": "f6o7c9v5q:tex/3sycbp12",
+    "bone15.particle": "#0",
+    "bone16.0": "f6o7c9v5q:tex/3sycbp12",
+    "bone16.particle": "#0"
+  },
+  "elements": [
+    {
+      "from": [
+        8.0,
+        -6.9750004,
+        8.0
+      ],
+      "to": [
+        24.3,
+        7.9750004,
+        20.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            4.53125,
+            6.34375,
+            5.03125,
+            6.8125
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            3.15625,
+            7.09375,
+            2.65625,
+            6.71875
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            7.21875,
+            4.8125,
+            6.71875,
+            5.1875
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "_part": "bone13",
+      "_source": "i2zkxqdgv:mdl/cryetyqc"
+    },
+    {
+      "from": [
+        -4.200001,
+        -2.9750004,
+        7.0
+      ],
+      "to": [
+        3.8999996,
+        5.025,
+        8.0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            3.125,
+            7.4375,
+            3.15625,
+            7.6875
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            7.5625,
+            6.625,
+            7.8125,
+            6.875
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            1.53125,
+            7.8125,
+            1.5625,
+            8.0625
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            8.34375,
+            6.03125,
+            8.09375,
+            6.0
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            8.34375,
+            6.0625,
+            8.09375,
+            6.09375
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "_part": "bone14",
+      "_source": "5rsd0lnob:mdl/eygic46m"
+    },
+    {
+      "from": [
+        7.1000004,
+        1.0250001,
+        7.0
+      ],
+      "to": [
+        14.2,
+        8.025,
+        8.0
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            6.84375,
+            4.125,
+            6.875,
+            4.34375
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            3.28125,
+            6.375,
+            3.5,
+            6.59375
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            2.59375,
+            7.1875,
+            2.625,
+            7.40625
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            8.34375,
+            5.34375,
+            8.125,
+            5.3125
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            5.5625,
+            8.125,
+            5.34375,
+            8.15625
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "_part": "bone15",
+      "_source": "2thxh28ly:mdl/jv2xaw2g"
+    },
+    {
+      "from": [
+        -8.299999,
+        -6.9750004,
+        8.0
+      ],
+      "to": [
+        8.0,
+        7.9750004,
+        20.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.28125,
+            6.5,
+            0.78125,
+            6.96875
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            7.21875,
+            5.59375,
+            6.71875,
+            5.21875
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            6.0625,
+            6.75,
+            5.5625,
+            7.125
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        }
+      },
+      "_part": "bone16",
+      "_source": "800y9ucl5:mdl/lowocbms"
+    }
+  ],
+  "_model_name": "tiger_h1_snow_camo_turret",
+  "_parts": [
+    {
+      "part_name": "bone13",
+      "elements_count": 1,
+      "model_refs": [
+        "i2zkxqdgv:mdl/cryetyqc"
+      ]
+    },
+    {
+      "part_name": "bone14",
+      "elements_count": 1,
+      "model_refs": [
+        "5rsd0lnob:mdl/eygic46m"
+      ]
+    },
+    {
+      "part_name": "bone15",
+      "elements_count": 1,
+      "model_refs": [
+        "2thxh28ly:mdl/jv2xaw2g"
+      ]
+    },
+    {
+      "part_name": "bone16",
+      "elements_count": 1,
+      "model_refs": [
+        "800y9ucl5:mdl/lowocbms"
+      ]
+    },
+    {
+      "part_name": "bone17",
+      "elements_count": 0,
+      "model_refs": []
+    },
+    {
+      "part_name": "turret",
+      "elements_count": 0,
+      "model_refs": []
+    }
+  ],
+  "_stats": {
+    "total_parts": 6,
+    "total_elements": 4,
+    "total_textures": 8,
+    "unique_model_refs": 6
+  }
+}

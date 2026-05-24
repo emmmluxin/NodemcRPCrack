@@ -1,0 +1,13 @@
+{
+  "model": {
+    "model": "t2e3gc4s4:mdl/fm2ceopa",
+    "tints": [
+      {
+        "index": 0,
+        "default": 16777215,
+        "type": "minecraft:custom_model_data"
+      }
+    ],
+    "type": "minecraft:model"
+  }
+}

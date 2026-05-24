@@ -1,0 +1,44 @@
+{
+  "sources": [
+    {
+      "type": "single",
+      "resource": "trims/models/armor/topaz_custom"
+    },
+    {
+      "type": "single",
+      "resource": "trims/models/armor/topaz_leggings_custom"
+    },
+    {
+      "type": "single",
+      "resource": "trims/models/armor/zs_custom"
+    },
+    {
+      "type": "single",
+      "resource": "trims/models/armor/zs_leggings_custom"
+    },
+    {
+      "type": "single",
+      "resource": "trims/models/armor/jg_custom"
+    },
+    {
+      "type": "single",
+      "resource": "trims/models/armor/jg_leggings_custom"
+    },
+    {
+      "type": "single",
+      "resource": "trims/models/armor/farmer_custom"
+    },
+    {
+      "type": "single",
+      "resource": "trims/models/armor/farmer_leggings_custom"
+    },
+    {
+      "type": "single",
+      "resource": "trims/models/armor/chainmail_custom"
+    },
+    {
+      "type": "single",
+      "resource": "trims/models/armor/chainmail_leggings_custom"
+    }
+  ]
+}

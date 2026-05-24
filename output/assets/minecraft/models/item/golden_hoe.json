@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "item/golden_hoe"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1000
+      },
+      "model": "5rsd0lnob:.../w/v/i/a/m/8/8/5/."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "model": {
+    "model": "gwjritg0z:.../p/3/9/0/7/1/n/p/.",
+    "tints": [
+      {
+        "index": 0,
+        "default": 16777215,
+        "type": "minecraft:custom_model_data"
+      }
+    ],
+    "type": "minecraft:model"
+  }
+}

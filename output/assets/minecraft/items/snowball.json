@@ -1,0 +1,105 @@
+{
+  "oversized_in_gui": true,
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+      {
+        "threshold": 1.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "lqutnhfw6:.../7/p/b/u/j/a/u/1/."
+        }
+      },
+      {
+        "threshold": 2.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "f6o7c9v5q:mdl/onx7mrwu"
+        }
+      },
+      {
+        "threshold": 3.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "jsmakehbp:mdl/33tofksl"
+        }
+      },
+      {
+        "threshold": 5.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "jsmakehbp:mdl/s82eitkd"
+        }
+      },
+      {
+        "threshold": 6.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "e8x683vbb:.../g/y/8/8/1/l/v/b/."
+        }
+      },
+      {
+        "threshold": 9.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "rrmqxw2ui:mdl/as29xzvp"
+        }
+      },
+      {
+        "threshold": 30.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "5rsd0lnob:mdl/w2rnadbt"
+        }
+      },
+      {
+        "threshold": 50.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "5exp3rjkn:mdl/8n9v1iu4"
+        }
+      },
+      {
+        "threshold": 100.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "9qzmluhqk:mdl/n606a3a7"
+        }
+      },
+      {
+        "threshold": 101.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "f6o7c9v5q:mdl/lsgq5skr"
+        }
+      },
+      {
+        "threshold": 122.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "t2e3gc4s4:mdl/u3wpfi41"
+        }
+      },
+      {
+        "threshold": 200.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "2thxh28ly:mdl/44hja3f7"
+        }
+      },
+      {
+        "threshold": 201.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "800y9ucl5:.../d/p/m/a/6/4/5/d/."
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/snowball"
+    }
+  }
+}

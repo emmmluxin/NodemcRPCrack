@@ -1,0 +1,133 @@
+{
+  "oversized_in_gui": true,
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+      {
+        "threshold": 1000.0,
+        "model": {
+          "type": "minecraft:special",
+          "model": {
+            "type": "minecraft:player_head"
+          },
+          "base": "rrmqxw2ui:mdl/y4ctex8r"
+        }
+      },
+      {
+        "threshold": 1001.0,
+        "model": {
+          "type": "minecraft:special",
+          "model": {
+            "type": "minecraft:player_head"
+          },
+          "base": "i2zkxqdgv:.../c/9/x/e/e/g/m/1/."
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "entries": [
+        {
+          "threshold": 1.0,
+          "model": {
+            "type": "minecraft:special",
+            "model": {
+              "type": "minecraft:head",
+              "kind": "player"
+            },
+            "base": "2thxh28ly:mdl/7tmgmnn8"
+          }
+        },
+        {
+          "threshold": 2.0,
+          "model": {
+            "type": "minecraft:special",
+            "model": {
+              "type": "minecraft:head",
+              "kind": "player"
+            },
+            "base": "800y9ucl5:mdl/dv7qshx9"
+          }
+        },
+        {
+          "threshold": 3.0,
+          "model": {
+            "type": "minecraft:special",
+            "model": {
+              "type": "minecraft:head",
+              "kind": "player"
+            },
+            "base": "gwjritg0z:mdl/bon8p38f"
+          }
+        },
+        {
+          "threshold": 4.0,
+          "model": {
+            "type": "minecraft:special",
+            "model": {
+              "type": "minecraft:head",
+              "kind": "player"
+            },
+            "base": "2thxh28ly:.../o/f/n/q/t/z/i/1/."
+          }
+        },
+        {
+          "threshold": 5.0,
+          "model": {
+            "type": "minecraft:special",
+            "model": {
+              "type": "minecraft:head",
+              "kind": "player"
+            },
+            "base": "5rsd0lnob:.../f/c/l/0/j/y/g/j/."
+          }
+        },
+        {
+          "threshold": 6.0,
+          "model": {
+            "type": "minecraft:special",
+            "model": {
+              "type": "minecraft:head",
+              "kind": "player"
+            },
+            "base": "5rsd0lnob:.../b/9/2/1/a/b/y/4/."
+          }
+        },
+        {
+          "threshold": 7.0,
+          "model": {
+            "type": "minecraft:special",
+            "model": {
+              "type": "minecraft:head",
+              "kind": "player"
+            },
+            "base": "i666ow1af:mdl/aggr2s2q"
+          }
+        },
+        {
+          "threshold": 8.0,
+          "model": {
+            "type": "minecraft:special",
+            "model": {
+              "type": "minecraft:head",
+              "kind": "player"
+            },
+            "base": "5rsd0lnob:mdl/fs3de2o7"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:special",
+        "model": {
+          "type": "minecraft:head",
+          "kind": "player"
+        },
+        "base": "minecraft:item/template_skull"
+      }
+    }
+  }
+}

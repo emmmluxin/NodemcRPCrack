@@ -1,0 +1,11 @@
+{
+  "credit": "Made with Blockbench",
+  "parent": "nodemc:banner/base",
+  "texture_size": [
+    350,
+    950
+  ],
+  "textures": {
+    "1": "nodemc:banner/oda"
+  }
+}

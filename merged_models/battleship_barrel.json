@@ -1,0 +1,357 @@
+{
+  "credit": "ModelEngine Merger - deobf tool",
+  "texture_size": [
+    16,
+    16
+  ],
+  "textures": {
+    "0": "f6o7c9v5q:tex/i9tbmxa3",
+    "particle": "#0"
+  },
+  "elements": [
+    {
+      "from": [
+        8.39038,
+        7.84073,
+        6.22925
+      ],
+      "to": [
+        8.75718,
+        8.20753,
+        7.97155
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            1.235,
+            0.99375,
+            1.10625,
+            1.015
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            1.1312,
+            1.0,
+            1.1712,
+            1.015
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            1.13125,
+            1.0,
+            1.17125,
+            1.015
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            1.1062,
+            0.9937,
+            1.235,
+            1.015
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            1.1062,
+            0.9937,
+            1.235,
+            1.015
+          ],
+          "tintindex": 0,
+          "rotation": 90,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            1.1062,
+            0.9937,
+            1.235,
+            1.015
+          ],
+          "tintindex": 0,
+          "rotation": 270,
+          "texture": "#0"
+        }
+      },
+      "_part": "turreta",
+      "_source": "i666ow1af:mdl/vl3ygh2f"
+    },
+    {
+      "from": [
+        7.24282,
+        7.84073,
+        6.22925
+      ],
+      "to": [
+        7.60962,
+        8.20753,
+        7.97155
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            1.235,
+            0.9937,
+            1.1062,
+            1.015
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            1.1712,
+            1.0,
+            1.1312,
+            1.015
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            1.17125,
+            1.0,
+            1.13125,
+            1.015
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            1.10625,
+            0.99375,
+            1.235,
+            1.015
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            1.1062,
+            1.015,
+            1.235,
+            0.9937
+          ],
+          "tintindex": 0,
+          "rotation": 90,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            1.1062,
+            1.015,
+            1.235,
+            0.9937
+          ],
+          "tintindex": 0,
+          "rotation": 270,
+          "texture": "#0"
+        }
+      },
+      "_part": "turreta",
+      "_source": "i666ow1af:mdl/vl3ygh2f"
+    },
+    {
+      "from": [
+        7.33452,
+        7.93243,
+        3.56995
+      ],
+      "to": [
+        7.51792,
+        8.11583,
+        6.22925
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            14.5812,
+            6.7938,
+            14.7412,
+            6.8013
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            13.91875,
+            7.33125,
+            13.71875,
+            7.53125
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            14.78125,
+            6.78125,
+            14.74375,
+            6.81875
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            14.7412,
+            6.7938,
+            14.5812,
+            6.8013
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            14.74125,
+            6.80125,
+            14.58125,
+            6.79375
+          ],
+          "tintindex": 0,
+          "rotation": 90,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            14.7412,
+            6.8013,
+            14.5812,
+            6.7938
+          ],
+          "tintindex": 0,
+          "rotation": 270,
+          "texture": "#0"
+        }
+      },
+      "_part": "turreta",
+      "_source": "i666ow1af:mdl/vl3ygh2f"
+    },
+    {
+      "from": [
+        8.48208,
+        7.93243,
+        3.56995
+      ],
+      "to": [
+        8.66548,
+        8.11583,
+        6.22925
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            14.5812,
+            6.7938,
+            14.7412,
+            6.8013
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            13.71875,
+            7.33125,
+            13.91875,
+            7.53125
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            14.74375,
+            6.78125,
+            14.78125,
+            6.81875
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            14.7412,
+            6.7938,
+            14.5812,
+            6.8013
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            14.74125,
+            6.79375,
+            14.58125,
+            6.80125
+          ],
+          "tintindex": 0,
+          "rotation": 90,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            14.7412,
+            6.7938,
+            14.5812,
+            6.8013
+          ],
+          "tintindex": 0,
+          "rotation": 270,
+          "texture": "#0"
+        }
+      },
+      "_part": "turreta",
+      "_source": "i666ow1af:mdl/vl3ygh2f"
+    }
+  ],
+  "_model_name": "battleship_barrel",
+  "_parts": [
+    {
+      "part_name": "turreta",
+      "elements_count": 4,
+      "model_refs": [
+        "i666ow1af:mdl/vl3ygh2f"
+      ]
+    }
+  ],
+  "_stats": {
+    "total_parts": 1,
+    "total_elements": 4,
+    "total_textures": 2,
+    "unique_model_refs": 1
+  }
+}

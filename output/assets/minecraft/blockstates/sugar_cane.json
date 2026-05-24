@@ -1,0 +1,17 @@
+{
+  "variants": {
+    "age=4": {
+      "model": "e8x683vbb:.../9/j/2/4/v/6/c/s/."
+    },
+    "age=3": [
+      {
+        "model": "i666ow1af:mdl/ze8lmy6j",
+        "weight": 1
+      },
+      {
+        "model": "9qzmluhqk:mdl/rryqurlh",
+        "weight": 1
+      }
+    ]
+  }
+}

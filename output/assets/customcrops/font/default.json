@@ -1,0 +1,191 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        " ": 4,
+        "‌": 0
+      }
+    },
+    {
+      "type": "bitmap",
+      "height": -3,
+      "ascent": -512,
+      "file": "7w5x0vpi5:mdl/misccgxu/l568..pn/g",
+      "chars": [
+        "뀁"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "height": 8,
+      "ascent": 8,
+      "file": "2thxh28ly:mdl/misc5jru/t7y3..pn/g",
+      "chars": [
+        "뀂"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "height": 8,
+      "ascent": 8,
+      "file": "5exp3rjkn:mdl/miscaj3c/xovm..pn/g",
+      "chars": [
+        "뀃"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "height": 8,
+      "ascent": 8,
+      "file": "lqutnhfw6:mdl/miscys7w/eh44..pn/g",
+      "chars": [
+        "뀄"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "height": 8,
+      "ascent": 8,
+      "file": "gwjritg0z:mdl/miscqrem/u7fv..pn/g",
+      "chars": [
+        "뀅"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "height": 8,
+      "ascent": 8,
+      "file": "rrmqxw2ui:mdl/misc9ghd/ata9..pn/g",
+      "chars": [
+        "뀆"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "height": 8,
+      "ascent": 8,
+      "file": "rrmqxw2ui:mdl/miscgiht/5cx4..pn/g",
+      "chars": [
+        "뀇"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "height": 8,
+      "ascent": 8,
+      "file": "lqutnhfw6:mdl/miscr5so/6fy3..pn/g",
+      "chars": [
+        "뀈"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "height": 8,
+      "ascent": 8,
+      "file": "e8x683vbb:mdl/misck12e/pocl..pn/g",
+      "chars": [
+        "뀉"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "height": 8,
+      "ascent": 8,
+      "file": "i2zkxqdgv:mdl/miscejxp/hiab..pn/g",
+      "chars": [
+        "뀊"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "height": 8,
+      "ascent": 8,
+      "file": "f6o7c9v5q:mdl/miscwo8i/t5d2..pn/g",
+      "chars": [
+        "뀋"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "height": 8,
+      "ascent": 8,
+      "file": "gwjritg0z:mdl/miscvbkb/m734..pn/g",
+      "chars": [
+        "뀌"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "height": 8,
+      "ascent": 8,
+      "file": "xq9rmjx80:mdl/misc9ydb/ri8v..pn/g",
+      "chars": [
+        "뀍"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "height": 8,
+      "ascent": 8,
+      "file": "e8x683vbb:mdl/misccucu/unbt..pn/g",
+      "chars": [
+        "뀎"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "height": 8,
+      "ascent": 8,
+      "file": "7w5x0vpi5:mdl/misc9cwh/no2c..pn/g",
+      "chars": [
+        "뀏"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "height": 8,
+      "ascent": 8,
+      "file": "t2e3gc4s4:mdl/miscb1yj/zl5t..pn/g",
+      "chars": [
+        "뀐"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "height": 8,
+      "ascent": 8,
+      "file": "5exp3rjkn:mdl/misc5fje/lvua..pn/g",
+      "chars": [
+        "뀑"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "height": 8,
+      "ascent": 8,
+      "file": "t2e3gc4s4:mdl/misczre1/amsx..pn/g",
+      "chars": [
+        "뀒"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "height": 8,
+      "ascent": 8,
+      "file": "gwjritg0z:mdl/misc61r5/rg94..pn/g",
+      "chars": [
+        "뀓"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "height": 8,
+      "ascent": 8,
+      "file": "jsmakehbp:mdl/miscilwm/lcd6..pn/g",
+      "chars": [
+        "뀔"
+      ]
+    }
+  ]
+}

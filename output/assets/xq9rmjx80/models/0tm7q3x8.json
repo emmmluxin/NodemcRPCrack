@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "i666ow1af:tex/11d5hpmp",
+    "side": "i666ow1af:tex/11d5hpmp",
+    "top": "i666ow1af:tex/11d5hpmp"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "credit": "ModelEngine Merger - deobf tool",
+  "texture_size": [
+    16,
+    16
+  ],
+  "textures": {
+    "0": "800y9ucl5:tex/ia26j6g9",
+    "particle": "#0"
+  },
+  "elements": [
+    {
+      "from": [
+        7.5,
+        14.8125,
+        -10.0
+      ],
+      "to": [
+        8.5,
+        15.8125,
+        12.5
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            1.28125,
+            0.0,
+            6.875,
+            0.125
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0.0,
+            9.0,
+            0.4375,
+            9.34375
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "north": {
+          "uv": [
+            0.0,
+            9.0,
+            0.4375,
+            9.34375
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.03125,
+            9.5625,
+            5.625,
+            9.6875
+          ],
+          "tintindex": 0,
+          "rotation": 180,
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            0.0,
+            8.6875,
+            5.59375,
+            8.96875
+          ],
+          "tintindex": 0,
+          "rotation": 270,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            0.09375,
+            9.375,
+            5.46875,
+            9.5
+          ],
+          "tintindex": 0,
+          "rotation": 90,
+          "texture": "#0"
+        }
+      },
+      "_part": "bone",
+      "_source": "7w5x0vpi5:mdl/z9az9m7x"
+    }
+  ],
+  "_model_name": "david_flak88_barrel",
+  "_parts": [
+    {
+      "part_name": "barrel",
+      "elements_count": 0,
+      "model_refs": []
+    },
+    {
+      "part_name": "bone",
+      "elements_count": 1,
+      "model_refs": [
+        "7w5x0vpi5:mdl/z9az9m7x"
+      ]
+    }
+  ],
+  "_stats": {
+    "total_parts": 2,
+    "total_elements": 1,
+    "total_textures": 2,
+    "unique_model_refs": 2
+  }
+}

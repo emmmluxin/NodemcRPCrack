@@ -1,0 +1,147 @@
+{
+  "oversized_in_gui": true,
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+      {
+        "threshold": 44.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "7w5x0vpi5:.../p/9/t/v/v/k/1/b/."
+        }
+      },
+      {
+        "threshold": 46.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "5rsd0lnob:mdl/y7d27std"
+        }
+      },
+      {
+        "threshold": 50.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "f6o7c9v5q:mdl/5loikjod"
+        }
+      },
+      {
+        "threshold": 54.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "5exp3rjkn:mdl/8npr8cc9"
+        }
+      },
+      {
+        "threshold": 58.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "7w5x0vpi5:mdl/rr89l94m"
+        }
+      },
+      {
+        "threshold": 62.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "t2e3gc4s4:mdl/0yupfxt8"
+        }
+      },
+      {
+        "threshold": 66.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "t2e3gc4s4:mdl/c0auv2bx"
+        }
+      },
+      {
+        "threshold": 70.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "rrmqxw2ui:mdl/8go38wn4"
+        }
+      },
+      {
+        "threshold": 74.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "lqutnhfw6:mdl/qyd59dwg"
+        }
+      },
+      {
+        "threshold": 78.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "5exp3rjkn:mdl/44kyrp2r"
+        }
+      },
+      {
+        "threshold": 82.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "jsmakehbp:mdl/ewlqxksc"
+        }
+      },
+      {
+        "threshold": 86.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "i2zkxqdgv:mdl/qtx1m3vn"
+        }
+      },
+      {
+        "threshold": 90.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "2thxh28ly:mdl/tf7myb19"
+        }
+      },
+      {
+        "threshold": 94.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "5rsd0lnob:mdl/53pfyr0r"
+        }
+      },
+      {
+        "threshold": 98.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "e8x683vbb:.../m/d/w/0/7/0/9/n/."
+        }
+      },
+      {
+        "threshold": 103.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "e8x683vbb:mdl/82kn1e22"
+        }
+      },
+      {
+        "threshold": 107.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "rrmqxw2ui:mdl/387k9iae"
+        }
+      },
+      {
+        "threshold": 111.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "i2zkxqdgv:mdl/s9d289dr"
+        }
+      },
+      {
+        "threshold": 1005.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "e8x683vbb:mdl/82kn1e22"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/carrot_on_a_stick"
+    }
+  }
+}

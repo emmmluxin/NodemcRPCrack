@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "distance=1,persistent=false,waterlogged=true": {
+      "model": "800y9ucl5:mdl/q4ki3uao"
+    },
+    "distance=1,persistent=false,waterlogged=false": {
+      "model": "800y9ucl5:mdl/q4ki3uao"
+    }
+  }
+}

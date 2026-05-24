@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "i2zkxqdgv:tex/6ptyfnep",
+    "layer1": "minecraft:trims/items/leggings_trim_redstone"
+  }
+}

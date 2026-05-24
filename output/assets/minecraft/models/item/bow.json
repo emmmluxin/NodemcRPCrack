@@ -1,0 +1,143 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/bow"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        -80,
+        260,
+        -40
+      ],
+      "translation": [
+        -1,
+        -2,
+        2.5
+      ],
+      "scale": [
+        0.9,
+        0.9,
+        0.9
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        -80,
+        -280,
+        40
+      ],
+      "translation": [
+        -1,
+        -2,
+        2.5
+      ],
+      "scale": [
+        0.9,
+        0.9,
+        0.9
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        -90,
+        25
+      ],
+      "translation": [
+        1.13,
+        3.2,
+        1.13
+      ],
+      "scale": [
+        0.68,
+        0.68,
+        0.68
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        90,
+        -25
+      ],
+      "translation": [
+        1.13,
+        3.2,
+        1.13
+      ],
+      "scale": [
+        0.68,
+        0.68,
+        0.68
+      ]
+    }
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "pulling": 1
+      },
+      "model": "item/bow_pulling_0"
+    },
+    {
+      "predicate": {
+        "pull": 0.9,
+        "pulling": 1
+      },
+      "model": "item/bow_pulling_2"
+    },
+    {
+      "predicate": {
+        "pull": 0.65,
+        "pulling": 1
+      },
+      "model": "item/bow_pulling_1"
+    },
+    {
+      "predicate": {
+        "pulling": 0,
+        "custom_model_data": 1000
+      },
+      "model": "t2e3gc4s4:mdl/89z9amaa"
+    },
+    {
+      "predicate": {
+        "pulling": 1,
+        "pull": 0.0,
+        "custom_model_data": 1000
+      },
+      "model": "9qzmluhqk:mdl/pd7ylw9y"
+    },
+    {
+      "predicate": {
+        "pulling": 1,
+        "pull": 0.65,
+        "custom_model_data": 1000
+      },
+      "model": "9qzmluhqk:.../a/7/u/c/i/k/4/b/."
+    },
+    {
+      "predicate": {
+        "pulling": 1,
+        "pull": 0.9,
+        "custom_model_data": 1000
+      },
+      "model": "2thxh28ly:mdl/jbfb5nzx"
+    },
+    {
+      "predicate": {
+        "pulling": 0,
+        "custom_model_data": 1001
+      },
+      "model": "rrmqxw2ui:mdl/rkfu0vim"
+    },
+    {
+      "predicate": {
+        "pulling": 1,
+        "custom_model_data": 1001
+      },
+      "model": "e8x683vbb:mdl/ormjr22x"
+    }
+  ]
+}

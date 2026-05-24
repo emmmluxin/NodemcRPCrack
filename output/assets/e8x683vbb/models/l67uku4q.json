@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "gwjritg0z:tex/nyccjki6",
+    "layer1": "minecraft:trims/items/leggings_trim_amethyst"
+  }
+}

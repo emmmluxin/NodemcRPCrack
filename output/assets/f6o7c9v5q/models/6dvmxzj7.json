@@ -1,0 +1,43 @@
+{
+  "format_version": "1.21.6",
+  "credit": "Made with Blockbench",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "7": "800y9ucl5:tex/96wbk8h7",
+    "particle": "800y9ucl5:tex/96wbk8h7"
+  },
+  "elements": [
+    {
+      "from": [
+        3.001,
+        -9.899,
+        3.001
+      ],
+      "to": [
+        12.999,
+        -9.899,
+        12.999
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          0,
+          -32,
+          0
+        ]
+      },
+      "faces": {
+        "up": {
+          "uv": [
+            16,
+            16,
+            0,
+            0
+          ],
+          "texture": "#7"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/cactus",
+  "textures": {
+    "particle": "f6o7c9v5q:tex/v6yca2pc",
+    "bottom": "f6o7c9v5q:tex/v6yca2pc",
+    "top": "f6o7c9v5q:tex/v6yca2pc",
+    "side": "t2e3gc4s4:tex/iialo285"
+  }
+}

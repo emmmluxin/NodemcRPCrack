@@ -1,0 +1,414 @@
+{
+  "variants": {
+    "facing=west,half=bottom,shape=straight,waterlogged=false": {
+      "model": "i2zkxqdgv:mdl/t4034bbx",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=west,half=bottom,shape=outer_right,waterlogged=false": {
+      "model": "e8x683vbb:mdl/mgrw2kdi",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=south,half=bottom,shape=inner_left,waterlogged=true": {
+      "model": "xq9rmjx80:.../0/t/m/7/q/3/x/8/."
+    },
+    "facing=east,half=bottom,shape=outer_right,waterlogged=true": {
+      "model": "e8x683vbb:mdl/mgrw2kdi"
+    },
+    "facing=east,half=top,shape=outer_right,waterlogged=true": {
+      "model": "e8x683vbb:mdl/mgrw2kdi",
+      "x": 180,
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=west,half=bottom,shape=inner_left,waterlogged=false": {
+      "model": "xq9rmjx80:.../0/t/m/7/q/3/x/8/.",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=north,half=bottom,shape=inner_right,waterlogged=false": {
+      "model": "xq9rmjx80:.../0/t/m/7/q/3/x/8/.",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=north,half=top,shape=inner_left,waterlogged=false": {
+      "model": "xq9rmjx80:.../0/t/m/7/q/3/x/8/.",
+      "x": 180,
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=west,half=top,shape=outer_right,waterlogged=true": {
+      "model": "e8x683vbb:mdl/mgrw2kdi",
+      "x": 180,
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=east,half=top,shape=straight,waterlogged=false": {
+      "model": "i2zkxqdgv:mdl/t4034bbx",
+      "x": 180,
+      "uvlock": true
+    },
+    "facing=west,half=bottom,shape=straight,waterlogged=true": {
+      "model": "i2zkxqdgv:mdl/t4034bbx",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=north,half=bottom,shape=inner_left,waterlogged=true": {
+      "model": "xq9rmjx80:.../0/t/m/7/q/3/x/8/.",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=south,half=bottom,shape=inner_right,waterlogged=false": {
+      "model": "xq9rmjx80:.../0/t/m/7/q/3/x/8/.",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=west,half=bottom,shape=outer_left,waterlogged=false": {
+      "model": "e8x683vbb:mdl/mgrw2kdi",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=west,half=top,shape=outer_left,waterlogged=false": {
+      "model": "e8x683vbb:mdl/mgrw2kdi",
+      "x": 180,
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=west,half=top,shape=inner_right,waterlogged=false": {
+      "model": "xq9rmjx80:.../0/t/m/7/q/3/x/8/.",
+      "x": 180,
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=east,half=top,shape=outer_left,waterlogged=true": {
+      "model": "e8x683vbb:mdl/mgrw2kdi",
+      "x": 180,
+      "uvlock": true
+    },
+    "facing=north,half=top,shape=outer_left,waterlogged=false": {
+      "model": "e8x683vbb:mdl/mgrw2kdi",
+      "x": 180,
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=north,half=top,shape=inner_right,waterlogged=true": {
+      "model": "xq9rmjx80:.../0/t/m/7/q/3/x/8/.",
+      "x": 180,
+      "uvlock": true
+    },
+    "facing=north,half=top,shape=inner_right,waterlogged=false": {
+      "model": "xq9rmjx80:.../0/t/m/7/q/3/x/8/.",
+      "x": 180,
+      "uvlock": true
+    },
+    "facing=east,half=bottom,shape=inner_right,waterlogged=true": {
+      "model": "xq9rmjx80:.../0/t/m/7/q/3/x/8/."
+    },
+    "facing=north,half=top,shape=outer_left,waterlogged=true": {
+      "model": "e8x683vbb:mdl/mgrw2kdi",
+      "x": 180,
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=west,half=bottom,shape=inner_right,waterlogged=true": {
+      "model": "xq9rmjx80:.../0/t/m/7/q/3/x/8/.",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=west,half=top,shape=inner_right,waterlogged=true": {
+      "model": "xq9rmjx80:.../0/t/m/7/q/3/x/8/.",
+      "x": 180,
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=west,half=top,shape=outer_left,waterlogged=true": {
+      "model": "e8x683vbb:mdl/mgrw2kdi",
+      "x": 180,
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=west,half=top,shape=inner_left,waterlogged=false": {
+      "model": "xq9rmjx80:.../0/t/m/7/q/3/x/8/.",
+      "x": 180,
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=north,half=bottom,shape=inner_right,waterlogged=true": {
+      "model": "xq9rmjx80:.../0/t/m/7/q/3/x/8/.",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=south,half=bottom,shape=inner_right,waterlogged=true": {
+      "model": "xq9rmjx80:.../0/t/m/7/q/3/x/8/.",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=north,half=bottom,shape=outer_right,waterlogged=true": {
+      "model": "e8x683vbb:mdl/mgrw2kdi",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=east,half=top,shape=outer_right,waterlogged=false": {
+      "model": "e8x683vbb:mdl/mgrw2kdi",
+      "x": 180,
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=south,half=top,shape=inner_left,waterlogged=false": {
+      "model": "xq9rmjx80:.../0/t/m/7/q/3/x/8/.",
+      "x": 180,
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=south,half=bottom,shape=outer_left,waterlogged=true": {
+      "model": "e8x683vbb:mdl/mgrw2kdi"
+    },
+    "facing=west,half=bottom,shape=inner_left,waterlogged=true": {
+      "model": "xq9rmjx80:.../0/t/m/7/q/3/x/8/.",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=east,half=top,shape=inner_left,waterlogged=false": {
+      "model": "xq9rmjx80:.../0/t/m/7/q/3/x/8/.",
+      "x": 180,
+      "uvlock": true
+    },
+    "facing=east,half=bottom,shape=inner_left,waterlogged=false": {
+      "model": "xq9rmjx80:.../0/t/m/7/q/3/x/8/.",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=west,half=bottom,shape=outer_right,waterlogged=true": {
+      "model": "e8x683vbb:mdl/mgrw2kdi",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=south,half=top,shape=straight,waterlogged=false": {
+      "model": "i2zkxqdgv:mdl/t4034bbx",
+      "x": 180,
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=north,half=top,shape=outer_right,waterlogged=false": {
+      "model": "e8x683vbb:mdl/mgrw2kdi",
+      "x": 180,
+      "uvlock": true
+    },
+    "facing=north,half=top,shape=straight,waterlogged=false": {
+      "model": "i2zkxqdgv:mdl/t4034bbx",
+      "x": 180,
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=east,half=top,shape=inner_right,waterlogged=false": {
+      "model": "xq9rmjx80:.../0/t/m/7/q/3/x/8/.",
+      "x": 180,
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=north,half=bottom,shape=outer_left,waterlogged=true": {
+      "model": "e8x683vbb:mdl/mgrw2kdi",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=south,half=top,shape=outer_left,waterlogged=false": {
+      "model": "e8x683vbb:mdl/mgrw2kdi",
+      "x": 180,
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=east,half=bottom,shape=outer_left,waterlogged=true": {
+      "model": "e8x683vbb:mdl/mgrw2kdi",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=east,half=bottom,shape=straight,waterlogged=true": {
+      "model": "i2zkxqdgv:mdl/t4034bbx"
+    },
+    "facing=south,half=bottom,shape=straight,waterlogged=true": {
+      "model": "i2zkxqdgv:mdl/t4034bbx",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=east,half=top,shape=outer_left,waterlogged=false": {
+      "model": "e8x683vbb:mdl/mgrw2kdi",
+      "x": 180,
+      "uvlock": true
+    },
+    "facing=west,half=top,shape=outer_right,waterlogged=false": {
+      "model": "e8x683vbb:mdl/mgrw2kdi",
+      "x": 180,
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=north,half=top,shape=inner_left,waterlogged=true": {
+      "model": "xq9rmjx80:.../0/t/m/7/q/3/x/8/.",
+      "x": 180,
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=north,half=bottom,shape=inner_left,waterlogged=false": {
+      "model": "xq9rmjx80:.../0/t/m/7/q/3/x/8/.",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=south,half=bottom,shape=inner_left,waterlogged=false": {
+      "model": "xq9rmjx80:.../0/t/m/7/q/3/x/8/."
+    },
+    "facing=south,half=top,shape=outer_left,waterlogged=true": {
+      "model": "e8x683vbb:mdl/mgrw2kdi",
+      "x": 180,
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=west,half=bottom,shape=outer_left,waterlogged=true": {
+      "model": "e8x683vbb:mdl/mgrw2kdi",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=north,half=top,shape=straight,waterlogged=true": {
+      "model": "i2zkxqdgv:mdl/t4034bbx",
+      "x": 180,
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=south,half=top,shape=inner_right,waterlogged=true": {
+      "model": "xq9rmjx80:.../0/t/m/7/q/3/x/8/.",
+      "x": 180,
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=south,half=top,shape=outer_right,waterlogged=false": {
+      "model": "e8x683vbb:mdl/mgrw2kdi",
+      "x": 180,
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=north,half=bottom,shape=outer_left,waterlogged=false": {
+      "model": "e8x683vbb:mdl/mgrw2kdi",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=east,half=bottom,shape=straight,waterlogged=false": {
+      "model": "i2zkxqdgv:mdl/t4034bbx"
+    },
+    "facing=north,half=bottom,shape=straight,waterlogged=true": {
+      "model": "i2zkxqdgv:mdl/t4034bbx",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=east,half=top,shape=straight,waterlogged=true": {
+      "model": "i2zkxqdgv:mdl/t4034bbx",
+      "x": 180,
+      "uvlock": true
+    },
+    "facing=south,half=top,shape=inner_left,waterlogged=true": {
+      "model": "xq9rmjx80:.../0/t/m/7/q/3/x/8/.",
+      "x": 180,
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=east,half=bottom,shape=outer_right,waterlogged=false": {
+      "model": "e8x683vbb:mdl/mgrw2kdi"
+    },
+    "facing=east,half=bottom,shape=inner_left,waterlogged=true": {
+      "model": "xq9rmjx80:.../0/t/m/7/q/3/x/8/.",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=south,half=bottom,shape=outer_left,waterlogged=false": {
+      "model": "e8x683vbb:mdl/mgrw2kdi"
+    },
+    "facing=east,half=bottom,shape=outer_left,waterlogged=false": {
+      "model": "e8x683vbb:mdl/mgrw2kdi",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=west,half=top,shape=straight,waterlogged=true": {
+      "model": "i2zkxqdgv:mdl/t4034bbx",
+      "x": 180,
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=north,half=top,shape=outer_right,waterlogged=true": {
+      "model": "e8x683vbb:mdl/mgrw2kdi",
+      "x": 180,
+      "uvlock": true
+    },
+    "facing=south,half=bottom,shape=straight,waterlogged=false": {
+      "model": "i2zkxqdgv:mdl/t4034bbx",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=south,half=bottom,shape=outer_right,waterlogged=true": {
+      "model": "e8x683vbb:mdl/mgrw2kdi",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=west,half=bottom,shape=inner_right,waterlogged=false": {
+      "model": "xq9rmjx80:.../0/t/m/7/q/3/x/8/.",
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=south,half=top,shape=straight,waterlogged=true": {
+      "model": "i2zkxqdgv:mdl/t4034bbx",
+      "x": 180,
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=west,half=top,shape=straight,waterlogged=false": {
+      "model": "i2zkxqdgv:mdl/t4034bbx",
+      "x": 180,
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=north,half=bottom,shape=outer_right,waterlogged=false": {
+      "model": "e8x683vbb:mdl/mgrw2kdi",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=east,half=top,shape=inner_right,waterlogged=true": {
+      "model": "xq9rmjx80:.../0/t/m/7/q/3/x/8/.",
+      "x": 180,
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=south,half=top,shape=inner_right,waterlogged=false": {
+      "model": "xq9rmjx80:.../0/t/m/7/q/3/x/8/.",
+      "x": 180,
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=south,half=top,shape=outer_right,waterlogged=true": {
+      "model": "e8x683vbb:mdl/mgrw2kdi",
+      "x": 180,
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=north,half=bottom,shape=straight,waterlogged=false": {
+      "model": "i2zkxqdgv:mdl/t4034bbx",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=east,half=top,shape=inner_left,waterlogged=true": {
+      "model": "xq9rmjx80:.../0/t/m/7/q/3/x/8/.",
+      "x": 180,
+      "uvlock": true
+    },
+    "facing=south,half=bottom,shape=outer_right,waterlogged=false": {
+      "model": "e8x683vbb:mdl/mgrw2kdi",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=west,half=top,shape=inner_left,waterlogged=true": {
+      "model": "xq9rmjx80:.../0/t/m/7/q/3/x/8/.",
+      "x": 180,
+      "y": 180,
+      "uvlock": true
+    },
+    "facing=east,half=bottom,shape=inner_right,waterlogged=false": {
+      "model": "xq9rmjx80:.../0/t/m/7/q/3/x/8/."
+    }
+  }
+}

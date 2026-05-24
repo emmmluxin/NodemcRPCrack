@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "rrmqxw2ui:tex/99r9x83d",
+    "layer1": "minecraft:trims/items/boots_trim_amethyst"
+  }
+}

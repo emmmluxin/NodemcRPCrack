@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_right",
+  "textures": {
+    "bottom": "e8x683vbb:tex/py10ub0n",
+    "top": "5rsd0lnob:tex/zxc8949d"
+  }
+}

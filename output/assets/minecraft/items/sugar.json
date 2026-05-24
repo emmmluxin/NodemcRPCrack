@@ -1,0 +1,560 @@
+{
+  "oversized_in_gui": true,
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+      {
+        "threshold": 80000.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "9qzmluhqk:mdl/wtwga4xy"
+        }
+      },
+      {
+        "threshold": 80005.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "e8x683vbb:mdl/faxga34w"
+        }
+      },
+      {
+        "threshold": 80006.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "rrmqxw2ui:mdl/uxagvygu"
+        }
+      },
+      {
+        "threshold": 80007.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "f6o7c9v5q:mdl/dqr3glmg"
+        }
+      },
+      {
+        "threshold": 80008.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "e8x683vbb:.../e/y/6/o/y/m/1/s/."
+        }
+      },
+      {
+        "threshold": 80009.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "e8x683vbb:mdl/lemy68go"
+        }
+      },
+      {
+        "threshold": 80010.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "jsmakehbp:mdl/mqs30kfu"
+        }
+      },
+      {
+        "threshold": 80011.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "5rsd0lnob:mdl/tesj515z"
+        }
+      },
+      {
+        "threshold": 80015.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "jsmakehbp:mdl/mgj58gq5"
+        }
+      },
+      {
+        "threshold": 80016.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "gwjritg0z:mdl/42mrc147"
+        }
+      },
+      {
+        "threshold": 80017.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "xq9rmjx80:mdl/c86gihqe"
+        }
+      },
+      {
+        "threshold": 80018.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "f6o7c9v5q:mdl/u01a2epd"
+        }
+      },
+      {
+        "threshold": 80019.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "gwjritg0z:mdl/wyfpal8e"
+        }
+      },
+      {
+        "threshold": 80021.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "t2e3gc4s4:mdl/lau8ou71"
+        }
+      },
+      {
+        "threshold": 80025.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "5exp3rjkn:mdl/h3a6a0fn"
+        }
+      },
+      {
+        "threshold": 80026.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "i2zkxqdgv:mdl/3yuvr3h6"
+        }
+      },
+      {
+        "threshold": 80027.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "800y9ucl5:.../y/9/4/u/h/x/b/g/."
+        }
+      },
+      {
+        "threshold": 80028.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "5rsd0lnob:mdl/1tod9iwu"
+        }
+      },
+      {
+        "threshold": 80029.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "rrmqxw2ui:mdl/q89xcsoo"
+        }
+      },
+      {
+        "threshold": 80030.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "5exp3rjkn:mdl/bjzyolx8"
+        }
+      },
+      {
+        "threshold": 80034.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "9qzmluhqk:mdl/58boj91r"
+        }
+      },
+      {
+        "threshold": 80035.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "f6o7c9v5q:mdl/vruurea3"
+        }
+      },
+      {
+        "threshold": 80036.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "i2zkxqdgv:mdl/trveozm7"
+        }
+      },
+      {
+        "threshold": 80037.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "9qzmluhqk:.../h/m/h/p/w/6/w/b/."
+        }
+      },
+      {
+        "threshold": 80040.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "xq9rmjx80:mdl/cauth0q2"
+        }
+      },
+      {
+        "threshold": 80044.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "5exp3rjkn:mdl/3fs36a7q"
+        }
+      },
+      {
+        "threshold": 80045.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "9qzmluhqk:mdl/gnilqloe"
+        }
+      },
+      {
+        "threshold": 80046.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "5rsd0lnob:mdl/1941zcq4"
+        }
+      },
+      {
+        "threshold": 80047.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "e8x683vbb:mdl/axbkzh6h"
+        }
+      },
+      {
+        "threshold": 80050.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "e8x683vbb:mdl/3jaa9b16"
+        }
+      },
+      {
+        "threshold": 80054.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "5exp3rjkn:mdl/2z238bdx"
+        }
+      },
+      {
+        "threshold": 80055.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "2thxh28ly:.../y/9/c/y/x/r/6/g/."
+        }
+      },
+      {
+        "threshold": 80056.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "2thxh28ly:mdl/kb7d6tt1"
+        }
+      },
+      {
+        "threshold": 80057.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "lqutnhfw6:mdl/ukra5m1z"
+        }
+      },
+      {
+        "threshold": 80060.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "gwjritg0z:mdl/2qzrcja6"
+        }
+      },
+      {
+        "threshold": 80064.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "i2zkxqdgv:mdl/0h2xy2y2"
+        }
+      },
+      {
+        "threshold": 80065.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "i666ow1af:mdl/2b2yqtnd"
+        }
+      },
+      {
+        "threshold": 80066.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "jsmakehbp:mdl/ubvjeihx"
+        }
+      },
+      {
+        "threshold": 80067.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "xq9rmjx80:mdl/mfodkg8l"
+        }
+      },
+      {
+        "threshold": 80070.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "2thxh28ly:mdl/hrb9wcgc"
+        }
+      },
+      {
+        "threshold": 80074.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "e8x683vbb:mdl/4yivgf8t"
+        }
+      },
+      {
+        "threshold": 80075.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "t2e3gc4s4:.../a/y/5/3/q/q/f/j/."
+        }
+      },
+      {
+        "threshold": 80076.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "jsmakehbp:.../i/5/1/7/5/e/e/3/."
+        }
+      },
+      {
+        "threshold": 80077.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "e8x683vbb:.../f/b/0/p/g/o/c/o/."
+        }
+      },
+      {
+        "threshold": 80078.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "jsmakehbp:mdl/dty75mxl"
+        }
+      },
+      {
+        "threshold": 80080.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "800y9ucl5:mdl/6lx1bucj"
+        }
+      },
+      {
+        "threshold": 80084.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "5exp3rjkn:mdl/pxhmxrqv"
+        }
+      },
+      {
+        "threshold": 80085.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "xq9rmjx80:mdl/riw8118y"
+        }
+      },
+      {
+        "threshold": 80086.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "f6o7c9v5q:mdl/8vmpq0ku"
+        }
+      },
+      {
+        "threshold": 80087.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "2thxh28ly:.../1/m/m/f/h/z/9/7/."
+        }
+      },
+      {
+        "threshold": 80088.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "lqutnhfw6:.../p/0/8/o/6/9/h/a/."
+        }
+      },
+      {
+        "threshold": 80089.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "7w5x0vpi5:mdl/moxqda6a"
+        }
+      },
+      {
+        "threshold": 80090.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "2thxh28ly:mdl/1fa5miza"
+        }
+      },
+      {
+        "threshold": 80094.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "rrmqxw2ui:mdl/3edcvuvw"
+        }
+      },
+      {
+        "threshold": 80095.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "jsmakehbp:mdl/2a6a9a7b"
+        }
+      },
+      {
+        "threshold": 80096.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "2thxh28ly:mdl/xp28az0v"
+        }
+      },
+      {
+        "threshold": 80097.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "7w5x0vpi5:mdl/ip2iygdn"
+        }
+      },
+      {
+        "threshold": 80098.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "t2e3gc4s4:mdl/u46sxq5h"
+        }
+      },
+      {
+        "threshold": 80099.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "5exp3rjkn:.../v/a/9/0/3/p/z/2/."
+        }
+      },
+      {
+        "threshold": 80100.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "7w5x0vpi5:mdl/hchdcm8w"
+        }
+      },
+      {
+        "threshold": 80101.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "t2e3gc4s4:mdl/3wcabb9s"
+        }
+      },
+      {
+        "threshold": 80102.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "gwjritg0z:mdl/t2lgemr0"
+        }
+      },
+      {
+        "threshold": 80103.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "2thxh28ly:.../t/d/k/o/5/1/i/2/."
+        }
+      },
+      {
+        "threshold": 80104.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "e8x683vbb:.../8/1/k/2/u/x/o/g/."
+        }
+      },
+      {
+        "threshold": 80105.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "9qzmluhqk:.../l/c/k/a/c/0/q/5/."
+        }
+      },
+      {
+        "threshold": 80106.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "f6o7c9v5q:mdl/i2s2ve6j"
+        }
+      },
+      {
+        "threshold": 80107.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "2thxh28ly:mdl/7lwi8qdw"
+        }
+      },
+      {
+        "threshold": 80110.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "i666ow1af:mdl/1ucs35zo"
+        }
+      },
+      {
+        "threshold": 80114.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "gwjritg0z:mdl/b7na4w76"
+        }
+      },
+      {
+        "threshold": 80115.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "i666ow1af:mdl/ndtqrd6l"
+        }
+      },
+      {
+        "threshold": 80116.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "5rsd0lnob:mdl/gctimpbi"
+        }
+      },
+      {
+        "threshold": 80117.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "i2zkxqdgv:mdl/y9sebhcs"
+        }
+      },
+      {
+        "threshold": 80120.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "7w5x0vpi5:mdl/oyapq6zh"
+        }
+      },
+      {
+        "threshold": 80121.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "5exp3rjkn:.../7/c/n/k/q/0/s/4/."
+        }
+      },
+      {
+        "threshold": 80122.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "5exp3rjkn:mdl/ewg0ptcf"
+        }
+      },
+      {
+        "threshold": 80123.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "i666ow1af:mdl/h9imqiwr"
+        }
+      },
+      {
+        "threshold": 80124.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "5rsd0lnob:.../k/q/r/g/o/z/n/k/."
+        }
+      },
+      {
+        "threshold": 80125.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "i666ow1af:mdl/hvxerx5k"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/sugar"
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "textures": {
+    "2": "5rsd0lnob:tex/klboiysg",
+    "particle": "#2"
+  },
+  "elements": [
+    {
+      "from": [
+        8.025,
+        1.57306,
+        -1.3816147
+      ],
+      "to": [
+        25.0,
+        8.32306,
+        7.6183853
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            5.40625,
+            0.71875,
+            5.96875,
+            1.15625
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#2"
+        },
+        "north": {
+          "uv": [
+            3.375,
+            4.15625,
+            4.4375,
+            4.59375
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#2"
+        },
+        "west": {
+          "uv": [
+            5.40625,
+            1.1875,
+            5.96875,
+            1.625
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#2"
+        },
+        "up": {
+          "uv": [
+            5.1875,
+            2.21875,
+            4.125,
+            1.65625
+          ],
+          "tintindex": 0,
+          "rotation": 0,
+          "texture": "#2"
+        }
+      }
+    }
+  ],
+  "display": {
+    "head": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        0.0,
+        -0.0,
+        -0.0
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0.0,
+        -0.0,
+        -0.0
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "gui": {
+      "rotation": [
+        -150.0,
+        -45.0,
+        180.0
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "model": {
+    "model": "2thxh28ly:.../5/f/y/b/0/d/b/r/.",
+    "tints": [
+      {
+        "index": 0,
+        "default": 16777215,
+        "type": "minecraft:custom_model_data"
+      }
+    ],
+    "type": "minecraft:model"
+  }
+}
